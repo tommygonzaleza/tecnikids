@@ -1,21 +1,24 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import logo from '../../img/logo-1.png';
+import logo from '../../img/logo-3.png';
 
 export const MyNavbar = () => {
     return(
-        <Navbar className="my-navbar" expand="lg">
-			<Navbar.Brand href="/" className="my-navbar-brand">
-                <img src={logo} alt="Logo" className="my-navbar-logo" />
-			</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <div className="my-navbar-box1">
-                <Navbar.Collapse id="basic-navbar-nav" className="">
-                    <Nav className="">
+        <div className="container-fluid">
+            <Navbar className="my-navbar row w-100" expand="lg">
+                <Navbar.Brand href="/" className="my-navbar-brand col-4 col-md-2">
+                    <img src={logo} alt="Logo" className="my-navbar-logo" />
+                </Navbar.Brand>
+                <div className="col-4">
+                    {''}
+                </div>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className="col-6">
+                    <Nav className="my-navbar-nav">
                         <Nav.Link className="my-navlink" href="#que-hacemos">
                             {"¿Quiénes Somos?"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="#como-funciona">
+                        <Nav.Link className="my-navlink" href="/programs-view">
                             {"Programas"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink" href="/signInView">
@@ -32,8 +35,8 @@ export const MyNavbar = () => {
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </div>
-            
-		</Navbar>
+            </Navbar>
+        </div>
+
     )
 }

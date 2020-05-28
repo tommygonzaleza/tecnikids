@@ -1,40 +1,67 @@
 
+/* General Styles */
+
+  body {
+    padding: 0% !important;
+  }
+  .container-fluid {
+    padding: 0px !important;
+  }
+  .container {
+    padding: 0px !important;
+  }
+  .navbar {
+    padding: 0px !important;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  h3 {
+    font-size: 56px;
+  }
+  h4 {
+    font-size: 48px;
+  }
+  h5 {
+    font-size: 40px;
+  }
+  h6 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 24px;
+    padding: 0px !important;
+  }
+  .row {
+    padding: 0px !important;
+    width: 100%;
+  }
+  .separation-lines {
+    height: 5px;
+    width: 100%;
+  }
+
 /* Navbar Styles. */
 
   .my-navbar {
     background-color: white;
   }
   .my-navbar-brand {
-    width: 10% !important;
-    margin: 0;
+    width: 20% !important;
+    margin: 1%;
+    margin-left: 5%;
   }
   .my-navbar-logo {
     width: 100% !important;
-    font-size: 3rem !important;
-    margin: 0;
   }
-  .my-navbar-box1 {
-    position: absolute;
-    right: 0;
+  .my-navbar-nav {
+    display: inline-block;
     margin-right: 5%;
-  }
-  .my-navbar-links {
-    margin-right: 0 !important;
-    width: auto;
-    float: right !important;
-    position: relative;
-    right: 0 !important;
-  }
-  .navbar-collapse {
-    position: relative;
-    right: 0;
-    width: auto;
-    margin: 0;
   }
 
 /* Carousel Styles. */
 
-
+  
 
 /* Image Stadistics Styles. */
 
@@ -43,3 +70,42 @@
     height: auto;
     margin: 6%;
   }
+
+/* Programs Styles */
+
+  .programs-text {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 0 !important;
+  }
+  .programs-logo {
+    width: 20%;
+    height: 15%;
+    float: right;
+  }
+  .programs-button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+/* Courses Styles */
+
+.courses-title {
+  float: right;
+}
+.courses-text {
+  justify-content: center;
+  margin-left: 0 !important;
+  float: right;
+}
+.courses-logo {
+  width: 20%;
+  height: 12%;
+  display: inline-block;
+}
+.courses-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
