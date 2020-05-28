@@ -1,24 +1,36 @@
 
 /* Navbar Styles. */
 
-.my-navbar-logo {
-  width: 20% !important;
-  font-size: 3rem !important;
-  margin-right: 40% !important;
-}
-.my-navbar-links {
-  margin-right: 0 !important;
-  width: auto;
-  float: right !important;
-  position: relative;
-  right: 0 !important;
-}
-.navbar-collapse {
-  position: relative;
-  right: 0;
-  width: auto;
-  margin: 0;
-}
+  .my-navbar {
+    background-color: white;
+  }
+  .my-navbar-brand {
+    width: 10% !important;
+    margin: 0;
+  }
+  .my-navbar-logo {
+    width: 100% !important;
+    font-size: 3rem !important;
+    margin: 0;
+  }
+  .my-navbar-box1 {
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+  }
+  .my-navbar-links {
+    margin-right: 0 !important;
+    width: auto;
+    float: right !important;
+    position: relative;
+    right: 0 !important;
+  }
+  .navbar-collapse {
+    position: relative;
+    right: 0;
+    width: auto;
+    margin: 0;
+  }
 
 /* Carousel Styles. */
 
@@ -26,9 +38,8 @@
 
 /* Image Stadistics Styles. */
 
-.image-stadistics {
-  width: 88%;
-  height: auto;
-  margin: 6%;
-}
-
+  .image-stadistics {
+    width: 88%;
+    height: auto;
+    margin: 6%;
+  }
