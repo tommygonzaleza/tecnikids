@@ -14,7 +14,7 @@ export const Programs = () => {
                         tecnología, ingeniería, diseño y matemáticas, disciplinas que serán fundamentales 
                         para desnvolverse en el campo laboral de la industria 4.0.
                     </p>
-                    <img src={logo} className="programs-logo col-4 mx-auto my-3" />
+                    <img src={logo} className="programs-logo col-12 col-md-4 mx-auto my-3" />
                 </div>
             </div>
             <div className="w-100 mt-3">

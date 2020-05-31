@@ -47,7 +47,7 @@
     background-color: white;
   }
   .my-navbar-brand {
-    width: 20% !important;
+    width: 40% !important;
     margin: 1%;
     margin-left: 5%;
   }
@@ -61,14 +61,30 @@
 
 /* Carousel Styles. */
 
-  
+  .my-carousel-image {
+    height: 50% !important;
+    opacity: 0.5;
+  }
 
-/* Image Stadistics Styles. */
+/* Stadistics Styles. */
 
-  .image-stadistics {
-    width: 88%;
-    height: auto;
-    margin: 6%;
+  .stadistics {
+    background-color: #0D4188;
+    opacity: 0.6;
+  }
+  .stadistics-icon {
+    background-color: #0D4188 !important;
+    color: white;
+  }
+  .stadistics-title {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .stadistics-text {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
   }
 
 /* Programs Styles */
@@ -91,21 +107,37 @@
 
 /* Courses Styles */
 
-.courses-title {
-  float: right;
-}
-.courses-text {
-  justify-content: center;
-  margin-left: 0 !important;
-  float: right;
-}
-.courses-logo {
-  width: 20%;
-  height: 12%;
-  display: inline-block;
-}
-.courses-button {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-}
+  .courses-title {
+    float: right;
+  }
+  .courses-text {
+    justify-content: center;
+    margin-left: 0 !important;
+    float: right;
+  }
+  .courses-logo {
+    width: 20%;
+    height: 12%;
+    display: inline-block;
+  }
+  .courses-button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+/* Programs View Styles */
+
+  .programs-view-title {
+    height: 20%;
+  }
+
+/* Aliados Styles */
+
+  .aliados-row {
+    height: 20%;
+  }
+  .aliado-logo {
+    width: 20%;
+    height: 15%;
+  }

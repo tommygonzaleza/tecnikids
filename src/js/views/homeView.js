@@ -5,6 +5,7 @@ import { Programs } from '../components/Programs';
 import { Stadistics } from '../components/Stadistics';
 import { Courses } from '../components/Courses';
 import { SeparationLines } from '../components/SeparationLines';
+import { Aliados } from '../components/Aliados';
 
 export const HomeView = () => {
     return(
@@ -12,10 +13,11 @@ export const HomeView = () => {
             <MyNavbar />
             <MyCarousel />
             <Stadistics />
-            <SeparationLines />
             <Programs />
             <SeparationLines />
             <Courses />
+            <SeparationLines />
+            <Aliados />
             <SeparationLines />
         </div>
     )

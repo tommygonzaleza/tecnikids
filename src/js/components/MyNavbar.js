@@ -6,10 +6,10 @@ export const MyNavbar = () => {
     return(
         <div className="container-fluid">
             <Navbar className="my-navbar row w-100" expand="lg">
-                <Navbar.Brand href="/" className="my-navbar-brand col-4 col-md-2">
+                <Navbar.Brand href="/" className="my-navbar-brand col-4 col-md-3">
                     <img src={logo} alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
-                <div className="col-4">
+                <div className="col-2">
                     {''}
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

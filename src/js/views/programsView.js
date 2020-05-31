@@ -3,8 +3,11 @@ import { MyNavbar } from '../components/MyNavbar';
 
 export const ProgramsView = () => {
     return(
-        <div>
+        <div className="container">
             <MyNavbar />
+            <div className="programs-view-title row">
+                <h2>PROGRAMAS</h2>
+            </div>
             <div className="m-3">
                 <h4>ROBOTEANDO</h4>
             </div>
