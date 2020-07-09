@@ -15,13 +15,13 @@ export const MyNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="col-6">
                     <Nav className="my-navbar-nav">
-                        <Nav.Link className="my-navlink" href="#que-hacemos">
+                        <Nav.Link className="my-navlink" href="/company-view">
                             {"¿Quiénes Somos?"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink" href="/programs-view">
                             {"Programas"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/signInView">
+                        <Nav.Link className="my-navlink" href="/courses-view">
                             {"Cursos"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink" href="/register">

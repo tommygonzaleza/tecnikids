@@ -14,22 +14,22 @@
     padding: 0px !important;
   }
   h2 {
-    font-size: 64px;
+    font-size: 36px !important;
   }
   h3 {
     font-size: 56px;
   }
   h4 {
-    font-size: 48px;
+    font-size: 32px !important;
   }
   h5 {
-    font-size: 40px;
+    font-size: 28px !important;
   }
   h6 {
-    font-size: 32px;
+    font-size: 24px !important;
   }
   p {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0px !important;
   }
   .row {
@@ -39,6 +39,33 @@
   .separation-lines {
     height: 5px;
     width: 100%;
+  }
+  .f-right {
+    float: right !important;
+  }
+  .tc-white {
+    color: white;
+  }
+  .f-weigth-200 {
+    font-weight: 200;
+  }
+  .f-weigth-600 {
+    font-weight: 600;
+  }
+  .f-size-16 {
+    font-size: 16px;
+  }
+  .w-50 {
+    width: 50% !important;
+  }
+  .justify-text {
+    text-align: justify;
+  }
+  .center-text {
+    text-align: center;
+  }
+  .content-center {
+    justify-content: center;
   }
 
 /* Navbar Styles. */
@@ -69,17 +96,16 @@
 /* Stadistics Styles. */
 
   .stadistics {
-    background-color: #0D4188;
-    opacity: 0.6;
+    background-color: #3D67A0;
+    justify-content: center;
   }
   .stadistics-icon {
-    background-color: #0D4188 !important;
     color: white;
   }
   .stadistics-title {
     color: white;
     font-size: 4rem;
-    text-align: center;
+    text-align: center !important;
   }
   .stadistics-text {
     color: white;
@@ -101,8 +127,8 @@
   }
   .programs-button {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    left: 20%;
+    transform: translate(-20%);
   }
 
 /* Courses Styles */
@@ -122,16 +148,10 @@
   }
   .courses-button {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    left: 80%;
+    transform: translate(-80%);
   }
-
-/* Programs View Styles */
-
-  .programs-view-title {
-    height: 20%;
-  }
-
+  
 /* Aliados Styles */
 
   .aliados-row {
@@ -140,4 +160,41 @@
   .aliado-logo {
     width: 20%;
     height: 15%;
+  }
+
+/* MyFooter Styles */
+
+  .my-footer {
+    background-color: #3D67A0;
+  }
+  .my-footer-logo {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .my-footer-title {
+    justify-content: center;
+  }
+  .my-footer-link {
+    color: white;
+    padding: 0px !important;
+    transition: color 1s;
+  }
+  .my-footer-link:hover {
+    color: #FDD000;
+    text-decoration: none;
+  }
+  .my-footer-sm {
+    position: relative;
+    left: 27%;
+    transform: translate(-50%);
+  }
+  .my-footer-sm-logo {
+    width: 20% !important;
+  }
+
+/* Company View Styles */
+
+  .company-logo {
+    height: 25%;
   }

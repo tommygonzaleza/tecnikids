@@ -26,7 +26,7 @@ import beebot from '../../img/aliados/logo-bee-bot.png';
 export const Aliados = () => {
     return(
         <div className="container">
-            <h2 className="col-6">Aliados</h2>
+            <h2 className="col-6">ALIADOS</h2>
             <div className="row w-auto aliados-row">
                 <div className="col-md-1"></div>
                 <img src={xyz_printing} Alt="XYZ Printing" className="col-3 col-md-2 aliado-logo my-auto mx-2" />

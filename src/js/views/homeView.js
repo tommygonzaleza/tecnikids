@@ -6,6 +6,8 @@ import { Stadistics } from '../components/Stadistics';
 import { Courses } from '../components/Courses';
 import { SeparationLines } from '../components/SeparationLines';
 import { Aliados } from '../components/Aliados';
+import { Colegios } from '../components/Colegios';
+import { MyFooter } from '../components/MyFooter';
 
 export const HomeView = () => {
     return(
@@ -19,6 +21,8 @@ export const HomeView = () => {
             <SeparationLines />
             <Aliados />
             <SeparationLines />
+            <Colegios />
+            <MyFooter />
         </div>
     )
 }
