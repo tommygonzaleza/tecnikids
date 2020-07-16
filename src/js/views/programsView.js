@@ -2,12 +2,16 @@ import React from 'react';
 import { MyNavbar } from '../components/MyNavbar';
 import { SeparationLines } from '../components/SeparationLines';
 import { MyFooter } from '../components/MyFooter';
+import { ProgramsSection } from '../components/ProgramsSection';
 
 export const ProgramsView = () => {
     return(
         <div className="container-fluid">
             <MyNavbar />
             <SeparationLines />
+            <ProgramsSection />
+
+            {/* <SeparationLines />
             <div className="container m-2">
                 <div className="d-block m-1 row">
                     <h2 className="programs-view-title col-6">PROGRAMAS</h2>
@@ -119,7 +123,9 @@ export const ProgramsView = () => {
                         fabricación de automóviles de carreras a pequeña escala.
                     </p>
                 </div>
-            </div>
+            </div> */}
+
+
             <MyFooter />
         </div>
     );

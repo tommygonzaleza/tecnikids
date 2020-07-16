@@ -20,8 +20,8 @@ export const MyFooter = () => {
                                 de Guatemala, C.A.
                             </p>
                             <h6>Contacto</h6>
-                            <p className="f-weigth-200 f-size-16 my-1">+(502) 2389 2528</p>
-                            <p className="f-weigth-200 f-size-16 my-1">info@tecnikids.com</p>
+                            <p className="f-weigth-200 f-size-16 my-1">+(58) 412 238 1919</p>
+                            <p className="f-weigth-200 f-size-16 my-1">atencionalclientetk@tecnikidsve.com</p>
                             <p className="f-weigth-200 f-size-16 my-1">www.tecnikids.com</p>
                          </div>
                      </div>

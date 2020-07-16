@@ -67,6 +67,11 @@
   .content-center {
     justify-content: center;
   }
+  .p-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
 /* Navbar Styles. */
 
