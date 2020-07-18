@@ -9,7 +9,7 @@ export const MyFooter = () => {
         <div className="container-fluid my-footer">
             <div className="row mx-0">
                 <div className="col-4 my-2">
-                    <img className="my-footer-logo" src={logo} alt="Logo Tecnikids"/>
+                    <img className="my-footer-logo" src={logo} alt="Tecnikids"/>
                 </div>
                 <div className="col-12 row tc-white">
                      <div className="col-3">
@@ -29,10 +29,10 @@ export const MyFooter = () => {
                          <div className="col-12 m-3">
                             <h5>Enlaces Útiles</h5>
                             <a href="/company-view" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Sobre Nosotros</a>
-                            <a href="#" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Clases de Informática</a>
-                            <a href="#" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Clases de Robótica</a>
-                            <a href="#" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Programa de Valores</a>
-                            <a href="#" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Laboratorios</a>
+                            <a href="/company-view/#clases_de_informatica" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Clases de Informática</a>
+                            <a href="/company-view/#clases_de_robotica" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Clases de Robótica</a>
+                            <a href="/company-view/#programa_de_valores" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Programa de Valores</a>
+                            <a href="/company-view/#laboratorios" className="f-weigth-200 f-size-16 my-footer-link d-block my-1">Laboratorios</a>
                          </div>
                      </div>
                      <div className="col-3">

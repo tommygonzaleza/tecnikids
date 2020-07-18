@@ -14,7 +14,7 @@ export const PhotonView = () => {
                 <div className="row">
                     <h2 className="col-2 my-footer-logo">PHOTON</h2>
                     <div className="row">
-                        <p className="col-12 col-md-5 justify-text my-5">
+                        <p className="col-12 col-md-6 justify-text my-5">
                             Photon es el robot educativo más moderno del mercado, que permite 
                             a los estudiantes conocer los más importantes avances tecnológicos 
                             del mundo actual. Fue creado para niños entre 5 y 12 años, ofreciendo 
@@ -25,8 +25,15 @@ export const PhotonView = () => {
                             Este es el primer robot interactivo del mundo que crece con su hijo y 
                             que adicionalmente enseña conceptos básicos de codificación, resolución 
                             creativa de problemas, mejorando así el pensamiento lógico.
+                        </p>
+                        <div className="col-1"></div>
+                        <div className="col-md-5">
+                            <img src={photon} className="col-10 p-center" alt="Photon" />
+                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://photonrobot.com/for-education/">MÁS INFORMACIÓN</Button>
+                        </div>
                             <br />
                             <br />
+                        <p className="col-12 justify-text">
                             Sus capacidades están estrictamente relacionadas con el desarrollo de 
                             los niños. Cuando sacamos el robot de la caja, no puede hacer nada; los 
                             niños se convierten en mentores y su trabajo es ayudar a Photon a aprender 
@@ -39,11 +46,6 @@ export const PhotonView = () => {
                             programas de Tecnikids,  enseñar a los estudian estudiantes los conceptos 
                             básicos de programación, nunca fue tan sencillo.
                         </p>
-                        <div className="col-2"></div>
-                        <div className="col-md-5">
-                            <img src={photon} className="col-10 p-center" />
-                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://photonrobot.com/for-education/">MÁS INFORMACIÓN</Button>
-                        </div>
                     </div>
                 </div>
             </div>

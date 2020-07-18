@@ -25,7 +25,7 @@ export const F1View = () => {
                         </p>
                         <div className="col-1"></div>
                         <div className="col-md-5 mt-5">
-                            <img src={f1} className="col-10 p-center mb-5" />
+                            <img src={f1} className="col-10 p-center mb-5" alt="F1" />
                             <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://www.f1inschools.com/">MÁS INFORMACIÓN</Button>
                         </div>
                     </div>

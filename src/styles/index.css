@@ -72,6 +72,11 @@
     left: 50%;
     transform: translate(-50%);
   }
+  .programs-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-47%);
+  }
 
 /* Navbar Styles. */
 

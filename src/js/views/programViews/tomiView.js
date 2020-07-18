@@ -30,9 +30,9 @@ export const TomiView = () => {
                             instantáneo.
                         </p>
                         <div className="col-1"></div>
-                        <div className="col-md-5">
-                            <img src={tomi} className="col-10 p-center" />
-                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://tomi.digital/es">MÁS INFORMACIÓN</Button>
+                        <div className="col-md-5 mt-4">
+                            <img src={tomi} className="col-10 p-center" alt="Tomi" />
+                            <Button className="col-10 col-md-5 mt-5 p-center" variant="primary" href="https://tomi.digital/es">MÁS INFORMACIÓN</Button>
                         </div>
                     </div>
                 </div>

@@ -8,13 +8,13 @@ export const Programs = () => {
             <div className="d-block m-1 row">
                 <h2 className="programs-title col-6">¿POR QUÉ NUESTROS PROGRAMAS?</h2>
                 <div className="row mx-2">
-                    <p className="programs-text col-10 col-md-6 my-4">
+                    <p className="programs-text col-10 col-md-6 my-4 justify-text">
                         Nuestros programas están basados en la técnica STEM, que permite a los estudiantes 
                         desarrollar su creatividad y pensamiento crítico, a través de áreas como la ciencia, 
                         tecnología, ingeniería, diseño y matemáticas, disciplinas que serán fundamentales 
                         para desnvolverse en el campo laboral de la industria 4.0.
                     </p>
-                    <img src={logo} className="programs-logo col-12 col-md-4 mx-auto my-3" />
+                    <img src={logo} className="programs-logo col-12 col-md-4 mx-auto my-3" alt="Tecnikids" />
                 </div>
             </div>
             <div className="w-100 mt-3">

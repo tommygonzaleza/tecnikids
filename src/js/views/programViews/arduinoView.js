@@ -25,18 +25,18 @@ export const ArduinoView = () => {
                             tableros programables, sensores, piezas mecánicas, software simple de 
                             código abierto, contenido en línea para estudiantes y capacitación guiada 
                             y apoyo para educadores.
-                            <br />
-                            <br />
+                        </p>
+                        <div className="col-1"></div>
+                        <div className="col-md-5 mt-5">
+                            <img src={arduino} className="col-8 p-center mt-2" alt="Arduino" />
+                            <Button className="col-10 col-md-5 mt-5 p-center" variant="primary" href="https://www.arduino.cc/education">MÁS INFORMACIÓN</Button>
+                        </div>
+                        <p className="col-12 justify-text">
                             Los productos con los que aprenden los estudiantes son los mismos que los 
                             utilizados profesionalmente en empresas de todo el mundo, en aplicaciones 
                             como creación rápida de prototipos, IA, tecnología de drones y aprendizaje 
                             automático.
                         </p>
-                        <div className="col-1"></div>
-                        <div className="col-md-5 mt-5">
-                            <img src={arduino} className="col-8 p-center mb-5" />
-                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://www.arduino.cc/education">MÁS INFORMACIÓN</Button>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ import { ArduinoView } from './views/programViews/arduinoView';
 import { F1View } from './views/programViews/f1View';
 
 export const Layout = () => {
-    const basename = process.env.BASENAME || "";
+    // const basename = process.env.BASENAME || "";
 
     return(
         <div className="d-flex flex-column h-100">

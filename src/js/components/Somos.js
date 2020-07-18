@@ -8,7 +8,7 @@ export const Somos = () => {
     return(
         <div className="row">
             <div className="col-12 col-md-3">
-                <img className="col-10 ml-4" src={creativos} />
+                <img className="col-10 ml-4" src={creativos} alt="Creativos"/>
                 <h4 className="center-text mt-2">Creativos</h4>
                 <p className="col-12 center-text">
                     Creamos espacios para el desarrollo del potencial creativo de 
@@ -16,7 +16,7 @@ export const Somos = () => {
                 </p>
             </div>
             <div className="col-12 col-md-3">
-                <img className="col-10 ml-4" src={tecnologicos} />
+                <img className="col-10 ml-4" src={tecnologicos} alt="Tecnológicos" />
                 <h4 className="center-text mt-2">Tecnológicos</h4>
                 <p className="col-12 center-text">
                     El contacto e integración con la tecnoglogía es fundamental 
@@ -24,7 +24,7 @@ export const Somos = () => {
                 </p>
             </div>
             <div className="col-12 col-md-3">
-                <img className="col-10 ml-4" src={constructivos} />
+                <img className="col-10 ml-4" src={constructivos} alt="Constructivos" />
                 <h4 className="center-text mt-2">Constructivos</h4>
                 <p className="col-12 center-text">
                     Nuestra metodología promueve la construcción como base de 
@@ -32,7 +32,7 @@ export const Somos = () => {
                 </p>
             </div>
             <div className="col-12 col-md-3">
-                <img className="col-10 ml-4" src={estructurados} />
+                <img className="col-10 ml-4" src={estructurados} alt="Estructurados" />
                 <h4 className="center-text mt-2">Estructurados</h4>
                 <p className="col-12 center-text">
                     Nuestras actividades y tareas están perfectamente organizadas 

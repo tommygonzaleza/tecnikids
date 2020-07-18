@@ -30,17 +30,17 @@ export const BuckyView = () => {
                             Con él, los niños pueden combinar sensores y actuadores de Bucky con los 
                             de la tableta o celular, con funciones del Internet de las cosas, así 
                             como con operaciones matemáticas y lógicas.
-                            <br />
-                            <br />
+                        </p>
+                        <div className="col-1"></div>
+                        <div className="col-md-5 mt-5">
+                            <img src={bucky} className="col-9 p-center mt-1" alt="Bucky" />
+                            <Button className="col-10 col-md-5 mt-5 p-center" variant="primary" href="https://www.bucky.com.mx/">MÁS INFORMACIÓN</Button>
+                        </div>
+                        <p className="col-12 justify-text">
                             La app se conecta a Bucky vía Bluetooth (BLE) y a Internet con WiFi, con 
                             lo que se puede conectar a más de 600 servicios web como redes sociales, 
                             el pronóstico del clima, luces inteligentes o asistentes virtuales.
                         </p>
-                        <div className="col-1"></div>
-                        <div className="col-md-5">
-                            <img src={bucky} className="col-9 p-center" />
-                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://www.bucky.com.mx/">MÁS INFORMACIÓN</Button>
-                        </div>
                     </div>
                 </div>
             </div>
