@@ -2,17 +2,16 @@ import React from 'react';
 import { MyNavbar } from '../components/MyNavbar';
 import { SeparationLines } from '../components/SeparationLines';
 import { MyFooter } from '../components/MyFooter';
-import { ProgramsSection } from '../components/ProgramsSection';
+import { Colegios } from '../components/Colegios';
 
-export const ProgramsView = () => {
+export const ColegiosView = () => {
     return(
         <div>
             <MyNavbar />
             <SeparationLines />
-            <ProgramsSection />
+            <Colegios className="my-5"/>
             <SeparationLines />
             <MyFooter />
         </div>
     );
 }
-

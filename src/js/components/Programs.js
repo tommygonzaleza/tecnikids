@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-import logo from '../../img/logo-1.png';
+import button from '../../img/button.png';
 
 export const Programs = () => {
     return(
@@ -8,17 +7,27 @@ export const Programs = () => {
             <div className="d-block m-1 row">
                 <h2 className="programs-title col-6">¿POR QUÉ NUESTROS PROGRAMAS?</h2>
                 <div className="row mx-2">
-                    <p className="programs-text col-10 col-md-6 my-4 justify-text">
-                        Nuestros programas están basados en la técnica STEM, que permite a los estudiantes 
-                        desarrollar su creatividad y pensamiento crítico, a través de áreas como la ciencia, 
-                        tecnología, ingeniería, diseño y matemáticas, disciplinas que serán fundamentales 
-                        para desnvolverse en el campo laboral de la industria 4.0.
-                    </p>
-                    <img src={logo} className="programs-logo col-12 col-md-4 mx-auto my-3" alt="Tecnikids" />
+                    <div className="col-11 col-md-5 my-4">
+                        <p className="programs-text justify-text">
+                            Nuestros programas están basados en la técnica STEM, que permite a los estudiantes 
+                            desarrollar su creatividad y pensamiento crítico, a través de áreas como la ciencia, 
+                            tecnología, ingeniería, diseño y matemáticas, disciplinas que serán fundamentales 
+                            para desenvolverse en el campo laboral de la industria 4.0.
+                        </p>
+                        <a className="programs-button p-center col-12" href="/programs-view">
+                            <img src={button} className="col-9 col-md-7" alt="Button" />
+                        </a>
+                    </div>
+                    <iframe 
+                        className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0"
+                        title="Stem Video"
+                        src="https://www.youtube.com/embed/Dznzcl2fm-g" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                    >
+                    </iframe>
                 </div>
-            </div>
-            <div className="w-100 mt-3">
-                <Button className="programs-button mt-3" variant="primary" href="/programs-view">MÁS INFORMACIÓN</Button>
             </div>
         </div>
     );

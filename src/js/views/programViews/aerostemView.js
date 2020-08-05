@@ -3,7 +3,6 @@ import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
 import aerostem from '../../../img/logo-aerostem.png';
-import { Button } from 'react-bootstrap';
 
 export const AerostemView = () => {
     return(
@@ -12,9 +11,9 @@ export const AerostemView = () => {
             <SeparationLines />
             <div className="container">
                 <div className="row">
-                    <h2 className="col-2 my-footer-logo">AEROSTEM</h2>
-                    <div className="row">
-                        <p className="col-12 col-md-6 justify-text mt-5">
+                    <h2 className="col-7 col-md-2 ml-0 my-footer-logo">AEROSTEM</h2>
+                    <div className="row mx-2">
+                        <p className="col-11 col-md-6 ml-4 ml-md-0 justify-text mt-0 mt-md-2">
                             AeroStem es un programa a través del cual los alumnos tienen la oportunidad 
                             de manipular, construir y volar Drones, de una forma sencilla, atractiva, 
                             pero sobretodo segura, ya que nuestras aeronaves, están especialmente 
@@ -29,17 +28,28 @@ export const AerostemView = () => {
                         </p>
                         <br />
                         <br />
-                        <div className="col-1"></div>
-                        <div className="col-md-5 mt-5">
-                            <img src={aerostem} className="col-10 p-center mt-3" alt="Aerostem" />
-                            <Button className="col-10 col-md-5 mt-3 p-center" variant="primary" href="https://photonrobot.com/for-education/">MÁS INFORMACIÓN</Button>
+                        <div className="col-12 col-md-6 mt-0 mt-md-3">
+                            <img src={aerostem} className="col-12 p-center" alt="Aerostem" />
                         </div>
-                        <p className="col-12 justify-text">
-                            Es necesario destacar que AeroStem cuenta con diversos niveles de dificultad, 
-                            dirigidos y enfocados a cada uno de los grados académicos de primaria, 
-                            bachillerato y universidad, por lo que constantemente los alumnos tendrán 
-                            nuevas experiencias retadoras y adaptadas a su nivel de conocimiento.
-                        </p>
+                        <div className="row mx-2 mt-0 mt-md-4 mb-0 mb-md-5">
+                            <iframe 
+                                className="col-11 col-md-6 mx-auto pl-4 pl-md-0 mb-3 mb-md-0"
+                                style={{height: '350px'}}
+                                title="Stem Video"
+                                src="https://www.youtube.com/embed/8tDzZaeP2A0" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                            >
+                            </iframe>
+                            <p className="col-11 col-md-5 ml-4 ml-md-5 mt-0 mt-md-4 justify-text">
+                                Es necesario destacar que AeroStem cuenta con diversos niveles de dificultad, 
+                                dirigidos y enfocados a cada uno de los grados académicos de primaria, 
+                                bachillerato y universidad, por lo que constantemente los alumnos tendrán 
+                                nuevas experiencias retadoras y adaptadas a su nivel de conocimiento.
+                            </p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

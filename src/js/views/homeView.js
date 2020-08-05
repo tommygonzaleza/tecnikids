@@ -14,7 +14,8 @@ export const HomeView = () => {
         <div className="m-0 p-0">
             <MyNavbar />
             <MyCarousel />
-            <Stadistics />
+            <Stadistics className="mb-0"/>
+            <SeparationLines />
             <Programs />
             <SeparationLines />
             <Courses />
@@ -22,6 +23,7 @@ export const HomeView = () => {
             <Aliados />
             <SeparationLines />
             <Colegios />
+            <SeparationLines />
             <MyFooter />
         </div>
     )

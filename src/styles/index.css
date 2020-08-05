@@ -1,6 +1,12 @@
 
 /* General Styles */
-
+  @font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/GothamRnd-Book.TTF')  format('truetype');
+  }
+  * {
+    font-family: 'Gotham';
+  }
   body {
     padding: 0% !important;
   }
@@ -58,6 +64,9 @@
   .w-50 {
     width: 50% !important;
   }
+  .w-10 {
+    width: 10% !important;
+  }
   .justify-text {
     text-align: justify;
   }
@@ -100,7 +109,7 @@
 
   .my-carousel-image {
     height: 50% !important;
-    opacity: 0.5;
+    opacity: 0.8;
   }
 
 /* Stadistics Styles. */
@@ -137,7 +146,7 @@
   }
   .programs-button {
     position: relative;
-    left: 20%;
+    left: 10%;
     transform: translate(-20%);
   }
 
@@ -158,7 +167,7 @@
   }
   .courses-button {
     position: relative;
-    left: 80%;
+    left: 65%;
     transform: translate(-80%);
   }
   

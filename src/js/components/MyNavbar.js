@@ -6,7 +6,7 @@ export const MyNavbar = () => {
     return(
         <div className="container-fluid">
             <Navbar className="my-navbar row w-100" expand="lg">
-                <Navbar.Brand href="/" className="my-navbar-brand col-4 col-md-3">
+                <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
                     <img src={logo} alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
                 <div className="col-2">
@@ -15,6 +15,9 @@ export const MyNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="col-6">
                     <Nav className="my-navbar-nav">
+                        <Nav.Link className="my-navlink" href="/">
+                            {"Inicio"}
+                        </Nav.Link>
                         <Nav.Link className="my-navlink" href="/company-view">
                             {"¿Quiénes Somos?"}
                         </Nav.Link>
@@ -24,19 +27,12 @@ export const MyNavbar = () => {
                         <Nav.Link className="my-navlink" href="/courses-view">
                             {"Cursos"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/register">
+                        <Nav.Link className="my-navlink" href="/colegios-view">
                             {"Colegios"}
-                        </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/register">
-                            {"Eventos"}
-                        </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/register">
-                            {"Contacto"}
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div>
-
     )
 }

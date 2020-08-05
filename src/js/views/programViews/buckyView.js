@@ -2,7 +2,7 @@ import React from 'react';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import bucky from '../../../img/bucky.webp';
+import bucky from '../../../img/logo-bucky.png';
 import { Button } from 'react-bootstrap';
 
 export const BuckyView = () => {
