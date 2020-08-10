@@ -63,7 +63,7 @@ export const MyFooter = () => {
                     <div className="col-md-2 col-8 my-footer-logo mb-3 mt-0 p-0">
                         <a href="https://www.facebook.com/pages/category/Education/Tecnikids-Venezuela-108507517466126/"><img className="col-4 p-2 my-footer-sm-logo my-footer-sm" src={facebook} alt="Facebook"/></a>
                         <a href="https://www.instagram.com/tecnikidsve/?hl=es-la"><img className="col-4 p-2 my-footer-sm-logo my-footer-sm" src={instagram} alt="instagram"/></a>
-                        <img className="col-4 p-2 my-footer-sm-logo my-footer-sm" src={whatsapp} alt="whatsapp"/>
+                        <a href="https://wa.me/message/HV23HURXLTNVN1"><img className="col-4 p-2 my-footer-sm-logo my-footer-sm" src={whatsapp} alt="whatsapp"/></a>
                     </div>
                 </div>
             </div>

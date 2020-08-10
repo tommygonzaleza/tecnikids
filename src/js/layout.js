@@ -21,7 +21,7 @@ export const Layout = () => {
     // const basename = process.env.BASENAME || "";
 
     return(
-        <div className="d-flex flex-column h-100 w-100">
+        <div className="d-flex flex-column layout-styles">
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={HomeView} />

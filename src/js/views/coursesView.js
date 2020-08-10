@@ -1,9 +1,11 @@
 import React from 'react';
 import { MyNavbar } from '../components/MyNavbar';
 import { MyFooter } from '../components/MyFooter';
-import SmartEnglish from '../../img/logo-smartenglish.png';
-import { Button } from 'react-bootstrap';
 import { SeparationLines } from '../components/SeparationLines';
+import SmartEnglish from '../../img/smartenglish.jpg';
+import python from '../../img/logo-python.png';
+import lego from '../../img/logo-lego.png';
+import button from '../../img/button.png';
 
 export const CoursesView = () => {
     return(
@@ -12,10 +14,10 @@ export const CoursesView = () => {
             <SeparationLines />
                 <div className="container">
                     <div className="row">
-                        <h2 className="row col-2 my-footer-logo">CURSOS</h2>
-                        <h3 className="row col-10 col-md-12 ml-md-0 ml-5">SMART ENGLISH</h3>
-                        <div className="row">
-                            <p className="col-10 col-md-6 ml-md-0 ml-5 justify-text my-3">
+                        <h2 className="col-5 col-md-2 ml-0 ml-md-3 my-footer-logo">CURSOS</h2>
+                        <h3 className="col-10 col-md-12 ml-5 ml-md-3 pl-4 pl-md-0">SMART ENGLISH</h3>
+                        <div className="row mx-2">
+                            <p className="col-11 col-md-6 ml-4 ml-md-0 justify-text">
                                 El idioma inglés se ha convertido en una oportunidad global. Para 
                                 ampliar las oportunidades educativas y profesionales es necesario 
                                 adquirir toda la gama de habilidades lingüísticas en este idioma.
@@ -28,63 +30,48 @@ export const CoursesView = () => {
                                 fundamentadas con respecto al ingreso, avance o culminación de 
                                 programas académicos rigurosos en inglés.
                             </p>
-                            <div className="col-1"></div>
-                            <a className="col-12 col-md-5" href="http://smartenglishonline.com.mx/"><img src={SmartEnglish} className="col-12 p-center" alt="Smart English" /></a>
+                            <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
+                                <img className="col-12 col-md-10 mb-4" src={SmartEnglish} alt="Smart English"/>
+                                <a className="col-12" href="http://smartenglishonline.com.mx/">
+                                    <img src={button} className="col-9 col-md-7" alt="Button" />
+                                </a>
+                            </div>
                         </div>
-                        <div className="row mt-5">
-                            <p className="col-10 col-md-6 ml-md-0 ml-5 justify-text">
-                                La familia de TOEFL de Evaluaciones incluye:
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">TOEFL Primary Step 1 (CEFR A2):</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Examen institucional diseñado para certificar el idioma inglés para 
-                                alumnos de primaria que incursionan en el idioma inglés.
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">TOEFL Primary Step 2 (CEFR B1):</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Examen institucional diseñado para certificar el idioma inglés para 
-                                alumnos de primaria que ya han adquirido habilidades básicas en este 
-                                idioma.
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">TOEFL Junior (CEFR B2):</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Examen institucional diseñado para certificar el idioma inglés para 
-                                programas de nivel secundaria.
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">Criterion y Speaking:</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Son componentes disponibles para complementar los exámenes de TOEFL 
-                                Junior y Primary, lo cual permite evaluar todas las habilidades 
-                                lingüísticas (comprensión oral, comprensión de lectura, expresión 
-                                oral y escrita expresión).
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">TOEFL ITP Level 1 (CEFR C1):</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Examen institucional diseñado para certificar el nivel de inglés 
-                                para programas universitarios.
-                            </p>
-                            <br />
-                            <br />
-                            <h4 className="col-10 ml-md-0 ml-5">TOEFL ITP Level 2 (CEFR B1):</h4>
-                            <p className="col-10 ml-md-0 ml-5 justify-text">
-                                Examen institucional diseñado para certificar el nivel de inglés 
-                                para programas universitarios.
+                        <h3 className="col-7 col-md-1 ml-0 ml-md-5 pl-0 pl-md-5 p-left">PYTHON</h3>
+                        <div className="row mx-2">
+                            <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
+                                <img className="col-8 col-md-5 mb-4" src={python} alt="Python"/>
+                                <a className="col-12" href="https://www.python.org/">
+                                    <img src={button} className="col-9 col-md-7" alt="Button" />
+                                </a>
+                            </div>
+                            <p className="col-11 col-md-5 ml-4 ml-md-5 justify-text">
+                                Python es uno de los lenguajes de programación más conocidos a nivel mundial. 
+                                A través de nuestro curso los estudiantes desde los 7 a 18 años, tendrán la 
+                                oportunidad de aprender a programar desde los más sencillo a proyectos como 
+                                calculadoras de gastos, diccionarios, e incluso videojuegos. Todo es a través 
+                                de nuestra plataforma, desarrollada por módulos con vídeos, retos y actividades 
+                                que permiten que los estudiantes puedan aprender por su propia cuenta.
                             </p>
                         </div>
-                        <div className="row">
-                            <Button className="col-md-3 col-6 my-5 p-center" variant="primary" href="http://smartenglishonline.com.mx/">MÁS INFORMACIÓN</Button>
+                        <h3 className="col-10 col-md-12 ml-5 ml-md-3 pl-4 pl-md-0">LEGO</h3>
+                        <div className="row mx-2">
+                            <p className="col-11 col-md-6 ml-4 ml-md-0 justify-text">
+                                El curso de Lego permite a los alumnos desde los 7 a 18 años aprender sobre 
+                                conceptos de robótica, programación e ingeniería a través de 3 programas 
+                                directo de LEGO. Tienen la oportunidad de construir estructuras del mundo 
+                                real con piezas de LEGO con nuestro simulador y aprender a programarlas para 
+                                realizar distintas tareas.
+                                <br />
+                                <br />
+                                El curso está estructurado por módulos, sesiones, retos y actividades para 
+                                que el alumno pueda obtener conocimientos por su propia cuenta. En caso de 
+                                necesitar apoyo, recibirá atención necesaria para entender.
+                            </p>
+                            <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
+                                <img className="col-12 col-md-8 mb-4" src={lego} alt="Lego"/>
+                            </div>
                         </div>
-                        
                     </div>
                 </div>
                 <SeparationLines />

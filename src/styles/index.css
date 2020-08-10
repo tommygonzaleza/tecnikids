@@ -6,9 +6,15 @@
   }
   * {
     font-family: 'Gotham';
+    box-sizing: border-box;
+    margin: 0px;
   }
   body {
     padding: 0% !important;
+    height: 100% !important;
+  }
+  .layout-styles {
+    height: 100vh !important;
   }
   .container-fluid {
     padding: 0px !important;
@@ -85,6 +91,11 @@
     position: relative;
     left: 50%;
     transform: translate(-47%);
+  }
+  .p-left {
+    position: relative;
+    left: 50%;
+    transform: translate(-20%);
   }
 
 /* Navbar Styles. */
