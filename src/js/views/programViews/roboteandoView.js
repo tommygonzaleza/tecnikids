@@ -40,7 +40,6 @@ export const RoboteandoView = () => {
                     </iframe>
                 </div>
             </div>
-            
             <SeparationLines />
             <MyFooter />
         </div>
