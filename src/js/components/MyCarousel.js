@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import image1 from '../../img/carousel-1.jpg';
 import image2 from '../../img/carousel-2.jpg';
+import buttonImg from '../../img/button.png';
 
 export const MyCarousel = () => {
     return(
@@ -14,8 +15,13 @@ export const MyCarousel = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h2>¡Innovamos la educación en Venezuela!</h2>
+                        <p className="carousel-caption">
+                            Ofrecemos programas educativos para colegios y preescolares en materias de 
+                            robótica, programación y tecnología con el sueño de preparar a la generación 
+                            del futuro.
+                        </p>
+                        <a href="/programs-view" ><img src={buttonImg} className="col-9 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
@@ -25,8 +31,8 @@ export const MyCarousel = () => {
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

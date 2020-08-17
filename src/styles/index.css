@@ -9,9 +9,13 @@
     box-sizing: border-box;
     margin: 0px;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
     padding: 0% !important;
     height: 100% !important;
+    overflow-x: hidden;
   }
   .layout-styles {
     height: 100vh !important;
@@ -120,7 +124,6 @@
 
   .my-carousel-image {
     height: 50% !important;
-    opacity: 0.8;
   }
 
 /* Stadistics Styles. */
