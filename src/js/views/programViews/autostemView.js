@@ -11,7 +11,7 @@ export const AutostemView = () => {
             <SeparationLines />
             <div className="container">
                 <div className="row mx-2">
-                    <p className="col-11 col-md-6 mt-2 mt-md-4 justify-text">
+                    <p className="col-11 col-md-6 mt-2 mt-md-5 justify-text">
                         <span className="f-weigth-600">AutoStem</span> es un programa en el 
                         cual los alumnos aprenden programación con Phyton, uno de los 
                         lenguajes de programación de mayor renombre a nivel mundial. Para 
@@ -26,7 +26,7 @@ export const AutostemView = () => {
                     </div>
                     
                 </div>
-                <div className="row mx-2 my-3">
+                <div className="row mx-2 my-3 my-md-5">
                     <iframe 
                         className="col-11 col-md-6 mb-3 mb-md-0"
                         style={{height: '300px'}}
@@ -37,7 +37,7 @@ export const AutostemView = () => {
                         allowfullscreen
                     >
                     </iframe>
-                    <p className="col-11 col-md-5 justify-text">
+                    <p className="col-11 col-md-5 ml-0 ml-md-5 justify-text">
                         Tecnikids te ofrece la mejor oportunidad, de que tus estudiantes 
                         aprendan de forma divertida, una de las habilidades más importantes y 
                         útiles de la 4ta Revolución Industrial.

@@ -11,7 +11,7 @@ export const ArduinoView = () => {
             <MyNavbar />
             <SeparationLines />
             <div className="container">
-                <div className="row mx-2 mt-2 mt-md-4">
+                <div className="row mx-2 mt-2 mt-md-5">
                     <p className="col-11 col-md-6 justify-text">
                         Los programas de clase <span className="f-weigth-600">Arduino </span> 
                         Education progresan a los estudiantes a través de STEAM desde la 
@@ -22,7 +22,7 @@ export const ArduinoView = () => {
                         <img className="col-10 col-md-5 mb-4 mb-md-0" src={arduino} alt="Arduino"/>
                     </div>
                 </div>
-                <div className="row mx-2 mt-2 mt-md-0">
+                <div className="row mx-2 mt-2 mt-md-5">
                     <iframe 
                         className="col-11 col-md-6 mb-3 mb-md-0"
                         style={{height: '350px'}}

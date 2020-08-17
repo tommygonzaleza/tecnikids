@@ -32,7 +32,7 @@ export const PhotonView = () => {
                         </a>
                     </div>
                 </div>
-                <div className="row mx-2 my-3">
+                <div className="row mx-2 my-3 my-md-5">
                     <iframe 
                         className="col-11 col-md-6 mx-auto mb-3 mb-md-0"
                         style={{height: '350px'}}
@@ -43,7 +43,7 @@ export const PhotonView = () => {
                         allowfullscreen
                     >
                     </iframe>
-                    <p className="col-11 col-md-6 justify-text">
+                    <p className="col-11 col-md-5 ml-0 ml-md-5 justify-text">
                         Sus capacidades están estrictamente relacionadas con el desarrollo de 
                         los niños. Cuando sacamos el robot de la caja, no puede hacer nada; los 
                         niños se convierten en mentores y su trabajo es ayudar a Photon a aprender 

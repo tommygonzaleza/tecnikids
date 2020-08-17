@@ -12,8 +12,8 @@ export const BuckyView = () => {
             <MyNavbar />
             <SeparationLines />
             <div className="container">
-                <div className="row mx-2 mt-2 mt-md-4">
-                    <p className="col-11 col-md-6 mb-0 mb-md-3 justify-text">
+                <div className="row mx-2 mt-2 mt-md-5">
+                    <p className="col-11 col-md-6 justify-text">
                         La nueva versión de <span className="f-weigth-600">Bucky</span>, el 
                         juguete educativo con el que los niños aprenden bases de robótica, 
                         programación y el internet de las cosas (IoT), diseñado para ser 
@@ -25,14 +25,14 @@ export const BuckyView = () => {
                         como de habilidades maker y de resolución de problemas de una manera 
                         divertida.
                     </p>
-                    <div className="col-12 col-md-6 my-4 my-md-0 mb-0 mb-md-3 center-text">
+                    <div className="col-12 col-md-6 my-4 center-text">
                         <img className="col-10 col-md-5 mb-3" src={bucky} alt="Bucky"/>
                         <a className="col-12 my-5" href="https://www.bucky.com.mx/">
                             <img src={button} className="col-9 col-md-7" alt="Button" />
                         </a>
                     </div>
                     <iframe 
-                        className="col-11 col-md-6 mx-auto mx-md-0 mb-3"
+                        className="col-11 col-md-6 mx-auto mx-md-0 my-3 my-md-5"
                         style={{height: '350px'}}
                         title="Stem Video"
                         src="https://www.youtube.com/embed/hQk1CoS8qHo" 
@@ -41,7 +41,7 @@ export const BuckyView = () => {
                         allowfullscreen
                     >
                     </iframe>
-                    <p className="col-11 col-md-5 ml-0 ml-md-4 justify-text">
+                    <p className="col-11 col-md-5 ml-0 ml-md-4 my-3 my-md-5 justify-text">
                         <span className="f-weigth-600">Bucky</span> se programa desde una app 
                         con un lenguaje de programación visual. Con él, los niños pueden 
                         combinar sensores y actuadores de <span className="f-weigth-600">Bucky </span> 

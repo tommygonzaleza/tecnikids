@@ -11,7 +11,7 @@ export const TomiView = () => {
             <MyNavbar />
             <SeparationLines />
             <div className="container">
-                <div className="row mx-2 mt-2 mt-md-4">
+                <div className="row mx-2 mt-2 mt-md-5">
                     <p className="col-11 col-md-6 mb-md-3 mb-0 justify-text">
                         <span className="f-weigth-600">TOMi</span> es una herramienta para planear o presentar clases, solo necesitas conectarlo 
                         a un tv, pantalla o proyector y decidir cómo manejarlo: lápiz óptico, teclado 
@@ -26,7 +26,7 @@ export const TomiView = () => {
                         <img src={tomi} className="col-12 col-md-7 mb-3" alt="Tomi" />
                     </div>
                 </div>
-                <div className="row mx-2 mt-2 mt-md-4">
+                <div className="row mx-2 mt-2 mt-md-5">
                     <iframe 
                         className="col-11 col-md-6 mb-3 mb-md-0"
                         style={{height: '300px'}}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import image1 from '../../img/carousel-1.jpg';
-import image2 from '../../img/carousel-2.jpg';
+import image2 from '../../img/carousel-2.png';
 import buttonImg from '../../img/button.png';
 
 export const MyCarousel = () => {
@@ -14,14 +14,14 @@ export const MyCarousel = () => {
                     src={image1}
                     alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h2>¡Innovamos la educación en Venezuela!</h2>
-                        <p className="carousel-caption">
+                    <Carousel.Caption className="carousel-caption">
+                        <h3>¡Innovamos la educación en Venezuela!</h3>
+                        <p>
                             Ofrecemos programas educativos para colegios y preescolares en materias de 
                             robótica, programación y tecnología con el sueño de preparar a la generación 
                             del futuro.
                         </p>
-                        <a href="/programs-view" ><img src={buttonImg} className="col-9 col-md-4" alt="Button" /></a>
+                        <a href="/programs-view" ><img src={buttonImg} className="col-7 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
@@ -30,9 +30,12 @@ export const MyCarousel = () => {
                     src={image2}
                     alt="Third slide"
                     />
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="carousel-caption">
+                        <h3>¡Entérate de nuestros cursos online!</h3>
+                        <p>
+                            Ofrecemos los mejores cursos de inglés, programación y robótica.
+                        </p>
+                        <a href="/courses-view" ><img src={buttonImg} className="col-7 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -10,7 +10,7 @@ export const PonteEnLineaView = () => {
             <MyNavbar />
             <SeparationLines />
             <div className="container">
-                <div className="row mx-2 mt-2 mt-md-4">
+                <div className="row mx-2 mt-2 mt-md-5">
                     <p className="col-11 col-md-6 justify-text">
                         Desde Tecnikids Venezuela estamos conscientes de que la seguridad de nuestros 
                         niños y jóvenes es lo mas importante, es por eso que hemos comenzado con 
@@ -23,7 +23,7 @@ export const PonteEnLineaView = () => {
                         <img src={PonteEnLinea} className="col-12 col-md-10 p-center ml-0 ml-md-5" alt="Ponte En Línea" />
                     </div>
                 </div>
-                <div className="row mx-2 mt-2">
+                <div className="row mx-2 my-2 my-md-5">
                     <iframe 
                         className="col-11 col-md-6 mx-auto mb-3 mb-md-0"
                         style={{height: '300px'}}
@@ -34,7 +34,7 @@ export const PonteEnLineaView = () => {
                         allowfullscreen
                     >
                     </iframe>
-                    <p className="col-11 col-md-6 justify-text">
+                    <p className="col-11 col-md-5 ml-0 ml-md-5 justify-text">
                         “Ponte en Línea” les 
                         permitirá realizar evaluaciones, videoconferencias, presentaciones y 
                         discusiones, desde la seguridad del hogar. Estamos comprometidos con la 

@@ -27,7 +27,7 @@ export const RoboteandoView = () => {
                         </a>
                     </div>
                 </div>
-                <div className="row mx-2 mb-3 mb-md-5">
+                <div className="row mx-2 my-3 my-md-5">
                     <iframe 
                         className="col-11 col-md-6 mx-auto"
                         style={{height: '350px'}}

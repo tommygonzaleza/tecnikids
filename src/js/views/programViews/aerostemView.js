@@ -11,7 +11,7 @@ export const AerostemView = () => {
             <SeparationLines />
             <div className="container">
                 <div className="row mx-2">
-                    <p className="col-11 col-md-6 justify-text mt-2 mt-md-4">
+                    <p className="col-11 col-md-6 justify-text mt-2 mt-md-5">
                         <span className="f-weigth-600">AeroStem</span> es un programa a través del 
                         cual los alumnos tienen la oportunidad de manipular, construir y volar 
                         Drones, de una forma sencilla, atractiva, pero sobretodo segura, ya que 
@@ -25,7 +25,7 @@ export const AerostemView = () => {
                         los conocimientos necesarios para programar las aeronaves, permitiéndoles así 
                         cumplir con distintos desafíos.
                     </p>
-                    <div className="col-12 col-md-6 mt-0 mt-md-3">
+                    <div className="col-12 col-md-6 mt-0 mt-md-4">
                         <img src={aerostem} className="col-12 p-center" alt="Aerostem" />
                     </div>
                     <div className="row mx-2 mt-0 mt-md-4 mb-0 mb-md-5">

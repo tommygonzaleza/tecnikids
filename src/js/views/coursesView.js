@@ -13,7 +13,7 @@ export const CoursesView = () => {
             <MyNavbar />
             <SeparationLines />
                 <div className="container">
-                    <div className="row">
+                    <div className="row mt-0 mt-md-4">
                         <h2 className="col-5 col-md-2 ml-0 ml-md-3 my-footer-logo">CURSOS</h2>
                         <h3 className="col-10 col-md-12 ml-5 ml-md-3 pl-4 pl-md-0">SMART ENGLISH</h3>
                         <div className="row mx-2">
@@ -55,7 +55,7 @@ export const CoursesView = () => {
                             </p>
                         </div>
                         <h3 className="col-10 col-md-12 ml-5 ml-md-3 pl-4 pl-md-0">LEGO</h3>
-                        <div className="row mx-2">
+                        <div className="row mx-2 mb-2 mb-5">
                             <p className="col-11 col-md-6 ml-4 ml-md-0 justify-text">
                                 El curso de Lego permite a los alumnos desde los 7 a 18 años aprender sobre 
                                 conceptos de robótica, programación e ingeniería a través de 3 programas 

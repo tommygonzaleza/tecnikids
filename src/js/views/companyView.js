@@ -112,7 +112,7 @@ export const CompanyView = () => {
                         </div>
                         <img src={program3} className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Valores" />
                     </div>
-                    <div className="row mx-2 mt-5">
+                    <div className="row mx-2 my-5">
                         <img src={program4} className="col-12 col-md-5 mx-auto my-auto" alt="Laboratorios de Computación" />
                         <div className="col-12 col-md-6">
                             <h3 className="col-12 my-2 my-md-4" id="laboratorios">

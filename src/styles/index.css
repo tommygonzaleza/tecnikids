@@ -125,6 +125,38 @@
   .my-carousel-image {
     height: 50% !important;
   }
+  @media (min-width: 300px) {
+    .carousel-caption h3 {
+      font-size: 1rem;
+    }
+    .carousel-caption p {
+      font-size: 0.7rem;
+    }  
+  }
+  @media (min-width: 768px) {
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    } 
+  }
+  @media (min-width: 992px) {
+    .carousel-caption h3 {
+      font-size: 1.3rem;
+    }
+    .carousel-caption p {
+      font-size: 1.1rem;
+    }  
+  }
+  @media (min-width: 1200px) {
+    .carousel-caption h3 {
+      font-size: 2.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1.2rem;
+    }  
+  }
 
 /* Stadistics Styles. */
 
