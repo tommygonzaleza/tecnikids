@@ -33,7 +33,8 @@ export const MyCarousel = () => {
                     <Carousel.Caption className="carousel-caption">
                         <h3>¡Entérate de nuestros cursos online!</h3>
                         <p>
-                            Ofrecemos los mejores cursos de inglés, programación y robótica.
+                            Ofrecemos los mejores cursos del mercado en las áreas de inglés, programación 
+                            y robótica.
                         </p>
                         <a href="/courses-view" ><img src={buttonImg} className="col-7 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>

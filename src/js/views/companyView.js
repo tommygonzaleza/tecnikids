@@ -4,7 +4,7 @@ import { MyFooter } from '../components/MyFooter';
 import { SeparationLines } from '../components/SeparationLines';
 import { Stadistics } from '../components/Stadistics';
 import { Somos } from '../components/Somos';
-import logo from '../../img/logo-1.png';
+import team from '../../img/teamtk.jpeg';
 import program1 from '../../img/program-1.png';
 import program2 from '../../img/program-2.jpg';
 import program3 from '../../img/program-3.jpg';
@@ -33,7 +33,7 @@ export const CompanyView = () => {
                         internacionales de renombre, personal calificado y equipo de vanguardia.
                     </p>
                     <div className="col-md-1"></div>
-                    <img className="col-10 col-md-4 mt-5 ml-md-0 ml-5 company-logo" src={logo} alt="" />
+                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src={team} alt="" />
                 </div>
             </div>
             <SeparationLines />
