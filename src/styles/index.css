@@ -3,6 +3,7 @@
   @font-face {
     font-family: 'Gotham';
     src: font-url('./fonts/GothamRnd-Book.TTF')  format('truetype');
+    my-font: "Gotham";
   }
   * {
     font-family: 'Gotham';
