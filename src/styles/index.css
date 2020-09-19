@@ -1,12 +1,12 @@
 
 /* General Styles */
-  @font-face {
+  /* @font-face {
     font-family: 'Gotham';
     src: local('./fonts/GothamRnd-Book.TTF')  format('truetype');
     my-font: "Gotham";
-  }
+  } */
   * {
-    font-family: 'Gotham';
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0px;
   }
