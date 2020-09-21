@@ -1,11 +1,7 @@
 
 /* General Styles */
-  @font-face {
-    font-family: 'Gotham';
-    src: './fonts/GothamRnd-Book.TTF'  format('truetype');
-  }
   * {
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0px;
   }
