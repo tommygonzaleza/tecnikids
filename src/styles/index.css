@@ -2,7 +2,7 @@
 /* General Styles */
   @font-face {
     font-family: 'Gotham';
-    src: local('./fonts/GothamRnd-Book.TTF')  format('truetype');
+    src: './fonts/GothamRnd-Book.TTF'  format('truetype');
   }
   * {
     font-family: 'Gotham';
