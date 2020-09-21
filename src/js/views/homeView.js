@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/index.css';
 import { MyNavbar } from '../components/MyNavbar';
 import { MyCarousel } from '../components/MyCarousel';
 import { Programs } from '../components/Programs';

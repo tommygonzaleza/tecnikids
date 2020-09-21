@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { MyFooter } from '../../components/MyFooter';
 import { SeparationLines } from '../../components/SeparationLines';
