@@ -72,9 +72,9 @@ export const CompanyView = () => {
                     <h2 className="col-12">Programas</h2>
                     <div className="row mx-2">
                         <div className="col-12 col-md-6">
-                            <h3 className="col-12 my-2 my-md-4" id="clases_de_informatica">
+                            <h4 className="col-12 my-2 my-md-4" id="clases_de_informatica">
                                 Programa de Informática Educativa
-                            </h3>
+                            </h4>
                             <p className="col-11 justify-text">
                                 Tecnikids le ofrece a escuelas, colegios y universidades, un servicio educativo 
                                 integral en la enseñanza de la Informática y Computación para estudiantes de 
@@ -87,9 +87,9 @@ export const CompanyView = () => {
                     <div className="row mx-2 mt-5">
                         <img src={program2} className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Robótica Educativa" />
                         <div className="col-12 col-md-6">
-                            <h3 className="col-12 my-2 my-md-4" id="clases_de_robotica">
+                            <h4 className="col-12 my-2 my-md-4" id="clases_de_robotica">
                                 Programa de Robótica Educativa
-                            </h3>
+                            </h4>
                             <p className="col-11 justify-text">
                                 Tecnikids le ofrece a escuelas, colegios y universidades, un servicio educativo 
                                 integral en la enseñanza de Robótica para estudiantes de todos los niveles, 
@@ -100,9 +100,9 @@ export const CompanyView = () => {
                     </div>
                     <div className="row mx-2 mt-5">
                         <div className="col-12 col-md-6">
-                            <h3 className="col-12 my-2 my-md-4" id="programa_de_valores">
+                            <h4 className="col-12 my-2 my-md-4" id="programa_de_valores">
                                 Programa de Valores
-                            </h3>
+                            </h4>
                             <p className="col-11 justify-text">
                                 Tecnikids le ofrece a escuelas, colegios y universidades, un servicio educativo 
                                 integral en la enseñanza de Valores para estudiantes de todos los niveles, desde 
@@ -116,9 +116,9 @@ export const CompanyView = () => {
                     <div className="row mx-2 my-5">
                         <img src={program4} className="col-12 col-md-5 mx-auto my-auto" alt="Laboratorios de Computación" />
                         <div className="col-12 col-md-6">
-                            <h3 className="col-12 my-2 my-md-4" id="laboratorios">
+                            <h4 className="col-12 my-2 my-md-4" id="laboratorios">
                                 Laboratorios en Computación
-                            </h3>
+                            </h4>
                             <p className="col-11 justify-text">
                                 Tecnikids le ofrece a escuelas, colegios y universidades, un servicio educativo 
                                 integral para el montaje y mantenimiento de Laboratorios de Informática y 
