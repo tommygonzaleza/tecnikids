@@ -107,6 +107,7 @@
     width: 40% !important;
     margin: 1%;
     margin-left: 5%;
+    margin-right: 10%;
   }
   .my-navbar-logo {
     width: 100% !important;
@@ -114,9 +115,8 @@
   .my-navbar-nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin-right: 5%;
-    width: 5%;
+    width: 80%;
   }
 
 /* Carousel Styles. */
