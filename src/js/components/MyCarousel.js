@@ -6,7 +6,7 @@ import buttonImg from '../../img/button.png';
 
 export const MyCarousel = () => {
     return(
-        <div class="container-fluid">
+        <div className="container-fluid">
             <Carousel className="my-carousel">
                 <Carousel.Item className="my-carousel-item">
                     <img

@@ -29,35 +29,35 @@ export const Aliados = () => {
             <h2 className="col-6">ALIADOS</h2>
             <div className="row w-auto aliados-row">
                 <div className="col-md-1"></div>
-                <img src={xyz_printing} Alt="XYZ Printing" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={vex_robotics} Alt="Vex Robotics" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={crobot} Alt="C Robot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={egb4} Alt="EGB4 Technologies" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={abilix} Alt="Abilix" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={xyz_printing} alt="XYZ Printing" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={vex_robotics} alt="Vex Robotics" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={crobot} alt="C Robot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={egb4} alt="EGB4 Technologies" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={abilix} alt="Abilix" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
                 <div className="col-md-1"></div>
             </div>
             <div className="row w-auto aliados-row">
                 <div className="col-md-1"></div>
-                <img src={cmu} Alt="Carnegie Mellon University" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={roboteando} Alt="Roboteando" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={nasa} Alt="Nasa" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={photon} Alt="Photon" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={aarobotec} Alt="AAROBOTEC" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={cmu} alt="Carnegie Mellon University" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={roboteando} alt="Roboteando" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={nasa} alt="Nasa" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={photon} alt="Photon" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={aarobotec} alt="AAROBOTEC" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
                 <div className="col-md-1"></div>
             </div>
             <div className="row w-auto aliados-row">
                 <div className="col-md-1"></div>
-                <img src={arduino} Alt="Arduino" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={dash_and_dot} Alt="Dash And Dot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={makeblock} Alt="Makeblock" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={tomi} Alt="Tomi" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={kpex} Alt="Kpex" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={arduino} alt="Arduino" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={dash_and_dot} alt="Dash And Dot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={makeblock} alt="Makeblock" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={tomi} alt="Tomi" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={kpex} alt="Kpex" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
                 <div className="col-md-1"></div>
             </div>
             <div className="row w-auto aliados-row">
                 <div className="col-md-1"></div>
-                <img src={parallax} Alt="Parallax" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
-                <img src={beebot} Alt="Bee Bot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={parallax} alt="Parallax" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
+                <img src={beebot} alt="Bee Bot" className="col-3 col-md-2 aliado-logo my-auto mx-2" />
                 <div className="col-md-1"></div>
             </div>
         </div>

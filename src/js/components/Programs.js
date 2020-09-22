@@ -24,9 +24,9 @@ export const Programs = () => {
                     style={{height: '400px'}}
                     title="Stem Video"
                     src="https://www.youtube.com/embed/Dznzcl2fm-g" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen
+                    allowFullScreen
                 >
                 </iframe>
             </div>
