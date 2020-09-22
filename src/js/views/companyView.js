@@ -33,7 +33,7 @@ export const CompanyView = () => {
                         internacionales de renombre, personal calificado y equipo de vanguardia.
                     </p>
                     <div className="col-md-1"></div>
-                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src={team} alt="" />
+                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src={team} alt="Team Tecnikids Venezuela" />
                 </div>
             </div>
             <SeparationLines />
