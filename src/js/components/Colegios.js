@@ -4,7 +4,7 @@ import LosArcos from '../../img/instituciones/logo-los-arcos.jpg';
 import SimonBolivar from '../../img/instituciones/logo-simon-bolivar.png';
 import Roraima from '../../img/instituciones/logo-roraima.jpg';
 import Semillita from '../../img/instituciones/logo-semillita.png';
-import Step from '../../img/instituciones/logo-step-by-step.jpeg';
+import Step from '../../img/instituciones/logo-step-by-step.jpg';
 
 export const Colegios = () => {
     return(
