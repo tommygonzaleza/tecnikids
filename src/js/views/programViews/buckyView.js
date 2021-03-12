@@ -2,9 +2,6 @@ import React from 'react';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import bucky from '../../../img/logo-bucky.png';
-import fotobucky from '../../../img/foto-bucky.jpg';
-import button from '../../../img/button.png';
 
 export const BuckyView = () => {
     return(
@@ -26,9 +23,9 @@ export const BuckyView = () => {
                         divertida.
                     </p>
                     <div className="col-12 col-md-6 my-4 center-text">
-                        <img className="col-10 col-md-5 mb-3" src={bucky} alt="Bucky"/>
+                        <img className="col-10 col-md-5 mb-3" src="https://i.ibb.co/YDHCrPW/logo-bucky.png" alt="Bucky"/>
                         <a className="col-12 my-5" href="https://www.bucky.com.mx/">
-                            <img src={button} className="col-9 col-md-7" alt="Button" />
+                            <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                         </a>
                     </div>
                     <iframe 
@@ -55,7 +52,7 @@ export const BuckyView = () => {
                         luces inteligentes o asistentes virtuales.
                     </p>
                     <div className="col-11 col-md-6 ml-0 ml-md-5 mb-5 center-text">
-                        <img className="col-12 col-md-12" src={fotobucky} alt="Bucky" />
+                        <img className="col-12 col-md-12" src="https://i.ibb.co/BByx4NP/foto-bucky.jpg" alt="Bucky" />
                     </div>
                 </div>
             </div>

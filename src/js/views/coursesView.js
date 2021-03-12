@@ -2,10 +2,6 @@ import React from 'react';
 import { MyNavbar } from '../components/MyNavbar';
 import { MyFooter } from '../components/MyFooter';
 import { SeparationLines } from '../components/SeparationLines';
-import SmartEnglish from '../../img/smartenglish.jpg';
-import python from '../../img/logo-python.png';
-import lego from '../../img/logo-lego.png';
-import button from '../../img/button.png';
 
 export const CoursesView = () => {
     return(
@@ -31,18 +27,18 @@ export const CoursesView = () => {
                                 programas académicos rigurosos en inglés.
                             </p>
                             <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
-                                <img className="col-12 col-md-10 mb-4" src={SmartEnglish} alt="Smart English"/>
+                                <img className="col-12 col-md-10 mb-4" src="https://i.ibb.co/SsmxF0X/logo-smartenglish.png" alt="Smart English"/>
                                 <a className="col-12" href="http://smartenglishonline.com.mx/">
-                                    <img src={button} className="col-9 col-md-7" alt="Button" />
+                                    <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                                 </a>
                             </div>
                         </div>
                         <h3 className="col-7 col-md-1 ml-0 ml-md-5 pl-0 pl-md-5 p-left">PYTHON</h3>
                         <div className="row mx-2">
                             <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
-                                <img className="col-8 col-md-5 mb-4" src={python} alt="Python"/>
+                                <img className="col-8 col-md-5 mb-4" src="https://i.ibb.co/tzSd71L/logo-python.png" alt="Python"/>
                                 <a className="col-12" href="https://www.python.org/">
-                                    <img src={button} className="col-9 col-md-7" alt="Button" />
+                                    <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                                 </a>
                             </div>
                             <p className="col-11 col-md-5 ml-4 ml-md-5 justify-text">
@@ -69,7 +65,7 @@ export const CoursesView = () => {
                                 necesitar apoyo, recibirá atención necesaria para entender.
                             </p>
                             <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
-                                <img className="col-12 col-md-8 mb-4" src={lego} alt="Lego"/>
+                                <img className="col-12 col-md-8 mb-4" src="https://i.ibb.co/27bpYky/logo-lego.png" alt="Lego"/>
                             </div>
                         </div>
                     </div>

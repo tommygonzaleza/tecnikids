@@ -2,7 +2,6 @@ import React from 'react';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import aerostem from '../../../img/logo-aerostem.png';
 
 export const AerostemView = () => {
     return(
@@ -26,7 +25,7 @@ export const AerostemView = () => {
                         cumplir con distintos desafíos.
                     </p>
                     <div className="col-12 col-md-6 mt-0 mt-md-4">
-                        <img src={aerostem} className="col-12 p-center" alt="Aerostem" />
+                        <img src="https://i.ibb.co/9hh4rxc/logo-aerostem.png" className="col-12 p-center" alt="Aerostem" />
                     </div>
                     <div className="row mx-2 mt-0 mt-md-4 mb-0 mb-md-5">
                         <iframe 

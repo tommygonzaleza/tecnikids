@@ -1,13 +1,12 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import logo from '../../img/logo-3.png';
 
 export const MyNavbar = () => {
     return(
         <div className="container-fluid">
             <Navbar className="my-navbar row w-100" expand="lg">
                 <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
-                    <img src={logo} alt="Logo" className="my-navbar-logo" />
+                    <img src="https://i.ibb.co/VLDVKJC/logo-3.png" alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
                 <div className="col-2">
                     {''}

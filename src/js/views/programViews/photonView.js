@@ -2,8 +2,6 @@ import React from 'react';
 import { MyNavbar } from '../../components/MyNavbar';
 import { MyFooter } from '../../components/MyFooter';
 import { SeparationLines } from '../../components/SeparationLines';
-import photon from '../../../img/aliados/logo-photon-1.jpg';
-import button from '../../../img/button.png';
 
 export const PhotonView = () => {
     return(
@@ -26,9 +24,9 @@ export const PhotonView = () => {
                         creativa de problemas, mejorando así el pensamiento lógico.
                     </p>
                     <div className="col-11 col-md-6 center-text">
-                        <img src={photon} className="col-12 col-md-8" alt="Photon" />
+                        <img src="https://i.ibb.co/C1wkhBG/logo-photon-1.jpg" className="col-12 col-md-8" alt="Photon" />
                         <a className="col-12" href="https://photonrobot.com/for-education/">
-                            <img src={button} className="col-9 col-md-7" alt="Button" />
+                            <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                         </a>
                     </div>
                 </div>

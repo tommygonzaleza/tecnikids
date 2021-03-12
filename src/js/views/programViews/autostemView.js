@@ -2,7 +2,6 @@ import React from 'react';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import autostem from '../../../img/logo-autostem.png';
 
 export const AutostemView = () => {
     return(
@@ -22,7 +21,7 @@ export const AutostemView = () => {
                         retroalimentación visual para navegar alrededor de obstáculos.
                     </p>
                     <div className="col-11 col-md-6 mb-0 mt-0 mt-md-4">
-                        <img src={autostem} className="col-12 col-md-10 p-center" alt="Autostem" />
+                        <img src="https://i.ibb.co/SrqZ4dX/logo-autostem.png" className="col-12 col-md-10 p-center" alt="Autostem" />
                     </div>
                     
                 </div>
