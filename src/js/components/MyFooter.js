@@ -17,7 +17,7 @@ export const MyFooter = () => {
                             <h6>Contacto</h6>
                             <a className="f-weigth-200 f-size-16 my-1 my-footer-link d-inline-block" href="tel:+584122381919">+(58) 412 238 1919</a>
                             <a className="f-weigth-200 f-size-16 mw-100 my-1 my-footer-link d-inline-block" href="mailto:atencionalclientetk@tecnikidsve.com">atencionalclientetk@tecnikidsve.com</a>
-                            <a className="f-weigth-200 f-size-16 my-1 my-footer-link" href="/">www.tecnikids.com</a>
+                            <a className="f-weigth-200 f-size-16 my-1 my-footer-link" href="/">www.tecnikidsve.com</a>
                          </div>
                      </div>
                      <div className="col-md-3 col-12">
@@ -36,7 +36,7 @@ export const MyFooter = () => {
                             <p className="f-weigth-200 f-size-16 d-inline-block">
                                 Lunes a Viernes: 
                             </p>
-                            <p className="f-weight-600 f-size-16 d-inline-block">7:00 a.m. - 4:00 p.m.</p>
+                            <p className="f-weight-600 f-size-16 d-inline-block ml-1">7:00 a.m. - 4:00 p.m.</p>
                             <p className="f-weigth-200 f-size-16 d-inline-block">
                                 Sábado y Domingo
                             </p>
@@ -52,6 +52,8 @@ export const MyFooter = () => {
                             <p className="f-weigth-200 f-size-16 my-1">El Salvador</p>
                             <p className="f-weigth-200 f-size-16 my-1">Costa Rica</p>
                             <p className="f-weigth-200 f-size-16 my-1">México</p>
+                            <p className="f-weigth-200 f-size-16 my-1">España</p>
+                            <p className="f-weigth-200 f-size-16 my-1">Chile</p>
                          </div>
                      </div>
                 </div>
