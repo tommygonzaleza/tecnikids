@@ -1,5 +1,4 @@
 import React from 'react';
-import button from '../../img/button.png';
 
 export const Programs = () => {
     return(
@@ -15,7 +14,7 @@ export const Programs = () => {
                             para desenvolverse en el campo laboral de la industria 4.0.
                         </p>
                         <a className="programs-button p-center col-12" href="/programs-view">
-                            <img src={button} className="col-9 col-md-7" alt="Button" />
+                            <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                         </a>
                     </div>
                 </div>

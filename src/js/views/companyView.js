@@ -5,12 +5,6 @@ import { MyFooter } from '../components/MyFooter';
 import { SeparationLines } from '../components/SeparationLines';
 import { Stadistics } from '../components/Stadistics';
 import { Somos } from '../components/Somos';
-import team from '../../img/teamtk.jpg';
-import program1 from '../../img/program-1.png';
-import program2 from '../../img/program-2.jpg';
-import program3 from '../../img/program-3.jpg';
-import program4 from '../../img/program-4.jpg';
-
 
 export const CompanyView = () => {
     return(
@@ -34,7 +28,7 @@ export const CompanyView = () => {
                         internacionales de renombre, personal calificado y equipo de vanguardia.
                     </p>
                     <div className="col-md-1"></div>
-                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src={team} alt="Team tecnikids Venezuela" />
+                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src="https://i.ibb.co/zZRyrPd/teamtk.jpg" alt="Team Tecnikids Venezuela" />
                 </div>
             </div>
             <SeparationLines />
@@ -82,10 +76,10 @@ export const CompanyView = () => {
                                 (Tecnologías de la Información y las Comunicaciones). 
                             </p>
                         </div>
-                        <img src={program1} className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Informática Educativa" />
+                        <img src="https://i.ibb.co/TM1XWK6/program-1.png" className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Informática Educativa" />
                     </div>
                     <div className="row mx-2 mt-5">
-                        <img src={program2} className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Robótica Educativa" />
+                        <img src="https://i.ibb.co/P6tvWp0/program-2.jpg" className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Robótica Educativa" />
                         <div className="col-12 col-md-6">
                             <h4 className="col-12 my-2 my-md-4" id="clases_de_robotica">
                                 Programa de Robótica Educativa
@@ -111,10 +105,10 @@ export const CompanyView = () => {
                                 desarrollarse integralmente en medio de la sociedad. 
                             </p>
                         </div>
-                        <img src={program3} className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Valores" />
+                        <img src="https://i.ibb.co/zZT23nx/program-3.jpg" className="col-12 col-md-6 mx-auto my-auto" alt="Programa de Valores" />
                     </div>
                     <div className="row mx-2 my-5">
-                        <img src={program4} className="col-12 col-md-5 mx-auto my-auto" alt="Laboratorios de Computación" />
+                        <img src="https://i.ibb.co/SnfSxPS/program-4.jpg" className="col-12 col-md-5 mx-auto my-auto" alt="Laboratorios de Computación" />
                         <div className="col-12 col-md-6">
                             <h4 className="col-12 my-2 my-md-4" id="laboratorios">
                                 Laboratorios en Computación

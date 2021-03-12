@@ -3,8 +3,6 @@ import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import tomi from '../../../img/aliados/logo-tomi.png';
-import button from '../../../img/button.png';
 
 export const TomiView = () => {
     return(
@@ -24,7 +22,7 @@ export const TomiView = () => {
                         instantáneo.
                     </p>
                     <div className="col-11 col-md-6 center-text">
-                        <img src={tomi} className="col-12 col-md-7 mb-3" alt="Tomi" />
+                        <img src="https://i.ibb.co/GkbcL1r/logo-tomi.png" className="col-12 col-md-7 mb-3" alt="Tomi" />
                     </div>
                 </div>
                 <div className="row mx-2 mt-2 mt-md-5">
@@ -45,7 +43,7 @@ export const TomiView = () => {
                     </p>
                 </div>
                 <a className="col-11" href="https://tomi.digital/es">
-                    <img src={button} className="col-9 col-md-3 my-2 my-md-5 p-center" alt="Button" />
+                    <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-3 my-2 my-md-5 p-center" alt="Button" />
                 </a>
             </div>
             <SeparationLines />

@@ -3,8 +3,6 @@ import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import arduino from '../../../img/logo-arduino.png';
-import button from '../../../img/button.png';
 
 export const ArduinoView = () => {
     return(
@@ -20,7 +18,7 @@ export const ArduinoView = () => {
                         para desafiarlos a medida que desarrollan sus habilidades.
                     </p>
                     <div className="col-12 col-md-6 my-3 center-text">
-                        <img className="col-10 col-md-5 mb-4 mb-md-0" src={arduino} alt="Arduino"/>
+                        <img className="col-10 col-md-5 mb-4 mb-md-0" src="https://i.ibb.co/sP9FGXS/logo-arduino.png" alt="Arduino"/>
                     </div>
                 </div>
                 <div className="row mx-2 mt-2 mt-md-5">
@@ -48,7 +46,7 @@ export const ArduinoView = () => {
                     </p>
                 </div>
                 <a className="col-11" href="https://www.arduino.cc/education">
-                    <img src={button} className="col-9 col-md-3 my-2 my-md-5 p-center" alt="Button" />
+                    <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-3 my-2 my-md-5 p-center" alt="Button" />
                 </a>
             </div>
             <SeparationLines />

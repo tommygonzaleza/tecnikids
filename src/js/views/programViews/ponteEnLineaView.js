@@ -3,7 +3,6 @@ import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { MyFooter } from '../../components/MyFooter';
 import { SeparationLines } from '../../components/SeparationLines';
-import PonteEnLinea from '../../../img/logo-ponte-en-linea.png';
 
 export const PonteEnLineaView = () => {
     return(
@@ -21,7 +20,7 @@ export const PonteEnLineaView = () => {
                     </p>
                     
                     <div className="col-12 col-md-6">
-                        <img src={PonteEnLinea} className="col-12 col-md-10 p-center ml-0 ml-md-5" alt="Ponte En Línea" />
+                        <img src="https://i.ibb.co/B4bxXK1/logo-ponte-en-linea.png" className="col-12 col-md-10 p-center ml-0 ml-md-5" alt="Ponte En Línea" />
                     </div>
                 </div>
                 <div className="row mx-2 my-2 my-md-5">

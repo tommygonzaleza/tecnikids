@@ -3,8 +3,6 @@ import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { MyFooter } from '../../components/MyFooter';
 import { SeparationLines } from '../../components/SeparationLines';
-import button from '../../../img/button.png';
-import roboteando from '../../../img/roboteando.png';
 
 export const RoboteandoView = () => {
     return(
@@ -22,9 +20,9 @@ export const RoboteandoView = () => {
                         materiales adicionales, robots programables y actividades para estos materiales.
                     </p>
                     <div className="col-12 col-md-6 center-text my-4 my-md-0">
-                        <img className="col-12 col-md-9 mb-3" src={roboteando} alt="Roboteando"/>
+                        <img className="col-12 col-md-9 mb-3" src="https://i.ibb.co/kcn6p1v/logo-roboteando.png" alt="Roboteando"/>
                         <a className="col-12 my-5" href="http://usa.egb4.com/roboteando-primera-etapa">
-                            <img src={button} className="col-9 col-md-7" alt="Button" />
+                            <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
                         </a>
                     </div>
                 </div>

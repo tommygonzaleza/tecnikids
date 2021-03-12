@@ -3,8 +3,6 @@ import '../../../styles/index.css';
 import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
 import { MyFooter } from '../../components/MyFooter';
-import f1 from '../../../img/logo-f1.jpg';
-import button from '../../../img/button.png';
 
 export const F1View = () => {
     return(
@@ -24,7 +22,7 @@ export const F1View = () => {
                         de los alumnos por las carreras técnicas.
                     </p>
                     <div className="col-12 col-md-6 mb-5 mt-5 center-text">
-                        <img className="col-12 col-md-9 mb-4" src={f1} alt="F1"/>
+                        <img className="col-12 col-md-9 mb-4" src="https://i.ibb.co/XtXkyYb/logo-f1.jpg" alt="F1"/>
                     </div>
                     <iframe 
                         className="col-12 col-md-10 mx-auto mb-5 my-md-5"
@@ -37,7 +35,7 @@ export const F1View = () => {
                     >
                     </iframe>
                     <a className="col-12 col-md-6 mb-4 ml-5 pl-1 pl-md-5 p-center" href="https://www.f1inschools.com/">
-                        <img src={button} className="col-9 col-md-7 ml-md-4" alt="Button" />
+                        <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7 ml-md-4" alt="Button" />
                     </a>
                 </div>
             </div>
