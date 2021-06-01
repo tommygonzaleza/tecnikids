@@ -1,13 +1,10 @@
 import React from 'react';
 import '../../../styles/index.css';
-import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
-import { MyFooter } from '../../components/MyFooter';
 
 export const AerostemView = () => {
     return(
         <div>
-            <MyNavbar />
             <SeparationLines />
             <div className="container">
                 <div className="row mx-2">
@@ -49,7 +46,6 @@ export const AerostemView = () => {
                 </div>
             </div>
             <SeparationLines />
-            <MyFooter />
         </div>
     )
 }

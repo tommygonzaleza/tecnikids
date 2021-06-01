@@ -1,13 +1,10 @@
 import React from 'react';
 import '../../../styles/index.css';
-import { MyNavbar } from '../../components/MyNavbar';
-import { MyFooter } from '../../components/MyFooter';
 import { SeparationLines } from '../../components/SeparationLines';
 
 export const PonteEnLineaView = () => {
     return(
         <div>
-            <MyNavbar />
             <SeparationLines />
             <div className="container">
                 <div className="row mx-2 mt-2 mt-md-5">
@@ -48,7 +45,6 @@ export const PonteEnLineaView = () => {
                 </div>
             </div>
             <SeparationLines />
-            <MyFooter />
         </div>
     )
 }

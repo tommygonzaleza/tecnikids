@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../styles/index.css';
-import { MyNavbar } from '../components/MyNavbar';
-import { MyFooter } from '../components/MyFooter';
 import { SeparationLines } from '../components/SeparationLines';
 import { Stadistics } from '../components/Stadistics';
 import { Somos } from '../components/Somos';
@@ -9,7 +7,6 @@ import { Somos } from '../components/Somos';
 export const CompanyView = () => {
     return(
         <div className="">
-            <MyNavbar />
             <SeparationLines />
             <div className="container">
                 <div className="row">
@@ -124,7 +121,6 @@ export const CompanyView = () => {
                 </div>
             </div>
             <SeparationLines />
-            <MyFooter />
         </div>
     )
 }

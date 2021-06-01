@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/index.css';
+import { MyFooter } from './components/MyFooter';
+import { MyNavbar } from './components/MyNavbar';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { HomeView } from "./views/homeView";
 import { ProgramsView } from "./views/programsView";
@@ -17,12 +19,13 @@ import { PonteEnLineaView } from './views/programViews/ponteEnLineaView';
 import { BuckyView } from './views/programViews/buckyView';
 import { ArduinoView } from './views/programViews/arduinoView';
 import { F1View } from './views/programViews/f1View';
+import { PlanVacacionalView } from './views/planVacacionalView';
 
 export const Layout = () => {
-    // const basename = process.env.BASENAME || "";
 
     return(
         <div className="d-flex flex-column layout-styles">
+            <MyNavbar />
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={HomeView} />
@@ -41,9 +44,11 @@ export const Layout = () => {
                     <Route path="/bucky-view" component={BuckyView} />
                     <Route path="/arduino-view" component={ArduinoView} />
                     <Route path="/f1-view" component={F1View} />
+                    <Route path="/plan-vacacional-view" component={PlanVacacionalView} />
                     <Route render={() => <h1>Not Found!</h1>} />
                 </Switch>
             </BrowserRouter>
+            <MyFooter />
         </div>
     )
 }

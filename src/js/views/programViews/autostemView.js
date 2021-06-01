@@ -1,13 +1,10 @@
 import React from 'react';
 import '../../../styles/index.css';
-import { MyNavbar } from '../../components/MyNavbar';
 import { SeparationLines } from '../../components/SeparationLines';
-import { MyFooter } from '../../components/MyFooter';
 
 export const AutostemView = () => {
     return(
         <div>
-            <MyNavbar />
             <SeparationLines />
             <div className="container">
                 <div className="row mx-2">
@@ -45,7 +42,6 @@ export const AutostemView = () => {
                 </div>
             </div>
             <SeparationLines />
-            <MyFooter />
         </div>
     )
 }

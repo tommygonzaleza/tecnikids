@@ -1,13 +1,10 @@
 import React from 'react';
 import '../../styles/index.css';
-import { MyNavbar } from '../components/MyNavbar';
-import { MyFooter } from '../components/MyFooter';
 import { SeparationLines } from '../components/SeparationLines';
 
 export const CoursesView = () => {
     return(
         <div className="container-fluid">
-            <MyNavbar />
             <SeparationLines />
                 <div className="container">
                     <div className="row mt-0 mt-md-4">
@@ -72,7 +69,6 @@ export const CoursesView = () => {
                     </div>
                 </div>
                 <SeparationLines />
-            <MyFooter />
         </div>
     )
 }
