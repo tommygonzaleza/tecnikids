@@ -8,17 +8,20 @@ export const MyNavbar = () => {
                 <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
                     <img src="https://i.ibb.co/VLDVKJC/logo-3.png" alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
-                <div className="col-2">
+                <div className="col-1">
                     {''}
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" className="col-6">
+                <Navbar.Collapse id="basic-navbar-nav" className="col-9">
                     <Nav className="my-navbar-nav">
                         <Nav.Link className="my-navlink" href="/">
                             {"Inicio"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink" href="/company-view">
                             {"¿Quiénes Somos?"}
+                        </Nav.Link>
+                        <Nav.Link className="my-navlink" href="/plan-vacacional-view">
+                            {"Plan Vacacional"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink" href="/programs-view">
                             {"Programas"}
