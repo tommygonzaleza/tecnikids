@@ -264,3 +264,15 @@
   .company-logo {
     height: 25%;
   }
+
+  /* Plan Vacacional Styles */
+
+  .planilla-link {
+    color: #114189;;
+    padding: 0px !important;
+    transition: color 1s;
+  }
+  .planilla-link:hover {
+    color: #FDD000;
+    text-decoration: none;
+  }
