@@ -4,12 +4,15 @@ import { Navbar, Nav } from 'react-bootstrap';
 export const MyNavbar = () => {
     return(
         <div className="container-fluid">
-            <Navbar className="my-navbar row w-100" expand="lg">
+            <Navbar className="my-navbar row w-100 pr-5" expand="lg">
                 <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
                     <img src="https://i.ibb.co/VLDVKJC/logo-3.png" alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
+                <div className="col-1">
+                    {''}
+                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" className="col-9">
+                <Navbar.Collapse id="basic-navbar-nav" className="col-8">
                     <Nav className="my-navbar-nav w-100">
                         <Nav.Link className="my-navlink" href="/">
                             {"Inicio"}
