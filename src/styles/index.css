@@ -25,6 +25,10 @@
   .navbar {
     padding: 0px !important;
   }
+  .text-blue {
+      color: #114189;
+      font-weight: 700;
+  }
   h2 {
     font-size: 36px !important;
   }
