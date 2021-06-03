@@ -109,7 +109,7 @@
   }
   .my-navbar-brand {
     width: 40% !important;
-
+    margin: 1% 0% 1% 2%;
   }
   .my-navbar-logo {
     width: 100% !important;
