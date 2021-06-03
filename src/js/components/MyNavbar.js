@@ -8,12 +8,9 @@ export const MyNavbar = () => {
                 <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
                     <img src="https://i.ibb.co/VLDVKJC/logo-3.png" alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
-                <div className="col-1">
-                    {''}
-                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="col-9">
-                    <Nav className="my-navbar-nav">
+                    <Nav className="my-navbar-nav w-100">
                         <Nav.Link className="my-navlink" href="/">
                             {"Inicio"}
                         </Nav.Link>
