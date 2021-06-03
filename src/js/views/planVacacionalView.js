@@ -7,7 +7,7 @@ export const PlanVacacionalView = () => {
     return (
         <div>
             <SeparationLines />
-            <div className="container mx-auto text-secondary f-weigth-600">
+            <div className="container mx-auto text-secondary f-weigth-600 pl-3">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <img src="https://i.ibb.co/G5hjvX5/PLANV-LOGO12-X19-DEF.png" alt="Logo Plane Vacacional" className="w-100" />
@@ -35,7 +35,7 @@ export const PlanVacacionalView = () => {
                     </div>
                 </div>
                 <div className="row my-5">
-                    <img src="https://i.ibb.co/48Yhw7w/Tecnikids-fotos-1.jpg" alt="Kids Playing with Photon" className="w-100 col-12 img-fluid" />
+                    <img src="https://i.ibb.co/48Yhw7w/Tecnikids-fotos-1.jpg" alt="Kids Playing with Photon" className="w-100 col-12 img-fluid plan-vacacional-img" />
                 </div>
                 <div className="row">
                     <div className="col-12 text-center">
