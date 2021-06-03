@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 export const MyNavbar = () => {
     return(
         <div className="container-fluid">
-            <Navbar className="my-navbar row w-100 pr-5" expand="lg">
+            <Navbar className="my-navbar row w-100 pr-5 my-1" expand="lg">
                 <Navbar.Brand href="/" className="my-navbar-brand col-6 col-md-3">
                     <img src="https://i.ibb.co/VLDVKJC/logo-3.png" alt="Logo" className="my-navbar-logo" />
                 </Navbar.Brand>
