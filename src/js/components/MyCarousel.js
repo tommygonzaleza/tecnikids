@@ -8,7 +8,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <img
                     className="my-carousel-image d-block w-100"
-                    src="https://i.ibb.co/KG0PKYh/Tecnikids-fotos-4.jpg"
+                    src="https://i.ibb.co/GF3dv75/Tecnikids-fotos-8.jpg"
                     alt="First slide"
                     />
                     <Carousel.Caption className="carousel-caption">
