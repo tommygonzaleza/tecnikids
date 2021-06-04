@@ -24,7 +24,7 @@ export const PlanVacacionalView = () => {
                 <div className="row my-5">
                     <div className="col-12">
                         <p>Costo:</p>
-                        <p><strong>Preventa:</strong> (Hasta el doming 27 de junio)</p>
+                        <p><strong>Preventa:</strong> (Hasta el domingo 27 de junio)</p>
                     </div>
                     <div className="col-12 col-md-6 border-right">
                         <img className="w-100" src="https://i.ibb.co/0hZ9HNQ/Artboard-5-calidad.png" alt="Presale Cost" />
