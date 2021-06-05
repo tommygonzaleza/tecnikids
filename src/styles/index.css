@@ -276,8 +276,15 @@
     color: #FDD000;
     text-decoration: none;
   }
+  .preventa {
+      border-right: 2px solid #DDDDDD;
+  }
   @media (max-width: 768px) {
     .plan-vacacional-img {
         height: 50%;
+    }
+    .preventa {
+      border: none;
+      margin-left: 8px;
     }
   }
