@@ -57,7 +57,7 @@ export const PlanVacacionalView = () => {
                 <div className="row">
                     <div className="col-12 text-right">
                         <p>Para más información puedes contactarnos:</p>
-                        <p><span className="text-blue">Valentina Romero <a className="planilla-link" href="tel:+584122381919">+58 414 923 9837</a></span></p>
+                        <p><span className="text-blue">Valentina Romero <a className="planilla-link" href="tel:+584122381919">+58 412 923 9839</a></span></p>
                         <p><a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com">atencionalclientetk@gmail.com</a></p>
                     </div>
                 </div>
