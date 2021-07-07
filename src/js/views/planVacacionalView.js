@@ -42,7 +42,7 @@ export const PlanVacacionalView = () => {
                         <p>1. Realice el pago correspondiente a Tecnikids Venezuela <span className="text-blue">(Depósito Bancario, transferencia o efectivo)</span>. Los datos se enviarán luego de ser llenado el formulario.</p>
                         <p>2. Llene el formulario de "<a className="planilla-link" href="https://forms.gle/J8nFMeMNt6qHAchYA" target="_blank" rel="noreferrer">Planilla de Inscripción Plan Vacacional 2021</a>". Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.</p>
                         <p>3. Al optar por la modalidad Semi Presencial deberá leer y firmar la Planilla de Condiciones Generales <a className="planilla-link" href="https://drive.google.com/file/d/1IX8N7BTg-DTFT_EvQXsluZFMm_-Y8L7n/view?usp=sharing" target="_blank" rel="noreferrer">(Descarga aquí)</a>.</p>
-                        <p>4. Debe enviar el comprobante de pago y Planilla de Condiciones Generales (Semi Presencial) al correo <a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com">atencionalclientetk@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del participante. En el asunto debe colocar "Comprobante de pago" y el <ins>nombre del campista</ins> (OBLIGATORIO).</p>
+                        <p>4. Debe enviar el comprobante de pago y Planilla de Condiciones Generales (Semi Presencial) al correo <a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com" rel="noreferrer">atencionalclientetk@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del participante. En el asunto debe colocar "Comprobante de pago" y el <ins>nombre del campista</ins> (OBLIGATORIO).</p>
                         <p>5. El gasto de cualquier accidente ocurrido, durante el Plan Vacacional, cualquier gasto necesario es responsabilidad de los padres o representantes.</p>
                         <p>6. En caso de que finalmente las restricciones no nos permitieran realizar el plan vacacional, Tecnikids Venezuela reembolsará la diferencia del costo entre ambas modalidades y se participaría en el plan vacacional de manera virtual.</p>
                         <p>En caso de una vez iniciado el Plan Vacacional, el campista decida abandonarlo por cualquier motivo, incluso con la autorización de los padres o tutores, no tendrá derecho a ninguna devolución.</p>
@@ -55,7 +55,7 @@ export const PlanVacacionalView = () => {
                     <div className="col-12 text-right">
                         <p>Para más información puedes contactarnos:</p>
                         <p><span className="text-blue">Valentina Romero <a className="planilla-link" href="tel:+584122381919">+58 412 923 9839</a></span></p>
-                        <p><a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com">atencionalclientetk@gmail.com</a></p>
+                        <p><a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com" rel="noreferrer">atencionalclientetk@gmail.com</a></p>
                     </div>
                 </div>
             </div>

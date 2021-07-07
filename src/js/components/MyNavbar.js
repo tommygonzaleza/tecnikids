@@ -23,6 +23,9 @@ export const MyNavbar = () => {
                         <Nav.Link className="my-navlink" href="/plan-vacacional-view">
                             {"Plan Vacacional"}
                         </Nav.Link>
+                        <Nav.Link className="my-navlink" href="/curso-python-view">
+                            {"Curso Python"}
+                        </Nav.Link>
                         <Nav.Link className="my-navlink" href="/programs-view">
                             {"Programas"}
                         </Nav.Link>
