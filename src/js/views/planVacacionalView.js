@@ -11,6 +11,15 @@ export const PlanVacacionalView = () => {
                     <div className="col-12 col-md-6">
                         <img src="https://i.ibb.co/G5hjvX5/PLANV-LOGO12-X19-DEF.png" alt="Logo Plane Vacacional" className="w-100" />
                     </div>
+                    
+                </div>
+                <div className="row my-5">
+                    <div className="col-12 col-md-6 preventa pt-3">
+                        <div className="col-12">
+                            <p>Costo:</p>
+                        </div>
+                        <img className="w-100" src="https://i.ibb.co/VvhLCtK/Artboard-6.png" alt="Oficial Cost" />
+                    </div>
                     <div className="col-12 col-md-6 text-right mt-2">
                         <h2 className="">¡CUPOS LIMITADOS!</h2>
                         <p className="my-3 f-500"><strong>Información General:</strong></p>
@@ -19,18 +28,6 @@ export const PlanVacacionalView = () => {
                         <p><strong>Edades:</strong> 3 - 12 años</p>
                         <p><strong>Lugar:</strong> El Cafetal</p>
                         <p><strong>Modalidad:</strong> Semipresencial - Virtual</p>
-                    </div>
-                </div>
-                <div className="row my-5">
-                    <div className="col-12">
-                        <p>Costo:</p>
-                        <p><strong>Preventa:</strong> (Hasta el domingo 4 de julio)</p>
-                    </div>
-                    <div className="col-12 col-md-6 preventa">
-                        <img className="w-100" src="https://i.ibb.co/sQRJQMn/Artboard-5.png" alt="Presale Cost" />
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <img className="w-100" src="https://i.ibb.co/VvhLCtK/Artboard-6.png" alt="Oficial Cost" />
                     </div>
                 </div>
                 <div className="row my-5">
