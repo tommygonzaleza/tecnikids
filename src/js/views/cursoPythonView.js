@@ -21,7 +21,7 @@ export const CursoPythonView = () => {
                         <div className="col-12">
                             <h5>Costo:</h5>
                         </div>
-                        <img className="w-100" src="https://i.ibb.co/VvhLCtK/Artboard-6.png" alt="Oficial Cost" />
+                        <img className="w-75 mx-auto" src="https://i.ibb.co/SQhXW5v/precio-2.png" alt="Oficial Cost" />
                     </div>
                     <div className="col-12 col-md-6 text-right mt-2">
                         <p className="my-3 f-500"><strong>Información General:</strong></p>
