@@ -18,7 +18,10 @@ export const Programs = () => {
                         </a>
                     </div>
                 </div>
-                <iframe 
+                <div className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-2">
+                    <img src="https://i.ibb.co/6H1jcmc/Tecnikids-fotos-1.jpg" />
+                </div >
+                {/* <iframe 
                     className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-2"
                     style={{height: '400px'}}
                     title="Stem Video"
@@ -27,7 +30,7 @@ export const Programs = () => {
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
                 >
-                </iframe>
+                </iframe> */}
             </div>
         </div>
     );
