@@ -19,7 +19,6 @@ import { PonteEnLineaView } from './views/programViews/ponteEnLineaView';
 import { BuckyView } from './views/programViews/buckyView';
 import { ArduinoView } from './views/programViews/arduinoView';
 import { F1View } from './views/programViews/f1View';
-import { PlanVacacionalView } from './views/planVacacionalView';
 import { CursoPythonView } from "./views/cursoPythonView";
 
 export const Layout = () => {
@@ -45,7 +44,6 @@ export const Layout = () => {
                     <Route path="/bucky-view" component={BuckyView} />
                     <Route path="/arduino-view" component={ArduinoView} />
                     <Route path="/f1-view" component={F1View} />
-                    <Route path="/plan-vacacional-view" component={PlanVacacionalView} />
                     <Route path="/curso-python-view" component={CursoPythonView} />
                     <Route render={() => <h1>Not Found!</h1>} />
                 </Switch>
