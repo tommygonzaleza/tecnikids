@@ -8,20 +8,6 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <img
                     className="my-carousel-image d-block w-100"
-                    src="https://i.ibb.co/GF3dv75/Tecnikids-fotos-8.jpg"
-                    alt="First slide"
-                    />
-                    <Carousel.Caption className="carousel-caption">
-                        <h3>¡Plan Vacacional Tecnikids 2021!</h3>
-                        <p>
-                            Forma parte del Plan Vacacional de Tecnikids este 2021. ¡CUPOS LIMITADOS!
-                        </p>
-                        <a href="/plan-vacacional-view" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className="my-carousel-item">
-                    <img
-                    className="my-carousel-image d-block w-100"
                     src="https://i.ibb.co/QpnRSKS/carousel-1.jpg"
                     alt="Second slide"
                     />
