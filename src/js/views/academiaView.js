@@ -20,7 +20,7 @@ export const AcademiaView = () => {
                 </div>
                 <div className="row bottom-border my-3 py-3">
                     <div className="col-10 mx-auto">
-                        {/* <iframe width="100%" autoplay height="500px" src="https://www.youtube.com/embed/5GWhwUN9iaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/8HgiKbLy3jc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h2 className="text-blue text-center">¿Qué esperas para que tu hijo forme parte de nuestro club de robótica?</h2>
                     </div>
                 </div>
