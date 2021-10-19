@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Programs = () => {
     return(
@@ -13,9 +14,9 @@ export const Programs = () => {
                             tecnología, ingeniería, diseño y matemáticas, disciplinas que serán fundamentales 
                             para desenvolverse en el campo laboral de la industria 4.0.
                         </p>
-                        <a className="programs-button p-center col-12" href="/programs-view">
+                        <Link className="programs-button p-center col-12" to="/programs-view">
                             <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <iframe 
