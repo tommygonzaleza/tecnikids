@@ -29,6 +29,9 @@
       color: #114189;
       font-weight: 700;
   }
+  .bottom-border {
+    border-bottom: 3px solid #DDDDDD;
+  }
   h2 {
     font-size: 36px !important;
   }
@@ -100,6 +103,9 @@
     position: relative;
     left: 50%;
     transform: translate(-20%);
+  }
+  .text-gray {
+    color: #77777A;
   }
 
 /* Navbar Styles. */

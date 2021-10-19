@@ -8,6 +8,7 @@ import { ProgramsView } from "./views/programsView";
 import { CompanyView } from "./views/companyView";
 import { CoursesView } from './views/coursesView';
 import { ColegiosView } from './views/colegiosView';
+import { AcademiaView } from './views/academiaView';
 import { EventosView } from './views/eventosView';
 import { ContactosView } from './views/contactosView';
 import { RoboteandoView } from './views/programViews/roboteandoView';
@@ -34,6 +35,7 @@ export const Layout = () => {
                     <Route path="/colegios-view" component={ColegiosView} />
                     <Route path="/eventos-view" component={EventosView} />
                     <Route path="/contactos-view" component={ContactosView} />
+                    <Route path="/academia-view" component={AcademiaView} />
                     <Route path="/roboteando-view" component={RoboteandoView} />
                     <Route path="/photon-view" component={PhotonView} />
                     <Route path="/autostem-view" component={AutostemView} />
