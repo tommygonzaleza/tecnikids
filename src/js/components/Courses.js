@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export const Courses = () => {
     return(
@@ -16,9 +15,9 @@ export const Courses = () => {
                             los contenidos más retadores y atractivos, consiguiendo que nuestros 
                             estudiantes se apasionen y comprometen con los programas.
                         </p>
-                        <Link className="programs-button p-center col-12" to="/courses-view">
+                        <a className="programs-button p-center col-12" href="/courses-view">
                             <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
