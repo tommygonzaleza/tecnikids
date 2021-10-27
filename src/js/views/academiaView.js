@@ -39,7 +39,9 @@ export const AcademiaView = () => {
                             <br />
                             3. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:atencionalclientetk@gmail.com">atencionalclientetk@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del estudiante. En el asunto debe colocar "Comprobante de pago" y el nombre del estudiante (OBLIGATORIO).
                             <br />
-                            4. En caso de que finalmente las restricciones no nos permitieran realizar las clases extracurriculares de modalidad presencial, se adaptará la modalidad a virtual hasta que se pueda volver a la presencialidad.
+                            4. Deberá leer y firmar la Planilla de Condiciones Generales para ser entregada en físico en su primer día de clases. <a className="planilla-link" href="https://drive.google.com/file/d/17HmPrca20N6_HxDUvxFQLKouMl2xn-nv/view?usp=sharing" target="_blank" rel="noreferrer">(Descarga Aquí)</a>
+                            <br />
+                            5. En caso de que finalmente las restricciones no nos permitieran realizar las clases extracurriculares de modalidad presencial, se adaptará la modalidad a virtual hasta que se pueda volver a la presencialidad.
                         </p>
                         <br />
                         <p className="text-justify text-gray">
