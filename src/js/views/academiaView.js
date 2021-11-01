@@ -11,11 +11,11 @@ export const AcademiaView = () => {
                 <img src="https://i.ibb.co/wcP3B1C/para-pagina-web.png" alt="Información" className="w-100" />
                 <div className="col-12 my-5 f-weigth-600">
                     <h6 className="text-gray">Costo:</h6>
-                    <h6 className="text-gray"><span className="f-weigth-600">Precios de Lanzamiento</span>{" "}<span style={{ fontSize: "0.9rem" }}>(Hasta el 31 de Octubre)</span></h6>
+                    <h6 className="text-gray"><span className="f-weigth-600">Precios de Lanzamiento</span></h6>
                 </div>
                 <div className="row my-5 text-blue">
                     <div className="col-12 text-center">
-                        <img src="https://i.ibb.co/qsVKQcb/para-pagina-web2.png" alt="Precios" className="w-100" />
+                        <img src="https://i.ibb.co/mSdr3Ck/para-pagina-web4.png" alt="Precios" className="w-100" />
                     </div>
                 </div>
                 <div className="row bottom-border my-3 py-3">
