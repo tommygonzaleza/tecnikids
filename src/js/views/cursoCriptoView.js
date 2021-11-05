@@ -14,8 +14,8 @@ export const CursoCriptoView = () => {
                 </div>
                 <div className="row my-3">
                     <div className="col-12">
-                        <h4 className="text-blue text-center">¡Para nuestros estudiantes de 3ero, 4to y 5to año tenemos un curso que sabemos les va a interesar!</h4>
-                        <p className="text-center text-gray">Se trata de un curso introductorio a las criptomonedas junto a nuestros aliados Tradewithus. En este curso los jóvenes con edades comprendidas <strong>entre 15 y 18 años</strong> conocerán los conceptos básicos sobre el sistema bancario actual, el rol del dinero, la criptomoneda y su funcionamiento, y, la nueva tecnología (blockchain).</p>
+                        <h2 className="text-blue text-center">¡Para nuestros estudiantes de 3ero, 4to y 5to año tenemos un curso que sabemos les va a interesar!</h2>
+                        <p className="text-center text-gray">Se trata de un curso introductorio a las criptomonedas junto a nuestros aliados <span className="text-blue">Tradewithus</span>. En este curso los jóvenes con edades comprendidas <strong>entre 15 y 18 años</strong> conocerán los conceptos básicos sobre el sistema bancario actual, el rol del dinero, la criptomoneda y su funcionamiento, y, la nueva tecnología (blockchain).</p>
                         <br />
                         <p className="text-center text-gray">No sólo aprenderán las diferencias y similitudes entre una criptomoneda, Dólar, Euro y Oro, sino que también estarán capacitados para identificar los usos adecuados de estas criptomonedas que han revolucionado en la última década.</p>
                     </div>
@@ -23,6 +23,31 @@ export const CursoCriptoView = () => {
                 <div className="row">
                     <div className="col-12">
                         <img className="w-100" src="https://i.ibb.co/xM1ys5X/Curso-Intro-a-las-Cripto-1.png" alt="Introducción a las Cripto" />
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col-12 col-md-6">
+                        <h2 className="text-blue">Metas del curso</h2>
+                        <p className="text-gray">Al finalizar el curso, los jóvenes serán capaces de:</p>
+                        <p className="text-gray">- <strong>Entender</strong> cualquier Criptomoneda</p>
+                        <p className="text-gray">- <strong>Conocer</strong> cuáles son los diferentes usos de Bitcoin y demás Criptomonedas y así analizar para qué pueden servirles.</p>
+                        <p className="text-gray">- <strong>Entenderán</strong> cómo se crean las mismas y de qué se trata la minería.</p>
+                        <p className="text-gray">- <strong>Aprenderán</strong> sobre las diferencias y similitudes entre una Criptomoneda, Dólar, Euro y Oro.</p>
+                        <p className="text-gray">- <strong>Comprenderán</strong> cómo es un Bitcoin y por qué tiene un valor monetario.</p>
+                        <p className="text-gray">- <strong>Aprenderán</strong> las formas seguras de obtener Criptomonedas</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <h2 className="text-blue">Método de aprendizaje</h2>
+                        <p className="text-gray">En nuestro curso los jóvenes tendrán un <strong>contacto personalizado con su instructor</strong> que le asistirá en todas las prácticas a lo largo de este.</p>
+                        <br />
+                        <p className="text-gray">Las clases son <strong>online</strong> con profesionales expertos en capacitación, Todas las clases quedarán grabadas para poder acceder al material de apoyo cuando así lo requieran.</p>
+                        <br />
+                        <p className="text-gray">Los grupos de estudiantes son reducidos y van a constar de 15 personas en promedio.</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <img className="w-100" src="https://i.ibb.co/dKNt94h/Curso-Intro-a-las-Cripto-5.png" alt="Cripto es una nueva área de conocimiento" />
                     </div>
                 </div>
                 <div className="row my-5">
@@ -34,7 +59,7 @@ export const CursoCriptoView = () => {
                 </div>
                 <div className="row blue-bottom-border mb-3">
                     <div className="col-12">
-                        <h4 className="text-blue text-center">¿Qué esperas para aprender sobre un tema actual y de tanta importancia para nuestro día a día?</h4>
+                        <h2 className="text-blue text-center">¿Qué esperas para aprender sobre un tema actual y de tanta importancia para nuestro día a día?</h2>
                         <p className="text-gray text-center"><strong>El curso comienza el Lunes 22 de Noviembre</strong> y consta de 4 sesiones en modalidad virtual, no necesitarán de ningún tipo de conocimiento adicional para poder realizar este curso. Sólo deben contar con un ordenador con conexión estable a internet para poder acceder al contenido de este.</p>
                         <img className="w-100 mb-3" src="https://i.ibb.co/LN3sWyx/Curso-Intro-a-las-Cripto-2.png" alt="Criptos Más Relevantes" />
                     </div>
