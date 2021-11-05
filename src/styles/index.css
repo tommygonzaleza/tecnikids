@@ -32,6 +32,9 @@
   .bottom-border {
     border-bottom: 3px solid #DDDDDD;
   }
+  .blue-bottom-border {
+    border-bottom: 3px solid #114189;
+  }
   h2 {
     font-size: 36px !important;
   }

@@ -20,6 +20,9 @@ export const MyNavbar = () => {
                         <Nav.Link className="my-navlink" href="/academia-view">
                             {"Academia"}
                         </Nav.Link>
+                        <Nav.Link className="my-navlink" href="/curso-cripto-view">
+                            {"Curso Cripto"}
+                        </Nav.Link>
                         <Nav.Link className="my-navlink" href="/company-view">
                             {"¿Quiénes Somos?"}
                         </Nav.Link>
