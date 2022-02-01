@@ -35,9 +35,7 @@ export const CoursesView = () => {
                         <div className="row mx-2">
                             <div className="col-12 col-md-6 ml-3 ml-md-0 mb-5 center-text">
                                 <img className="col-8 col-md-5 mb-4" src="https://i.ibb.co/tzSd71L/logo-python.png" alt="Python"/>
-                                <a className="col-12" href="/curso-python-view">
-                                    <img src="https://i.ibb.co/v4dmnf2/button.png" className="col-9 col-md-7" alt="Button" />
-                                </a>
+                                
                             </div>
                             <p className="col-11 col-md-5 ml-4 ml-md-5 justify-text">
                                 Python es uno de los lenguajes de programación más conocidos a nivel mundial. 

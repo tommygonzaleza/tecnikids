@@ -7,7 +7,6 @@ import { HomeView } from "./views/homeView";
 import { ProgramsView } from "./views/programsView";
 import { CompanyView } from "./views/companyView";
 import { CoursesView } from './views/coursesView';
-import { CursoCriptoView } from './views/cursoCriptoView';
 import { ColegiosView } from './views/colegiosView';
 import { EventosView } from './views/eventosView';
 import { ContactosView } from './views/contactosView';
@@ -32,7 +31,6 @@ export const Layout = () => {
                     <Route path="/company-view" component={CompanyView} />
                     <Route path="/programs-view" component={ProgramsView} />
                     <Route path="/courses-view" component={CoursesView} />
-                    <Route path="/curso-cripto-view" component={CursoCriptoView} />
                     <Route path="/colegios-view" component={ColegiosView} />
                     <Route path="/eventos-view" component={EventosView} />
                     <Route path="/contactos-view" component={ContactosView} />
