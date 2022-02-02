@@ -11,7 +11,6 @@ import { CursoCriptoView } from './views/cursoCriptoView';
 import { ColegiosView } from './views/colegiosView';
 import { EventosView } from './views/eventosView';
 import { ContactosView } from './views/contactosView';
-import { AcademiaView } from './views/academiaView';
 import { RoboteandoView } from './views/programViews/roboteandoView';
 import { PhotonView } from './views/programViews/photonView';
 import { AutostemView } from './views/programViews/autostemView';
@@ -37,7 +36,6 @@ export const Layout = () => {
                     <Route path="/colegios-view" component={ColegiosView} />
                     <Route path="/eventos-view" component={EventosView} />
                     <Route path="/contactos-view" component={ContactosView} />
-                    <Route path="/academia-view" component={AcademiaView} />
                     <Route path="/roboteando-view" component={RoboteandoView} />
                     <Route path="/photon-view" component={PhotonView} />
                     <Route path="/autostem-view" component={AutostemView} />
