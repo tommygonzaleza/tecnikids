@@ -35,11 +35,11 @@ export const AcademiaView = () => {
                         <p className="text-justify text-gray">
                             1. Realice el pago correspondiente a Tecnikids Venezuela (Depósito Bancario o transferencia). Los datos se enviarán luego de ser llenado el formulario.
                             <br />
-                            2. Llene el formulario de <a className="planilla-link" href="https://docs.google.com/forms/d/1qmLqr-nswoNlPMv5mur-DeZux5MdfNBEyVA_Y7rqwxs/edit" target="_blank" rel="noopener noreferrer">"Planilla de Inscripción Academia Tecnikids - VE 2021"</a>. Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.
+                            2. Llene el formulario de <a className="planilla-link" href="https://docs.google.com/forms/d/1qmLqr-nswoNlPMv5mur-DeZux5MdfNBEyVA_Y7rqwxs/edit" target="_blank" rel="noreferrer">"Planilla de Inscripción Academia Tecnikids - VE 2021"</a>. Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.
                             <br />
                             3. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:atencionalclientetk@gmail.com">atencionalclientetk@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del estudiante. En el asunto debe colocar "Comprobante de pago" y el nombre del estudiante (OBLIGATORIO).
                             <br />
-                            4. Deberá leer y firmar la Planilla de Condiciones Generales para ser entregada en físico en su primer día de clases. <a className="planilla-link" href="https://drive.google.com/file/d/17HmPrca20N6_HxDUvxFQLKouMl2xn-nv/view?usp=sharing" target="_blank" rel="noopener noreferrer">(Descarga Aquí)</a>
+                            4. Deberá leer y firmar la Planilla de Condiciones Generales para ser entregada en físico en su primer día de clases. <a className="planilla-link" href="https://drive.google.com/file/d/17HmPrca20N6_HxDUvxFQLKouMl2xn-nv/view?usp=sharing" target="_blank" rel="noreferrer">(Descarga Aquí)</a>
                             <br />
                             5. En caso de que finalmente las restricciones no nos permitieran realizar las clases extracurriculares de modalidad presencial, se adaptará la modalidad a virtual hasta que se pueda volver a la presencialidad.
                         </p>
