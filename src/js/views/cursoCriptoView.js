@@ -52,7 +52,7 @@ export const CursoCriptoView = () => {
                 </div>
                 <div className="row my-5">
                     <div className="col-md-4 col-10 mx-auto">
-                        <a href="https://drive.google.com/file/d/1RpisBVXv-3qwnJ3Tlhiyatiw4ohhZalJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://drive.google.com/file/d/1RpisBVXv-3qwnJ3Tlhiyatiw4ohhZalJ/view?usp=sharing" target="_blank" rel="noreferrer" >
                             <img className="w-100" src="https://i.ibb.co/c12whNH/Curso-Intro-a-las-Cripto-4.png" alt="Botón" />
                         </a>
                     </div>
@@ -71,7 +71,7 @@ export const CursoCriptoView = () => {
                     <p className="text-center text-gray">
                         1. Realice el pago correspondiente a Tecnikids Venezuela (Depósito Bancario o transferencia). Los datos se enviarán luego de ser llenado el formulario.
                         <br />
-                        2. Llene el formulario de <a className="planilla-link" href="https://docs.google.com/forms/d/1nMumq2tj35nr2Thmkb5It89ytpIqY_r9pSX3vhiG1d4/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">"Planilla de Inscripción CursoINTROALASCRIPTO - Tecnikids VE 2021"</a>. Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.
+                        2. Llene el formulario de <a className="planilla-link" href="https://docs.google.com/forms/d/1nMumq2tj35nr2Thmkb5It89ytpIqY_r9pSX3vhiG1d4/viewform?edit_requested=true" target="_blank" rel="noreferrer">"Planilla de Inscripción CursoINTROALASCRIPTO - Tecnikids VE 2021"</a>. Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.
                         <br />
                         3. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:atencionalclientetk@gmail.com">atencionalclientetk@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del estudiante. En el asunto debe colocar "Comprobante de pago - CursoCriptomonedas" y el nombre del estudiante (OBLIGATORIO).
                     </p>
