@@ -20,6 +20,11 @@ import { PonteEnLineaView } from './views/programViews/ponteEnLineaView';
 import { BuckyView } from './views/programViews/buckyView';
 import { ArduinoView } from './views/programViews/arduinoView';
 import { F1View } from './views/programViews/f1View';
+import { rscClassificationView } from './views/rscClassificationView';
+import { arduinoRscView } from './views/rscClassificationViews/arduinoRscView';
+import { minorRscPrimaryView } from './views/rscClassificationViews/minorRscPrimaryView';
+import { seniorRscPrimaryView } from './views/rscClassificationViews/seniorRscPrimaryView';
+import { pythonRscView } from './views/rscClassificationViews/pythonRscView';
 
 export const Layout = () => {
 
@@ -45,6 +50,11 @@ export const Layout = () => {
                     <Route path="/bucky-view" component={BuckyView} />
                     <Route path="/arduino-view" component={ArduinoView} />
                     <Route path="/f1-view" component={F1View} />
+                    <Route path="/rsc-classification" component={rscClassificationView} />
+                    <Route path="/arduino-rsc-view" component={arduinoRscView} />
+                    <Route path="/minor-rsc-primary-view" component={minorRscPrimaryView} />
+                    <Route path="/senior-rsc-primary-view" component={seniorRscPrimaryView} />
+                    <Route path="/python-rsc-view" component={pythonRscView} />
                     <Route render={() => <h1>Not Found!</h1>} />
                 </Switch>
             </BrowserRouter>
