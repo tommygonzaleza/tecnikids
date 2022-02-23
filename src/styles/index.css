@@ -1,299 +1,360 @@
-
 /* General Styles */
-  * {
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    margin: 0px;
-  }
-  html {
-    overflow-x: hidden;
-  }
-  body {
-    padding: 0% !important;
-    height: 100% !important;
-    overflow-x: hidden;
-  }
-  .layout-styles {
-    height: 100vh !important;
-  }
-  .container-fluid {
-    padding: 0px !important;
-  }
-  .container {
-    padding: 0px !important;
-  }
-  .navbar {
-    padding: 0px !important;
-  }
-  .text-blue {
-      color: #114189;
-      font-weight: 700;
-  }
-  .bottom-border {
-    border-bottom: 3px solid #DDDDDD;
-  }
-  .blue-bottom-border {
-    border-bottom: 3px solid #114189;
-  }
-  h2 {
-    font-size: 36px !important;
-  }
-  h3 {
-    font-size: 56px;
-  }
-  h4 {
-    font-size: 32px !important;
-  }
-  h5 {
-    font-size: 28px !important;
-  }
-  h6 {
-    font-size: 24px !important;
-  }
-  p {
-    font-size: 20px;
-    padding: 0px !important;
-  }
-  .row {
-    padding: 0px !important;
-    width: 100%;
-  }
-  .separation-lines {
-    height: 5px;
-    width: 100%;
-  }
-  .f-right {
-    float: right !important;
-  }
-  .tc-white {
-    color: white;
-  }
-  .f-weigth-200 {
-    font-weight: 200;
-  }
-  .f-weigth-600 {
-    font-weight: 600;
-  }
-  .f-size-16 {
-    font-size: 16px;
-  }
-  .w-50 {
-    width: 50% !important;
-  }
-  .w-10 {
-    width: 10% !important;
-  }
-  .justify-text {
-    text-align: justify;
-  }
-  .center-text {
-    text-align: center;
-  }
-  .content-center {
-    justify-content: center;
-  }
-  .p-center {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .programs-center {
-    position: relative;
-    left: 50%;
-    transform: translate(-47%);
-  }
-  .p-left {
-    position: relative;
-    left: 50%;
-    transform: translate(-20%);
-  }
-  .text-gray {
-    color: #77777A;
-  }
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  padding: 0% !important;
+  height: 100% !important;
+  overflow-x: hidden;
+}
+.layout-styles {
+  height: 100vh !important;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.container {
+  padding: 0px !important;
+}
+.navbar {
+  padding: 0px !important;
+}
+.text-blue {
+  color: #114189;
+  font-weight: 700;
+}
+.bottom-border {
+  border-bottom: 3px solid #dddddd;
+}
+.blue-bottom-border {
+  border-bottom: 3px solid #114189;
+}
+h2 {
+  font-size: 36px !important;
+}
+h3 {
+  font-size: 56px;
+}
+h4 {
+  font-size: 32px !important;
+}
+h5 {
+  font-size: 28px !important;
+}
+h6 {
+  font-size: 24px !important;
+}
+p {
+  font-size: 20px;
+  padding: 0px !important;
+}
+.row {
+  padding: 0px !important;
+  width: 100%;
+}
+.separation-lines {
+  height: 5px;
+  width: 100%;
+}
+.f-right {
+  float: right !important;
+}
+.tc-white {
+  color: white;
+}
+.f-weigth-200 {
+  font-weight: 200;
+}
+.f-weigth-600 {
+  font-weight: 600;
+}
+.f-size-16 {
+  font-size: 16px;
+}
+.w-50 {
+  width: 50% !important;
+}
+.w-10 {
+  width: 10% !important;
+}
+.justify-text {
+  text-align: justify;
+}
+.center-text {
+  text-align: center;
+}
+.content-center {
+  justify-content: center;
+}
+.p-center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.programs-center {
+  position: relative;
+  left: 50%;
+  transform: translate(-47%);
+}
+.p-left {
+  position: relative;
+  left: 50%;
+  transform: translate(-20%);
+}
+.text-gray {
+  color: #77777a;
+}
 
 /* Navbar Styles. */
 
-  .my-navbar {
-    background-color: white;
-  }
-  .my-navbar-brand {
-    width: 40% !important;
-    margin: 1% 0% 1% 2%;
-  }
-  .my-navbar-logo {
-    width: 100% !important;
-  }
-  .my-navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 3%;
-    width: 80%;
-  }
+.my-navbar {
+  background-color: white;
+}
+.my-navbar-brand {
+  width: 40% !important;
+  margin: 1% 0% 1% 2%;
+}
+.my-navbar-logo {
+  width: 100% !important;
+}
+.my-navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3%;
+  width: 80%;
+}
 
 /* Carousel Styles. */
 
-  .my-carousel-image {
-    height: 50% !important;
+.my-carousel-image {
+  height: 50% !important;
+}
+@media (min-width: 300px) {
+  .carousel-caption h3 {
+    font-size: 1rem;
   }
-  @media (min-width: 300px) {
-    .carousel-caption h3 {
-      font-size: 1rem;
-    }
-    .carousel-caption p {
-      font-size: 0.7rem;
-    }  
+  .carousel-caption p {
+    font-size: 0.7rem;
   }
-  @media (min-width: 768px) {
-    .carousel-caption h3 {
-      font-size: 1.2rem;
-    }
-    .carousel-caption p {
-      font-size: 1rem;
-    } 
+}
+@media (min-width: 768px) {
+  .carousel-caption h3 {
+    font-size: 1.2rem;
   }
-  @media (min-width: 992px) {
-    .carousel-caption h3 {
-      font-size: 1.3rem;
-    }
-    .carousel-caption p {
-      font-size: 1.1rem;
-    }  
+  .carousel-caption p {
+    font-size: 1rem;
   }
-  @media (min-width: 1200px) {
-    .carousel-caption h3 {
-      font-size: 2.5rem;
-    }
-    .carousel-caption p {
-      font-size: 1.2rem;
-    }  
+}
+@media (min-width: 992px) {
+  .carousel-caption h3 {
+    font-size: 1.3rem;
   }
+  .carousel-caption p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-caption h3 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+}
 
 /* Stadistics Styles. */
 
-  .stadistics {
-    background-color: #3D67A0;
-    justify-content: center;
-  }
-  .stadistics-icon {
-    color: white;
-  }
-  .stadistics-title {
-    color: white;
-    font-size: 4rem;
-    text-align: center !important;
-  }
-  .stadistics-text {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-  }
+.stadistics {
+  background-color: #3d67a0;
+  justify-content: center;
+}
+.stadistics-icon {
+  color: white;
+}
+.stadistics-title {
+  color: white;
+  font-size: 4rem;
+  text-align: center !important;
+}
+.stadistics-text {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
 
 /* Programs Styles */
 
-  .programs-text {
-    display: inline-block;
-    justify-content: center;
-    margin-right: 0 !important;
-  }
-  .programs-logo {
-    width: 20%;
-    height: 15%;
-    float: right;
-  }
-  .programs-button {
-    position: relative;
-    left: 10%;
-    transform: translate(-20%);
-  }
+.programs-text {
+  display: inline-block;
+  justify-content: center;
+  margin-right: 0 !important;
+}
+.programs-logo {
+  width: 20%;
+  height: 15%;
+  float: right;
+}
+.programs-button {
+  position: relative;
+  left: 10%;
+  transform: translate(-20%);
+}
 
 /* Courses Styles */
 
-  .courses-title {
-    float: right;
-  }
-  .courses-text {
-    justify-content: center;
-    margin-left: 0 !important;
-    float: right;
-  }
-  .courses-logo {
-    width: 20%;
-    height: 12%;
-    display: inline-block;
-  }
-  .courses-button {
-    position: relative;
-    left: 65%;
-    transform: translate(-80%);
-  }
-  
+.courses-title {
+  float: right;
+}
+.courses-text {
+  justify-content: center;
+  margin-left: 0 !important;
+  float: right;
+}
+.courses-logo {
+  width: 20%;
+  height: 12%;
+  display: inline-block;
+}
+.courses-button {
+  position: relative;
+  left: 65%;
+  transform: translate(-80%);
+}
+
 /* Aliados Styles */
 
-  .aliados-row {
-    height: 20%;
-  }
-  .aliado-logo {
-    width: 20%;
-    height: 15%;
-  }
+.aliados-row {
+  height: 20%;
+}
+.aliado-logo {
+  width: 20%;
+  height: 15%;
+}
 
 /* MyFooter Styles */
 
-  .my-footer {
-    background-color: #3D67A0;
-  }
-  .my-footer-logo {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .my-footer-title {
-    justify-content: center;
-  }
-  .my-footer-link {
-    color: white;
-    padding: 0px !important;
-    transition: color 1s;
-  }
-  .my-footer-link:hover {
-    color: #FDD000;
-    text-decoration: none;
-  }
-  .my-footer-sm {
-    position: relative;
-    left: 27%;
-    transform: translate(-50%);
-  }
-  .my-footer-sm-logo {
-    width: 20% !important;
-  }
+.my-footer {
+  background-color: #3d67a0;
+}
+.my-footer-logo {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.my-footer-title {
+  justify-content: center;
+}
+.my-footer-link {
+  color: white;
+  padding: 0px !important;
+  transition: color 1s;
+}
+.my-footer-link:hover {
+  color: #fdd000;
+  text-decoration: none;
+}
+.my-footer-sm {
+  position: relative;
+  left: 27%;
+  transform: translate(-50%);
+}
+.my-footer-sm-logo {
+  width: 20% !important;
+}
 
 /* Company View Styles */
 
-  .company-logo {
-    height: 25%;
-  }
+.company-logo {
+  height: 25%;
+}
 
-  /* Plan Vacacional Styles */
+/* Plan Vacacional Styles */
 
-  .planilla-link {
-    color: #114189;;
-    padding: 0px !important;
-    transition: color 1s;
-  }
-  .planilla-link:hover {
-    color: #FDD000;
-    text-decoration: none;
+.planilla-link {
+  color: #114189;
+  padding: 0px !important;
+  transition: color 1s;
+}
+.planilla-link:hover {
+  color: #fdd000;
+  text-decoration: none;
+}
+.preventa {
+  border-right: 2px solid #dddddd;
+}
+@media (max-width: 768px) {
+  .plan-vacacional-img {
+    height: 50%;
   }
   .preventa {
-      border-right: 2px solid #DDDDDD;
+    border: none;
+    margin-left: 8px;
   }
-  @media (max-width: 768px) {
-    .plan-vacacional-img {
-        height: 50%;
-    }
-    .preventa {
-      border: none;
-      margin-left: 8px;
-    }
+}
+
+/* Font Type Neuropol-X-Rg headings */
+@font-face {
+  font-family: "Neuropol-X-Rg";
+  src: local("Neuropol-X-Rg"), url("./fonts/Neuropol-X-Rg.ttf");
+}
+
+.font-face-nxrg {
+  font-family: "Neuropol-X-Rg";
+}
+.headingText{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.headerText {
+  font-size: 1.5rem !important;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .headingText {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
   }
+  .headerText {
+    font-size: 2rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .headingText {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .headerText {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .headingText {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .headerText {
+    font-size: 3rem !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .headingText {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
