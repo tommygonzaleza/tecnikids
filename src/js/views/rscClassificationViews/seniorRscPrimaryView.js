@@ -49,7 +49,7 @@ export const seniorRscPrimaryView = () => {
 
                             <h1 className="font-face-nxrg headerText" style={{ color: "#002C56" }}>¡PARTICIPA Y FORMA PARTE DE ESTA GRAN EXPERIENCIA!</h1>
 
-                            <a href="https://forms.gle/Zkx7rNqAU7jobcXY9" rel="noopener noreferrer"><img src="https://i.ibb.co/L5WP9RM/Boton-5.png" width="400px" className="img-fluid" alt="Inscríbete" /></a>
+                            <a href="https://forms.gle/Zkx7rNqAU7jobcXY9" target="_blank" rel="noopener noreferrer"><img src="https://i.ibb.co/L5WP9RM/Boton-5.png" width="400px" className="img-fluid" alt="Inscríbete" /></a>
                         </div>
                     </div>
                 </div>

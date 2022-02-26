@@ -59,26 +59,26 @@ export const rscClassificationView = () => {
             <div className="text-center mb-5">
                 <div className="row justify-content-center">
                     <div className="col-sm-10 col-md-6">
-                        <Link to="/minor-rsc-primary-view">
+                        <a href="/minor-rsc-primary-view">
                             <img src="https://i.ibb.co/bWhK06Y/Boton-1.png" className="card-img-top" alt="Primaria Menor" />
-                        </Link>
+                        </a>
                     </div>
                     <div className="col-sm-10 col-md-6">
-                        <Link to="/senior-rsc-primary-view">
+                        <a href="/senior-rsc-primary-view">
                             <img src="https://i.ibb.co/HntNnc5/Boton-2.png" className="card-img-top" alt="Primaria Mayor" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-sm-10 col-md-6">
-                    <Link to="/arduino-rsc-view">
+                    <a href="/arduino-rsc-view">
                         <img src="https://i.ibb.co/P5zsFPf/Boton-3.png" className="card-img-top" alt="Bachillerato Arduino" />
-                        </Link>
+                        </a>
                         </div>
                     <div className="col-sm-10 col-md-6">
-                    <Link to="/python-rsc-view">
+                    <a href="/python-rsc-view">
                         <img src="https://i.ibb.co/pW41HVC/Boton-4.png" className="card-img-top" alt="Bachillerato Python" />
-                        </Link>
+                        </a>
                         </div>
                 </div>
             </div>
