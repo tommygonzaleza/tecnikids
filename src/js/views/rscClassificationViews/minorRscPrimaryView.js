@@ -2,8 +2,7 @@ import React from "react";
 import { SeparationLines } from "../../components/SeparationLines";
 
 
-export const minorRscPrimaryView = () => {
-
+export const MinorRscPrimaryView = () => {
 
     return (
         <>
