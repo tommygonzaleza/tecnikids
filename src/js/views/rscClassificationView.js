@@ -59,9 +59,9 @@ export const rscClassificationView = () => {
             <div className="text-center mb-5">
                 <div className="row justify-content-center">
                     <div className="col-sm-10 col-md-6">
-                        <a href="/minor-rsc-primary-view">
+                        <Link to="/minor-rsc-primary-view">
                             <img src="https://i.ibb.co/bWhK06Y/Boton-1.png" className="card-img-top" alt="Primaria Menor" />
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-sm-10 col-md-6">
                         <a href="/senior-rsc-primary-view">
