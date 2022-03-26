@@ -97,7 +97,6 @@ export const rscClassificationView = () => {
 
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/DkrjZVP/Clasificatoria-22.png" className="card-img-top" alt="..." /></div>
-                    <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/B26Lc75/Clasificatoria-23.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="..." /></div>
                 
