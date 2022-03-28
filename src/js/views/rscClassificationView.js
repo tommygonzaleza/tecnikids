@@ -41,7 +41,7 @@ export const rscClassificationView = () => {
                 <p>El proceso estará conformado por tres fases que se describen a continuación:
 
                     <br /><br />
-                    <b>Fase 1:</b> Clasificatoria. Inicia el <b><i style={{ color: "#002C56" }}>4 de marzo y culmina el  18 de marzo</i></b>.
+                    <b>Fase 1:</b> Clasificatoria. Inicia el <b><i style={{ color: "#002C56" }}>4 de marzo y culmina el 1 de Abril</i></b>.
                     <br /><br />
                     <b>Fase 2:</b> Selección de estudiantes clasificados por colegios.
                     <br /><br />
