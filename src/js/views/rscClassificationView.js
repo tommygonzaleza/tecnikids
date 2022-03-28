@@ -45,7 +45,7 @@ export const rscClassificationView = () => {
                     <br /><br />
                     <b>Fase 2:</b> Selección de estudiantes clasificados por colegios.
                     <br /><br />
-                    El equipo de Tecnikids Venezuela escogerá tres estudiantes destacados por etapa y colegio, quienes integrarán los equipos que asistirán al RSC. Los resultados serán publicados el día 4 de abril.
+                    El equipo de Tecnikids Venezuela escogerá tres estudiantes destacados por etapa y colegio, quienes integrarán los equipos que asistirán al RSC. Los resultados serán publicados el día 22 de abril.
                     <br /><br />
                     <b>Fase 3:</b> Preparación previa al RSC (Robotics Science Competition)
                     <br /><br />
@@ -97,7 +97,6 @@ export const rscClassificationView = () => {
 
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/DkrjZVP/Clasificatoria-22.png" className="card-img-top" alt="..." /></div>
-                    <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/B26Lc75/Clasificatoria-23.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="..." /></div>
                 
