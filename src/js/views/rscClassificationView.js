@@ -103,13 +103,16 @@ export const rscClassificationView = () => {
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/BzXwzz8/Clasificatoria-26.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/G54GWW4/Clasificatoria-27.png" className="card-img-top" alt="..." /></div>
                     <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/2jP2hB8/Clasificatoria-28.png" className="card-img-top" alt="..." /></div>
-                
+                    <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.imgur.com/vm07313.png" className="card-img-top" alt="..." /></div>
+
+                    
                 </div>
             </div>
             <hr style={{ border: "none", height: "2px", background: "#002C56" }} />
 
             <div className="row mx-auto justify-content-center">
                 <img src="https://i.ibb.co/sC7KHp3/imagen-RSC.png" style={{width: "990px"}} className="img-fluid" alt="Robotic Science Competition"/>
+                <a href="/rsc-resultados"><img src="https://i.imgur.com/GMuW1Oz.png" style={{width: "990px"}} className="img-fluid mt-5" alt="Resultados clasificatoria"/></a>
                 <p className="text-center mt-5">
                     <b>Para más información puedes contactarnos:</b>
                     <br />
