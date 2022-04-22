@@ -27,7 +27,7 @@ export const rscResultsView = () => {
                 </div>
                 <div className="row mt-5 mb-5 pl-3 pl-md-0">
                     <div className="col-12">
-                        <p>Selecciona tu institución para conocer a los estudiantes clasificados que nos acompañarán el póximo 21 de Mayo en el Colegio Los Arcos</p>
+                        <p>Selecciona tu institución para conocer a los estudiantes clasificados que nos acompañarán el próximo 21 de Mayo en el Colegio Los Arcos</p>
                     </div>
                 </div>
                 <div className="mt-5">
@@ -36,7 +36,7 @@ export const rscResultsView = () => {
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/RbPZBxh/SBI-clasificados.png" target="_blank"> <img src="https://i.ibb.co/tHxTR3W/Clasificatoria-17.png" className="card-img-top" alt="COLEGIO SIMÓN BOLÍVAR I" /></a><p className="text-center">COLEGIO SIMÓN BOLÍVAR I</p></div>
                         
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/bBPTkGM/SBII-clasificados.png" target="_blank"> <img src="https://i.ibb.co/tHxTR3W/Clasificatoria-17.png" className="card-img-top" alt="COLEGIO SIMÓN BOLÍVAR II" /></a><p className="text-center">COLEGIO SIMÓN BOLÍVAR II</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/gtjvh6V/SBII-clasificados.png" target="_blank"> <img src="https://i.ibb.co/tHxTR3W/Clasificatoria-17.png" className="card-img-top" alt="COLEGIO SIMÓN BOLÍVAR II" /></a><p className="text-center">COLEGIO SIMÓN BOLÍVAR II</p></div>
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/t3VTJcZ/Roraima-clasificados.png" target="_blank"> <img src="https://i.ibb.co/N31gbLc/Clasificatoria-18.png" className="card-img-top" alt="COLEGIO RORAIMA" /></a><p className="text-center">COLEGIO<br />RORAIMA</p></div>
                         
@@ -57,7 +57,7 @@ export const rscResultsView = () => {
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/0yZgWnk/Stepbystep-clasificados.png" target="_blank"> <img src="https://i.ibb.co/G54GWW4/Clasificatoria-27.png" className="card-img-top" alt="PRE ESCOLAR STEP BY STEP" /></a><p className="text-center">PRE ESCOLAR STEP BY STEP</p></div>
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/Y7pNmcV/Superatec-clasificados.png" target="_blank"> <img src="https://i.ibb.co/2jP2hB8/Clasificatoria-28.png" className="card-img-top" alt="SUPERATEC" /></a><p className="text-center">SUPERATEC</p></div>
                         
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/m00VxB4/Alimentalasolidaridad-clasificados.png" target="_blank"> <img src="https://i.imgur.com/vm07313.png" className="card-img-top" alt="ALIMENTA LA SOLIDARIA" /></a><p className="text-center">ALIMENTA LA SOLIDARIA</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/m00VxB4/Alimentalasolidaridad-clasificados.png" target="_blank"> <img src="https://i.imgur.com/vm07313.png" className="card-img-top" alt="Alimenta la Solidaridad" /></a><p className="text-center">Alimenta la Solidaridad</p></div>
 
 
                     </div>
@@ -80,6 +80,17 @@ export const rscResultsView = () => {
 
                         <p style={{ color: "#10418a" }}>Aunque no seas competidor, te invitamos a asistir y disfrutar de la experiencia Tecnikids. Compra tu entrada en la sección “Entrada general” a través del siguiente link: <a href="https://tecnikids.winktienda.com" target="_blank">https://tecnikids.winktienda.com</a></p>
                     </div>
+                </div>
+
+                <div className="row mt-5 justify-content-end">
+                    <p className="text-right">
+                        <h3><b>¡GRACIAS POR PARTICIPAR Y FORMAR PARTE DE ESTA EXPERIENCIA!</b></h3>
+                        <b>Para más información puedes contactarnos:</b>
+                        <br />
+                        <a href="tel:+58-412-207-0246">+58 412 207 0246</a>
+                        <br />
+                        <a href="mailto:atencionalclientetk@gmail.com">atencionalclientetk@gmail.com</a>
+                    </p>
                 </div>
             </div>
         </>
