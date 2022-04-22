@@ -84,7 +84,8 @@ export const rscResultsView = () => {
 
                 <div className="row mt-5 justify-content-end">
                     <p className="text-right">
-                        <h3><b>¡GRACIAS POR PARTICIPAR Y FORMAR PARTE DE ESTA EXPERIENCIA!</b></h3>
+                        <span className="myh3">¡GRACIAS POR PARTICIPAR Y FORMAR PARTE DE ESTA EXPERIENCIA!</span>
+                        <br/>
                         <b>Para más información puedes contactarnos:</b>
                         <br />
                         <a href="tel:+58-412-207-0246">+58 412 207 0246</a>
