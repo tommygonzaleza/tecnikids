@@ -48,7 +48,7 @@ export const rscResultsView = () => {
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/t3W8fRL/Italo-clasificados.png" target="_blank"> <img src="https://i.ibb.co/DkrjZVP/Clasificatoria-22.png" className="card-img-top" alt="COLEGIO ANGELO DI MARTA" /></a><p className="text-center">COLEGIO ANGELO DI MARTA</p></div>
                        
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/XtRGc66/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/PMzd91v/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="PRE ESCOLAR PUKI PUKI" /><p className="text-center">PRE ESCOLAR PUKI PUKI</p></div>
 
