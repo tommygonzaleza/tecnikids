@@ -12,25 +12,18 @@ export const MyCarousel = () => {
                         alt="Clasificados"
                     />
                     <Carousel.Caption className="carousel-caption">
-                        {/* <h3>¡PRIMER TORNEO INTERCOLEGIAL DE ROBÓTICA!</h3>
-                        <p>
-                            PARTICIPA Y FORMA PARTE DE ESTA GRAN EXPERIENCIA
-                        </p> */}
                         <a href="/rsc-resultados" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
                     <img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.imgur.com/mUTyvZd.png"
+                        src="https://i.ibb.co/4ggznnW/primer-torneo-robotica.png"
                         alt="First slide"
                     />
                     <Carousel.Caption className="carousel-caption">
-                        <h3>¡PRIMER TORNEO INTERCOLEGIAL DE ROBÓTICA!</h3>
-                        <p>
-                            PARTICIPA Y FORMA PARTE DE ESTA GRAN EXPERIENCIA
-                        </p>
-                        <a href="/rsc-classification" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
+                        
+                        <a href="https://tecnikids.winktienda.com/" target="_blank"><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
