@@ -72,7 +72,7 @@ export const rscResultsView = () => {
                             El costo de la entrada general para no competidores será de 20$.</p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}>2. Lee con atención</h1> <p>el Manual de competidor RSC para conocer todos los detalles:
 
-                            Link: <a href="https://drive.google.com/file/d/1qd7Ikq2Of-vg8iLoAXeQNc5tDC6fqNQ3/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1qd7Ikq2Of-vg8iLoAXeQNc5tDC6fqNQ3/view?usp=sharing</a></p>
+                            Link: <a href="https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view" target="_blank">https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view</a></p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}> 3. Asiste</h1> <p>de manera obligatoria a las capacitaciones correspondientes a tu etapa en la competencia. En el caso de no poder participar en alguna de las fechas, debe ser notificado con tiempo de anticipación:</p>
                         <img src="https://i.imgur.com/4uSNOgm.png" className="card-img-top" />
                         
