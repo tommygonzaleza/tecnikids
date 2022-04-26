@@ -52,7 +52,7 @@ export const rscResultsView = () => {
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="PRE ESCOLAR PUKI PUKI" /><p className="text-center">PRE ESCOLAR PUKI PUKI</p></div>
 
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/BzXwzz8/Clasificatoria-26.png" className="card-img-top" alt="PRE ESCOLAR LOS PINITOS" /><p className="text-center">PRE ESCOLAR LOS PINITOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/K7n2DNk/Los-Pinitos-clasificados.png" target="_blank"><img src="https://i.ibb.co/BzXwzz8/Clasificatoria-26.png" className="card-img-top" alt="PRE ESCOLAR LOS PINITOS" /></a><p className="text-center">PRE ESCOLAR LOS PINITOS</p></div>
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/0yZgWnk/Stepbystep-clasificados.png" target="_blank"> <img src="https://i.ibb.co/G54GWW4/Clasificatoria-27.png" className="card-img-top" alt="PRE ESCOLAR STEP BY STEP" /></a><p className="text-center">PRE ESCOLAR STEP BY STEP</p></div>
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/Y7pNmcV/Superatec-clasificados.png" target="_blank"> <img src="https://i.ibb.co/2jP2hB8/Clasificatoria-28.png" className="card-img-top" alt="SUPERATEC" /></a><p className="text-center">SUPERATEC</p></div>
@@ -72,7 +72,7 @@ export const rscResultsView = () => {
                             El costo de la entrada general para no competidores será de 20$.</p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}>2. Lee con atención</h1> <p>el Manual de competidor RSC para conocer todos los detalles:
 
-                            Link: <a href="https://drive.google.com/file/d/1qd7Ikq2Of-vg8iLoAXeQNc5tDC6fqNQ3/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1qd7Ikq2Of-vg8iLoAXeQNc5tDC6fqNQ3/view?usp=sharing</a></p>
+                            Link: <a href="https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view" target="_blank">https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view</a></p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}> 3. Asiste</h1> <p>de manera obligatoria a las capacitaciones correspondientes a tu etapa en la competencia. En el caso de no poder participar en alguna de las fechas, debe ser notificado con tiempo de anticipación:</p>
                         <img src="https://i.imgur.com/4uSNOgm.png" className="card-img-top" />
                         
