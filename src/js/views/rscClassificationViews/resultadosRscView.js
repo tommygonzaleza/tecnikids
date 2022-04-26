@@ -52,7 +52,7 @@ export const rscResultsView = () => {
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="PRE ESCOLAR PUKI PUKI" /><p className="text-center">PRE ESCOLAR PUKI PUKI</p></div>
 
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/BzXwzz8/Clasificatoria-26.png" className="card-img-top" alt="PRE ESCOLAR LOS PINITOS" /><p className="text-center">PRE ESCOLAR LOS PINITOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/K7n2DNk/Los-Pinitos-clasificados.png" target="_blank"><img src="https://i.ibb.co/BzXwzz8/Clasificatoria-26.png" className="card-img-top" alt="PRE ESCOLAR LOS PINITOS" /></a><p className="text-center">PRE ESCOLAR LOS PINITOS</p></div>
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/0yZgWnk/Stepbystep-clasificados.png" target="_blank"> <img src="https://i.ibb.co/G54GWW4/Clasificatoria-27.png" className="card-img-top" alt="PRE ESCOLAR STEP BY STEP" /></a><p className="text-center">PRE ESCOLAR STEP BY STEP</p></div>
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/Y7pNmcV/Superatec-clasificados.png" target="_blank"> <img src="https://i.ibb.co/2jP2hB8/Clasificatoria-28.png" className="card-img-top" alt="SUPERATEC" /></a><p className="text-center">SUPERATEC</p></div>
