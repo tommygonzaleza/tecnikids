@@ -32,7 +32,7 @@ export const rscResultsView = () => {
                 </div>
                 <div className="mt-5">
                     <div className="row mb-3">
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/QmySNdX/losarcos-clasificados.png" target="_blank"><img src="https://i.ibb.co/RjgxbmR/Clasificatoria-16.png" className="card-img-top" alt="Colegio Los Arcos" /></a><p className="text-center">COLEGIO <br />LOS ARCOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/BK7hpS8/losarcos-clasificados.png" target="_blank"><img src="https://i.ibb.co/RjgxbmR/Clasificatoria-16.png" className="card-img-top" alt="Colegio Los Arcos" /></a><p className="text-center">COLEGIO <br />LOS ARCOS</p></div>
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/RbPZBxh/SBI-clasificados.png" target="_blank"> <img src="https://i.ibb.co/tHxTR3W/Clasificatoria-17.png" className="card-img-top" alt="COLEGIO SIMÓN BOLÍVAR I" /></a><p className="text-center">COLEGIO SIMÓN BOLÍVAR I</p></div>
                         
@@ -44,11 +44,11 @@ export const rscResultsView = () => {
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/hWsykpZ/San-Agustin-clasificados.png" target="_blank"> <img src="https://i.ibb.co/ZhDshXW/Clasificatoria-20.png" className="card-img-top" alt="COLEGIO SAN AGUSTÍN DEL PARAÍSO" /></a><p className="text-center">COLEGIO SAN AGUSTÍN DEL PARAÍSO</p></div>
 
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://drive.google.com/file/d/1zbhbIOqXmtM1ss_obVefyIkT0Q9XHais/view?usp=sharing" target="_blank"><img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="ACADEMIA MERICI" /></a><p className="text-center">ACADEMIA MERICI</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/PTdS1Sk/Merici-clasificados.png" target="_blank"><img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="ACADEMIA MERICI" /></a><p className="text-center">ACADEMIA MERICI</p></div>
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/t3W8fRL/Italo-clasificados.png" target="_blank"> <img src="https://i.ibb.co/DkrjZVP/Clasificatoria-22.png" className="card-img-top" alt="COLEGIO ANGELO DI MARTA" /></a><p className="text-center">COLEGIO ANGELO DI MARTA</p></div>
                        
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/PMzd91v/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/gjXv8rn/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="PRE ESCOLAR PUKI PUKI" /><p className="text-center">PRE ESCOLAR PUKI PUKI</p></div>
 
@@ -72,9 +72,10 @@ export const rscResultsView = () => {
                             El costo de la entrada general para no competidores será de 20$.</p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}>2. Lee con atención</h1> <p>el Manual de competidor RSC para conocer todos los detalles:
 
-                            Link: <a href="https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view" target="_blank">https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view</a></p>
+                            Link: <a href="https://drive.google.com/file/d/1d5u3NeDcroMVuozR4F1Z28AuveSzCPy4/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1d5u3NeDcroMVuozR4F1Z28AuveSzCPy4/view?usp=sharing
+                            </a></p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}> 3. Asiste</h1> <p>de manera obligatoria a las capacitaciones correspondientes a tu etapa en la competencia. En el caso de no poder participar en alguna de las fechas, debe ser notificado con tiempo de anticipación:</p>
-                        <img src="https://i.imgur.com/4uSNOgm.png" className="card-img-top" />
+                        <img src="https://i.ibb.co/SRLqZy7/Cronograma-actividades.png" alt="Cronograma Actividades" className="card-img-top" />
                         
                         <h1 className="font-face-nxrg text-center" style={{ color: "#10418a" }}>¡Apoya a tu colegio!</h1>
 
