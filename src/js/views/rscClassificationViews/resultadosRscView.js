@@ -74,7 +74,7 @@ export const rscResultsView = () => {
 
                             Link: <a href="https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view" target="_blank">https://drive.google.com/file/d/1Dp7WBPYUrOkY-wkW3p8nyVFA7RPn_V8a/view</a></p>
                         <h1 className="font-face-nxrg" style={{ color: "#10418a" }}> 3. Asiste</h1> <p>de manera obligatoria a las capacitaciones correspondientes a tu etapa en la competencia. En el caso de no poder participar en alguna de las fechas, debe ser notificado con tiempo de anticipación:</p>
-                        <img src="https://i.imgur.com/4uSNOgm.png" className="card-img-top" />
+                        <img src="https://i.ibb.co/SRLqZy7/Cronograma-actividades.png" alt="Cronograma Actividades" className="card-img-top" />
                         
                         <h1 className="font-face-nxrg text-center" style={{ color: "#10418a" }}>¡Apoya a tu colegio!</h1>
 
