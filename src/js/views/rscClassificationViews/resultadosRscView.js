@@ -32,7 +32,7 @@ export const rscResultsView = () => {
                 </div>
                 <div className="mt-5">
                     <div className="row mb-3">
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/QmySNdX/losarcos-clasificados.png" target="_blank"><img src="https://i.ibb.co/RjgxbmR/Clasificatoria-16.png" className="card-img-top" alt="Colegio Los Arcos" /></a><p className="text-center">COLEGIO <br />LOS ARCOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/BK7hpS8/losarcos-clasificados.png" target="_blank"><img src="https://i.ibb.co/RjgxbmR/Clasificatoria-16.png" className="card-img-top" alt="Colegio Los Arcos" /></a><p className="text-center">COLEGIO <br />LOS ARCOS</p></div>
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/RbPZBxh/SBI-clasificados.png" target="_blank"> <img src="https://i.ibb.co/tHxTR3W/Clasificatoria-17.png" className="card-img-top" alt="COLEGIO SIMÓN BOLÍVAR I" /></a><p className="text-center">COLEGIO SIMÓN BOLÍVAR I</p></div>
                         
@@ -44,11 +44,11 @@ export const rscResultsView = () => {
                         
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/hWsykpZ/San-Agustin-clasificados.png" target="_blank"> <img src="https://i.ibb.co/ZhDshXW/Clasificatoria-20.png" className="card-img-top" alt="COLEGIO SAN AGUSTÍN DEL PARAÍSO" /></a><p className="text-center">COLEGIO SAN AGUSTÍN DEL PARAÍSO</p></div>
 
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://drive.google.com/file/d/1zbhbIOqXmtM1ss_obVefyIkT0Q9XHais/view?usp=sharing" target="_blank"><img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="ACADEMIA MERICI" /></a><p className="text-center">ACADEMIA MERICI</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"><a href="https://i.ibb.co/PTdS1Sk/Merici-clasificados.png" target="_blank"><img src="https://i.ibb.co/Tkfwfwk/Clasificatoria-21.png" className="card-img-top" alt="ACADEMIA MERICI" /></a><p className="text-center">ACADEMIA MERICI</p></div>
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/t3W8fRL/Italo-clasificados.png" target="_blank"> <img src="https://i.ibb.co/DkrjZVP/Clasificatoria-22.png" className="card-img-top" alt="COLEGIO ANGELO DI MARTA" /></a><p className="text-center">COLEGIO ANGELO DI MARTA</p></div>
                        
-                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/PMzd91v/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
+                        <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <a href="https://i.ibb.co/gjXv8rn/loscampitos-clasificados.png" target="_blank"> <img src="https://i.ibb.co/QkZ0pCG/Clasificatoria-24.png" className="card-img-top" alt="COLEGIO LOS CAMPITOS" /></a><p className="text-center">COLEGIO LOS CAMPITOS</p></div>
                        
                         <div className="col-4 col-md-3 col-sm-6 col-xl-3 mb-2"> <img src="https://i.ibb.co/kXtn5f3/Clasificatoria-25.png" className="card-img-top" alt="PRE ESCOLAR PUKI PUKI" /><p className="text-center">PRE ESCOLAR PUKI PUKI</p></div>
 
