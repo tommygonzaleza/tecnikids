@@ -45,6 +45,35 @@ export const planVacacional = () => {
                                     alt="Plan Vacacional"
                                 />
                             </Carousel.Item>
+                            <Carousel.Item className="my-carousel-item">
+                                <img
+                                    className="my-carousel-image d-block w-100"
+                                    src="https://i.ibb.co/jwkZcYb/carousel-image.png"
+                                    alt="Plan Vacacional"
+                                />
+                                
+                            </Carousel.Item>
+                            <Carousel.Item className="my-carousel-item">
+                                <img
+                                    className="my-carousel-image d-block w-100"
+                                    src="https://i.ibb.co/RvxYq3j/carousel-image-2.png"
+                                    alt="Plan Vacacional"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item className="my-carousel-item">
+                                <img
+                                    className="my-carousel-image d-block w-100"
+                                    src="https://i.ibb.co/FqZG8QW/carousel-image-3.png"
+                                    alt="Plan Vacacional"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item className="my-carousel-item">
+                                <img
+                                    className="my-carousel-image d-block w-100"
+                                    src="https://i.ibb.co/hLp8LkP/carouse-image-4.png"
+                                    alt="Plan Vacacional"
+                                />
+                            </Carousel.Item>
                         </Carousel>
                     </div>
                 </div>
@@ -66,7 +95,7 @@ export const planVacacional = () => {
                     </div>
                     <div className="col-lg-6 col-xl-6 mb-2">
                         <img src="https://i.ibb.co/z7MMQkY/IMG-4151-1.jpg" width="100%" />
-                        <p className="font-weight-bold" style={{ color: "#10418a" }}>Armando Knex</p>
+                        <p className="font-weight-bold" style={{ color: "#10418a" }}>Armados K'Nex</p>
                     </div>
                     <div className="col-lg-6 col-xl-6 mb-2">
                         <img src="https://i.ibb.co/ctHtMGH/951cf775-aad1-4071-86da-293655622968-copia.jpg" width="100%" />
@@ -81,7 +110,7 @@ export const planVacacional = () => {
                         <p className="font-weight-bold" style={{ color: "#10418a" }}>Impresiones en 3D</p>
                     </div>
                     <div className="col-lg-6 col-xl-6 mb-2">
-                        <img src="https://i.ibb.co/d4wrFXj/f6901ca6-6a77-4eee-8eeb-c89990c93631-copia.jpg" width="100%" />
+                        <img src="https://i.ibb.co/5x2nRdp/Sin-t-tulo-1.jpg" width="100%" />
                         <p className="font-weight-bold" style={{ color: "#10418a" }}>Actividades recreativas y más sorpresas!</p>
                     </div>
                 </div>
