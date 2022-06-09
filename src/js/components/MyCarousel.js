@@ -5,57 +5,48 @@ export const MyCarousel = () => {
     return (
         <div className="container-fluid">
             <Carousel className="my-carousel">
-            <Carousel.Item className="my-carousel-item">
+                <Carousel.Item className="my-carousel-item">
                     <img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.imgur.com/13FMJfS.jpg"
-                        alt="Clasificados"
+                        src="https://i.ibb.co/gybHYyw/Banner-Web-1.png"
+                        alt="¡Innovando la educación en Venezuela!"
                     />
-                    <Carousel.Caption className="carousel-caption">
-                        <a href="/rsc-resultados" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
-                    </Carousel.Caption>
+
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
                     <img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/4ggznnW/primer-torneo-robotica.png"
-                        alt="First slide"
+                        src="https://i.ibb.co/RNP9mnY/Banner-Web-2.png"
+                        alt="Ofrecemos Porgramas Educativos"
                     />
-                    <Carousel.Caption className="carousel-caption">
-                        
-                        <a href="https://tecnikids.winktienda.com/" target="_blank"><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
-                    </Carousel.Caption>
+
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
-                    <img
+                    <a href="/rsc-resultados"><img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/QpnRSKS/carousel-1.jpg"
-                        alt="Second slide"
-                    />
-                    <Carousel.Caption className="carousel-caption">
-                        <h3>¡Innovamos la educación en Venezuela!</h3>
-                        <p>
-                            Ofrecemos programas educativos para colegios y preescolares en materias de
-                            robótica, programación y tecnología con el sueño de preparar a la generación
-                            del futuro.
-                        </p>
-                        <a href="/programs-view" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
-                    </Carousel.Caption>
+                        src="https://i.ibb.co/bFWWGLd/Banner-Web-3.png"
+                        alt="Torneo de Robótica"
+                    /> </a>
+
+
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
-                    <img
+                    <a href="/courses-view"><img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/yNWSyHQ/carousel-2.png"
-                        alt="Third slide"
-                    />
-                    <Carousel.Caption className="carousel-caption">
-                        <h3>¡Entérate de nuestros cursos online!</h3>
-                        <p>
-                            Ofrecemos los mejores cursos del mercado en las áreas de inglés, programación
-                            y robótica.
-                        </p>
-                        <a href="/courses-view" ><img src="https://i.ibb.co/v4dmnf2/button.png" className="col-7 col-md-4" alt="Button" /></a>
-                    </Carousel.Caption>
+                        src="https://i.ibb.co/P4vzYnC/Banner-Web-4.png"
+                        alt="Cursos Online"
+                    /> </a>
+
+
+                </Carousel.Item>
+                <Carousel.Item className="my-carousel-item">
+                    <a href="/plan-vacacional"><img
+                        className="my-carousel-image d-block w-100"
+                        src="https://i.ibb.co/KGGQLBZ/Banner-Web-5.png"
+                        alt="Plan Vacacional"
+                    /> </a>
+
+
                 </Carousel.Item>
             </Carousel>
         </div>
