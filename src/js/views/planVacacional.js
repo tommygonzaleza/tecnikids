@@ -13,7 +13,7 @@ export const planVacacional = () => {
                         <h1 style={{ color: "#10418a" }}><b>¡CUPOS LIMITADOS!</b></h1>
                         <p>Información general:<br /><br />
                             Fecha: 1 al 26 de agosto 2022<br />
-                            Edades: 3 - 12 años.<br />
+                            Edades: 2 - 12 años.<br />
                             Modalidad: Presencial.<br />
                         </p>
                     </div>

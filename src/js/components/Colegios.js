@@ -3,7 +3,7 @@ import React from 'react';
 export const Colegios = () => {
     return(
         <div className="container my-5">
-            <h2 className="col-6">INSTITUCIONES EDUCATIVAS</h2>
+            <h2 className="col-6 text-center">ALIADOS</h2>
             <div className="row w-auto my-3">
                 <div className="col-md-1"></div>
                 <div className="col-12">
@@ -16,10 +16,14 @@ export const Colegios = () => {
                     <a href="https://www.colegiosanagustin.edu.ve/"><img src="https://i.ibb.co/5T6KJJQ/San-AGustin.png" alt="San Agustin" className="col-md-2 col-4"/></a>
                     <a href="https://www.instagram.com/pukipukiplayground/?hl=es"><img src="https://i.ibb.co/SK6vntR/puki-puki.jpg" alt="Puki Puki Playground" className="col-md-2 col-4"/></a>
                     <a href="https://stepbystepkinder.com/"><img src="https://i.ibb.co/wh5N6Pq/logo-step-by-step.jpg" alt="Kinder Step by Step" className="col-md-3 col-4"/></a>
-                    <a href="http://www.colegioitaloplc.edu.ve/es/"><img src="https://i.ibb.co/tZkJjqR/Logo-Colegio-Italo.png" alt="C.I.V. Angelo De Marta" className="col-md-2 col-4"/></a>
+                    <a href="http://www.colegioitaloplc.edu.ve/es/"><img src="https://i.ibb.co/YhFg9F2/Italo.jpg" alt="C.I.V. Angelo De Marta" className="col-md-2 col-4"/></a>
                     <a href="http://www.lospinitos.net/familia-pinitos/"><img src="https://i.ibb.co/jHJWM3M/logo-pinitos-2017.png" alt="Los Pinitos" className="col-md-2 col-4"/></a>
-                    <a href="https://www.facebook.com/colegiolosarrayanes/"><img src="https://i.ibb.co/jfH2197/LOGO-ARRAYANES.jpg" alt="Colegio Los Arrayanes" className="col-md-2 col-4"/></a>
-                </div>
+                    <a href="#"><img src="https://i.ibb.co/VQsZm40/instituto-escuela.png" alt="Instituto Escuela" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/z7pmrq9/Logo-Cristo-Rey.png" alt="Cristo Rey" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/ZHDQ05r/logo-cumbres-circulo.png" alt="Instituto Cumbres" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/X2thkTW/LOGO-CEIMONTE-ALTO.png" alt="Monte Alto" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/1RQ8tkQ/logo-academia-washington.png" alt="Academia Whashington" className="col-md-2 col-4"/></a>
+               </div>
                 <div className="col-md-1"></div>
             </div>
         </div>
