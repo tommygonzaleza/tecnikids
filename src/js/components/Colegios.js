@@ -3,7 +3,7 @@ import React from 'react';
 export const Colegios = () => {
     return(
         <div className="container my-5">
-            <h2 className="col-6">INSTITUCIONES EDUCATIVAS</h2>
+            <h2 className="col-6 text-center">ALIADOS</h2>
             <div className="row w-auto my-3">
                 <div className="col-md-1"></div>
                 <div className="col-12">
