@@ -92,7 +92,7 @@ export const CursoCriptoView = () => {
                     <div className="col-12 text-right">
                         <p className="text-gray"><strong>Para más información puedes contactarnos:</strong></p>
                         <p><span className="text-blue">Valentina Romero <a className="planilla-link" href="tel:+584122381919">+58 412 923 9839</a></span></p>
-                        <p><a className="planilla-link" href="mailto:atencionalclientetk@tecnikidsve.com" rel="noreferrer">atencionalclientetk@gmail.com</a></p>
+                        <p><a className="planilla-link" href="mailto:atencionalclientetk@gmail.com" rel="noreferrer">atencionalclientetk@gmail.com</a></p>
                     </div>
                 </div>
             </div>

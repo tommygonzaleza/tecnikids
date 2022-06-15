@@ -16,7 +16,7 @@ export const MyFooter = () => {
                             </p>
                             <h6>Contacto</h6>
                             <a className="f-weigth-200 f-size-16 my-1 my-footer-link d-inline-block" href="tel:+584122070246">+(58) 412 207 0246</a>
-                            <a className="f-weigth-200 f-size-16 mw-100 my-1 my-footer-link d-inline-block" href="mailto:atencionalclientetk@tecnikidsve.com">atencionalclientetk@tecnikidsve.com</a>
+                            <a className="f-weigth-200 f-size-16 mw-100 my-1 my-footer-link d-inline-block" href="mailto:atencionalclientetk@gmail.com">atencionalclientetk@gmail.com</a>
                             <a className="f-weigth-200 f-size-16 my-1 my-footer-link" href="/">www.tecnikidsve.com</a>
                          </div>
                      </div>
