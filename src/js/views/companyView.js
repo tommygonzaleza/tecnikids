@@ -39,6 +39,11 @@ export const CompanyView = () => {
             <Stadistics />
             <SeparationLines />
             <div className="container my-3">
+                <div className='row mb-3'>
+                    <div className='col text-center'>
+                        <img src='https://i.ibb.co/48Kd4hh/Planner-Months-2022-Skateboard-Photograph-Picture-Simple-White-Gray-Calendar-2.png' width="80%" alt="Equipo TK Grupal" />
+                    </div>
+                </div>
                 <div className="row col-12">
                     <h2 className="col-12 ml-md-0 ml-3">MISIÓN</h2>
                     <p className="col-10 col-md-6 ml-md-0 ml-5 justify-text">
