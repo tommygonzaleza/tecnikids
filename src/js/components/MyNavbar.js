@@ -35,6 +35,9 @@ export const MyNavbar = () => {
                         <Nav.Link className="my-navlink" href="/colegios-view">
                             {"Colegios"}
                         </Nav.Link>
+                        <Nav.Link className="my-navlink" href="https://tecnikidsedu.com" target="_blank">
+                            {"Plataforma TK"}
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
