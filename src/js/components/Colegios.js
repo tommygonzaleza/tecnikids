@@ -18,7 +18,7 @@ export const Colegios = () => {
                     <a href="https://stepbystepkinder.com/"><img src="https://i.ibb.co/wh5N6Pq/logo-step-by-step.jpg" alt="Kinder Step by Step" className="col-md-3 col-4"/></a>
                     <a href="http://www.colegioitaloplc.edu.ve/es/"><img src="https://i.ibb.co/YhFg9F2/Italo.jpg" alt="C.I.V. Angelo De Marta" className="col-md-2 col-4"/></a>
                     <a href="http://www.lospinitos.net/familia-pinitos/"><img src="https://i.ibb.co/jHJWM3M/logo-pinitos-2017.png" alt="Los Pinitos" className="col-md-2 col-4"/></a>
-                    <a href="#"><img src="https://i.ibb.co/z7pmrq9/Logo-Cristo-Rey.png" alt="Cristo Rey" className="col-md-2 col-4" height='200px'/></a>
+                    <a href="#"><img src="https://i.ibb.co/z7pmrq9/Logo-Cristo-Rey.png" alt="Cristo Rey" className="col-md-2 col-4" style={{maxWidth:'14%'}}/></a>
                     <a href="#"><img src="https://i.ibb.co/ZHDQ05r/logo-cumbres-circulo.png" alt="Instituto Cumbres" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/X2thkTW/LOGO-CEIMONTE-ALTO.png" alt="Monte Alto" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/1RQ8tkQ/logo-academia-washington.png" alt="Academia Whashington" className="col-md-2 col-4"/></a>
@@ -36,6 +36,9 @@ export const Colegios = () => {
                     <a href="#"><img src="https://i.ibb.co/59YW7HV/Logo-Don-Bosco-02-02.png" alt="Don Bosco" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/54LRtTB/Colegio-Instituto-Maestro-Simon.png" alt="Colegio I Maestro Simon" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/6whymdK/Colegio-Instituto-Andes.png" alt="Colegio I Andes" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/xYNMMJZ/Colegio-UE-Donald-Garcia-Lopez.png" alt="Colegio UE Donald Garcia Lopez" className="col-md-2 col-4"/></a>
+                    <a href="#"><img src="https://i.ibb.co/sWjs4W5/Colegio-Nuestra-Sen-ora-de-Pompei.png" alt="Colegio Nuestra Señora de Pompei" className="col-md-2 col-4"/></a>
+
                </div>
                 <div className="col-md-1"></div>
             </div>
