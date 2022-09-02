@@ -6,7 +6,16 @@ export const Courses = () => {
             <div className="d-block row">
                 <h2 className="courses-title col-6 col-md-5">CURSOS</h2>
                 <div className="row mx-2">
-                    <img src="https://i.ibb.co/6FFqvG8/smartenglish.jpg" className="courses-logo col-12 col-md-6 mx-auto" alt="Cursos" />
+                <iframe 
+                    className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-2"
+                    style={{height: '260px'}}
+                    title="Stem Video"
+                    src="https://www.youtube.com/embed/m1QcvOUqLYs" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                >
+                </iframe>
                     <div className="col-11 col-md-5">
                         <p className="col-12 ml-4 ml-md-0 justify-text">
                             Los cursos de Tecnikids Venezuela constituyen una innovadora opción

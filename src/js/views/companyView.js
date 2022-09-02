@@ -24,8 +24,18 @@ export const CompanyView = () => {
                         Todos nuestros servicios cuentan con el aval de instituciones 
                         internacionales de renombre, personal calificado y equipo de vanguardia.
                     </p>
-                    <div className="col-md-1"></div>
-                    <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src="https://i.ibb.co/zZRyrPd/teamtk.jpg" alt="Team Tecnikids Venezuela" />
+                    {/* <div className="col-md-1"></div> */}
+                    <iframe 
+                    className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-4"
+                    style={{height: '400px'}}
+                    title="Stem Video"
+                    src="https://www.youtube.com/embed/ejq0U68yl9w" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                >
+                </iframe>
+                    {/* <img className="col-10 col-md-4 mt-0 ml-md-0 ml-5 company-logo" src="https://i.ibb.co/zZRyrPd/teamtk.jpg" alt="Team Tecnikids Venezuela" /> */}
                 </div>
             </div>
             <SeparationLines />
@@ -41,7 +51,7 @@ export const CompanyView = () => {
             <div className="container my-3">
                 <div className='row mb-3'>
                     <div className='col text-center'>
-                        <img src='https://i.ibb.co/48Kd4hh/Planner-Months-2022-Skateboard-Photograph-Picture-Simple-White-Gray-Calendar-2.png' width="80%" alt="Equipo TK Grupal" />
+                        <img src='https://i.ibb.co/48Kd4hh/Planner-Months-2022-Skateboard-Photograph-Picture-Simple-White-Gray-Calendar-2.png' width="100%" alt="Equipo TK Grupal" />
                     </div>
                 </div>
                 <div className="row col-12">

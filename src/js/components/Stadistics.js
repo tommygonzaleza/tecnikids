@@ -10,8 +10,8 @@ export const Stadistics = () => {
                     <div className="col-12 center-text">
                         <CountUp
                             className="stadistics-title"
-                            delay={4}
-                            end={20}
+                            delay={2}
+                            end={3}
                             duration={7}
                         />
                     </div>
@@ -22,8 +22,8 @@ export const Stadistics = () => {
                     <div className="col-12 center-text">
                         <CountUp
                             className="stadistics-title"
-                            delay={4}
-                            end={210}
+                            delay={2}
+                            end={34}
                             duration={7}
                         />
                     </div>
@@ -35,8 +35,8 @@ export const Stadistics = () => {
                     <div className="col-12 center-text">
                         <CountUp
                             className="stadistics-title"
-                            delay={4}
-                            end={25000}
+                            delay={2}
+                            end={14000}
                             duration={7}
                         />
                     </div>
@@ -48,13 +48,13 @@ export const Stadistics = () => {
                     <div className="col-12 center-text">
                         <CountUp
                             className="stadistics-title"
-                            delay={4}
-                            end={60}
+                            delay={2}
+                            end={4}
                             duration={7}
                         />
                     </div>
                     
-                    <p className="stadistics-text">Profesores</p>
+                    <p className="stadistics-text">Estados</p>
                 </div>
             </div>
         </div>
