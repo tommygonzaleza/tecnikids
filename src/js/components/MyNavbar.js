@@ -14,28 +14,31 @@ export const MyNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="col-8">
                     <Nav className="my-navbar-nav w-100">
-                        <Nav.Link className="my-navlink" href="/">
+                        <Nav.Link className="my-navlink text-center" href="/">
                             {"Inicio"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/company-view">
+                        <Nav.Link className="my-navlink text-center" href="/company-view">
                             {"¿Quiénes Somos?"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/plan-vacacional">
+                        <Nav.Link className="my-navlink text-center" href="/academy-view">
+                            {"Academia"}
+                        </Nav.Link>
+                        <Nav.Link className="my-navlink text-center" href="/plan-vacacional">
                             {"Plan Vacacional"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/rsc-resultados">
+                        <Nav.Link className="my-navlink text-center" href="/rsc-resultados">
                         {"Torneo de Robótica"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/programs-view">
+                        <Nav.Link className="my-navlink text-center" href="/programs-view">
                             {"Programas"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/courses-view">
+                        <Nav.Link className="my-navlink text-center" href="/courses-view">
                             {"Cursos"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="/colegios-view">
+                        <Nav.Link className="my-navlink text-center" href="/colegios-view">
                             {"Colegios"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink" href="https://tecnikidsedu.com" target="_blank">
+                        <Nav.Link className="my-navlink text-center" href="https://tecnikidsedu.com" target="_blank">
                             {"Plataforma TK"}
                         </Nav.Link>
                     </Nav>
