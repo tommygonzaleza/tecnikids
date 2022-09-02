@@ -22,7 +22,7 @@ export const Programs = () => {
                     className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-2"
                     style={{height: '400px'}}
                     title="Stem Video"
-                    src="https://www.youtube.com/embed/Dznzcl2fm-g" 
+                    src="https://www.youtube.com/embed/TgfhOg0XMOM" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
