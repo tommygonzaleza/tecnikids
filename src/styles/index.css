@@ -313,9 +313,17 @@ p {
   font-family: "Neuropol-X-Rg";
   src: local("Neuropol-X-Rg"), url("./fonts/Neuropol-X-Rg.ttf");
 }
-
 .font-face-nxrg {
   font-family: "Neuropol-X-Rg";
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: local("Cocogoose-Pro"), url("./fonts/Cocogoose-Pro.ttf");
+}
+
+.font-face-cocogoose {
+  font-family: "Cocogoose";
 }
 .headingText{
   font-size: 1.5rem;
