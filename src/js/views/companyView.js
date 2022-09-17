@@ -48,14 +48,15 @@ export const CompanyView = () => {
             <SeparationLines />
             <Stadistics />
             <SeparationLines />
-            <div className="container my-3">
-                <div className='row mb-3'>
-                    <div className='col text-center'>
-                        <img src='https://i.ibb.co/48Kd4hh/Planner-Months-2022-Skateboard-Photograph-Picture-Simple-White-Gray-Calendar-2.png' width="100%" alt="Equipo TK Grupal" />
+            <div className="container-fluid my-3">
+                <div className='row mx-0 mb-5'>
+                    <div className='col p-0'>
+                        <img src='https://i.ibb.co/JcRzT0J/equipo-de-trabajo.png' width="100%" alt="Equipo TK Grupal" />
                     </div>
                 </div>
+                <div className='container'>
                 <div className="row col-12">
-                    <h2 className="col-12 ml-md-0 ml-3">MISIÓN</h2>
+                    <h2 className="col-12 ml-md-0 ml-3 mt-3">MISIÓN</h2>
                     <p className="col-10 col-md-6 ml-md-0 ml-5 justify-text">
                         Brindar soluciones en materia de tecnología educativa a través de asesoría 
                         y servicio personalizado con talento humano de excelencia.
@@ -71,6 +72,8 @@ export const CompanyView = () => {
                         educación y tecnología en Venezuela.
                     </p>
                 </div>
+                </div>
+               
             </div>
             <SeparationLines />
             <div className="container">

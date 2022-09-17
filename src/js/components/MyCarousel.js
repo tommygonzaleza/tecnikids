@@ -8,7 +8,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/gybHYyw/Banner-Web-1.png"
+                        src="https://i.ibb.co/bzc35QD/Banner-Web-Sep1.png"
                         alt="¡Innovando la educación en Venezuela!"
                     />
 
@@ -16,7 +16,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/RNP9mnY/Banner-Web-2.png"
+                        src="https://i.ibb.co/2KCrcvg/Banner-Web-Sep2.png"
                         alt="Ofrecemos Porgramas Educativos"
                     />
 
@@ -24,7 +24,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <a href="/rsc-resultados"><img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/bFWWGLd/Banner-Web-3.png"
+                        src="https://i.ibb.co/NLVzyL6/Banner-Web-Sep3.png"
                         alt="Torneo de Robótica"
                     /> </a>
 
@@ -33,7 +33,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <a href="/courses-view"><img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/P4vzYnC/Banner-Web-4.png"
+                        src="https://i.ibb.co/YWV9dZf/Banner-Web-Sep4.png"
                         alt="Cursos Online"
                     /> </a>
 
@@ -42,7 +42,7 @@ export const MyCarousel = () => {
                 <Carousel.Item className="my-carousel-item">
                     <a href="/plan-vacacional"><img
                         className="my-carousel-image d-block w-100"
-                        src="https://i.ibb.co/KGGQLBZ/Banner-Web-5.png"
+                        src="https://i.ibb.co/q53hBYH/Banner-Web-Sep5.png"
                         alt="Plan Vacacional"
                     /> </a>
 
