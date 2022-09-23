@@ -40,7 +40,7 @@ export const MyCarousel = () => {
 
                 </Carousel.Item>
                 <Carousel.Item className="my-carousel-item">
-                    <a href="/plan-vacacional"><img
+                    <a href="/academy-view"><img
                         className="my-carousel-image d-block w-100"
                         src="https://i.ibb.co/q53hBYH/Banner-Web-Sep5.png"
                         alt="Plan Vacacional"

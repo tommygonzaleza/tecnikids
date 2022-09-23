@@ -33,17 +33,16 @@ export const AcademiaView = () => {
                         <br />
                         <p className="text-center text-gray">Pasos a seguir:</p>
                         <p className="text-justify text-gray">
-                            1. Realice el pago correspondiente a Tecnikids Venezuela (Depósito Bancario o transferencia). Los datos se enviarán luego de ser llenado el formulario.
+                        1. Complete los datos en el siguiente formulario: <a href='https://forms.gle/WWvESKKND5ZbrGS86' target='_blank'>https://forms.gle/WWvESKKND5ZbrGS86</a>
                             <br />
-                            2. Llene el formulario de <a className="planilla-link" href="https://forms.gle/imoeAbhFJsFqUUks6" target="_blank" rel="noreferrer">"Planilla de Inscripción Academia - Tecnikids VE 2022- 2023"</a>. Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.
+                            2. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:academia.tecnikidsve@gmail.com">academia.tecnikidsve@gmail.com</a>  En el asunto debe colocar "Comprobante de pago" y el nombre del estudiante (OBLIGATORIO).
                             <br />
-                            3. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:academia.tecnikidsve@gmail.com">academia.tecnikidsve@gmail.com</a> para culminar con el proceso de inscripción y asegurar el cupo del estudiante. En el asunto debe colocar "Comprobante de pago" y el nombre del estudiante (OBLIGATORIO).
+                            3. Enviaremos la planilla de inscripción una vez realice el pago correspondiente. 
                         </p><br /><br />
                         <p style={{color: "rgb(16, 65, 138)"}}> Inscripciones abiertas a partir del 2 de septiembre de 2022.</p>
                         <br />
                         <p className="text-justify text-gray">
-                            LA INSCRIPCIÓN NO SERÁ CONSIDERADA COMPLETA, HASTA NO CUMPLIR CON TODOS LOS REQUISITOS ANTERIORMENTE SOLICITADOS. LES RECORDAMOS QUE LA INSCRIPCIÓN DEBE ESTAR CANCELADA EN SU TOTALIDAD.
-                        </p>
+                        LA INSCRIPCIÓN SERÁ CONSIDERADA COMPLETA AL CUMPLIR CON TODOS LOS REQUISITOS ANTERIORMENTE SOLICITADOS. LES RECORDAMOS QUE LA INSCRIPCIÓN DEBE ESTAR CANCELADA EN SU TOTALIDAD.                        </p>
                     </div>
                     <br />
                     <div className="row">
