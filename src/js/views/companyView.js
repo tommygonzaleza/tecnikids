@@ -29,7 +29,7 @@ export const CompanyView = () => {
                     className="col-10 col-md-6 mx-auto mr-5 mr-md-0 mb-3 mb-md-0 mt-0 mt-md-4"
                     style={{height: '400px'}}
                     title="Stem Video"
-                    src="https://www.youtube.com/embed/ejq0U68yl9w" 
+                    src="https://www.youtube.com/embed/Zdhq4n2LI4c" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
