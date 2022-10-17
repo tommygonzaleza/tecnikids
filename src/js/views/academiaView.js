@@ -8,14 +8,14 @@ export const AcademiaView = () => {
             <SeparationLines />
             <div className="container">
                 <img src="https://i.ibb.co/1fNGWNd/header.png" alt="Tecnikids" className="w-100" />
-                <img src="https://i.ibb.co/hHJq1ZM/hero-image.png" alt="Información" className="w-100" />
+                <img src="https://i.ibb.co/VS58cs2/MOCKUP-PAGINA-octubre.png" alt="Información" className="w-100" />
                 <div className="col-12 my-5 f-weigth-600">
                     <h6 className="text-gray font-face-cocogoose">Costo:</h6>
                     <h6 className="text-gray"><span className="f-weigth-600 font-face-cocogoose">Precios de Lanzamiento</span></h6>
                 </div>
                 <div className="row my-5 text-blue">
                     <div className="col-12 text-center">
-                        <img src="https://i.ibb.co/2hSS0jB/precios.png" alt="Precios" className="w-100" />
+                        <img src="https://i.ibb.co/bNZkrH9/MOCKUP-PAGINA-octubre2.png" alt="Precios" className="w-100" />
                     </div>
                 </div>
                 <div className="row bottom-border my-3 py-3">
@@ -33,7 +33,7 @@ export const AcademiaView = () => {
                         <br />
                         <p className="text-center text-gray">Pasos a seguir:</p>
                         <p className="text-justify text-gray">
-                        1. Complete los datos en el siguiente formulario: <a href='https://forms.gle/WWvESKKND5ZbrGS86' target='_blank'>https://forms.gle/WWvESKKND5ZbrGS86</a>
+                        1. Complete los datos en el siguiente formulario: <a href='https://docs.google.com/forms/d/e/1FAIpQLSfGruJi2RomQ_Ro4rvVyWipGPHr8vhPWtpeYHYCC1itM5DQYQ/viewform' target='_blank'>https://docs.google.com/forms/d/e/1FAIpQLSfGruJi2RomQ_Ro4rvVyWipGPHr8vhPWtpeYHYCC1itM5DQYQ/viewform</a>
                             <br />
                             2. Debe enviar el comprobante de pago al correo <a className="planilla-link" href="mailto:academia.tecnikidsve@gmail.com">academia.tecnikidsve@gmail.com</a>  En el asunto debe colocar "Comprobante de pago" y el nombre del estudiante (OBLIGATORIO).
                             <br />
