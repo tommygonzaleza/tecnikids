@@ -23,7 +23,7 @@ export const Colegios = () => {
                     <a href="#"><img src="https://i.ibb.co/X2thkTW/LOGO-CEIMONTE-ALTO.png" alt="Monte Alto" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/1RQ8tkQ/logo-academia-washington.png" alt="Academia Whashington" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/64K2GD3/colegioaltamiraescudo.png" alt="Colegio Altamira" className="col-md-2 col-4"/></a>
-                    <a href="#"><img src="https://i.ibb.co/LRxVNFP/Colegio-Laura-Vicun-a-1.jpg" alt="Colegio Laura Vicuña" className="col-md-2 col-4"/></a>
+                    {/* <a href="#"><img src="https://i.ibb.co/LRxVNFP/Colegio-Laura-Vicun-a-1.jpg" alt="Colegio Laura Vicuña" className="col-md-2 col-4"/></a> */}
                     <a href="#"><img src="https://i.ibb.co/bNSBxsN/Logo-LAS-TUNITAS-01-1.png" alt="Las Tunitas" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/BtFF5Xv/btitish.png" alt="The British School" className="col-md-2 col-4"/></a>
                     <a href="#"><img src="https://i.ibb.co/9Vy3Lhx/Logo-Colegio-Madre-Matilde.png" alt="Colegio Madre Matilde" className="col-md-2 col-4"/></a>
