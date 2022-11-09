@@ -8,7 +8,7 @@ export const AcademiaView = () => {
             <SeparationLines />
             <div className="container">
                 <img src="https://i.ibb.co/1fNGWNd/header.png" alt="Tecnikids" className="w-100" />
-                <img src="https://i.ibb.co/VS58cs2/MOCKUP-PAGINA-octubre.png" alt="Información" className="w-100" />
+                <img src="https://i.ibb.co/H4tpV4L/MOCKUP-PAGINA-academia-noviembre.png" alt="Información" className="w-100" />
                 <div className="col-12 my-5 f-weigth-600">
                     <h6 className="text-gray font-face-cocogoose">Costo:</h6>
                     <h6 className="text-gray"><span className="f-weigth-600 font-face-cocogoose">Precios de Lanzamiento</span></h6>
