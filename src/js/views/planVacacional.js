@@ -10,7 +10,7 @@ export const planVacacional = () => {
             <div className="container">
                 <div className="row align-items-lg-center">
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 text-center">
-                        <h1 style={{ color: "#10418a" }}><b>¡CUPOS LIMITADOS!</b></h1>
+                        <h1 style={{ color: "#10418a" }}><b className="font-face-cocogoose">¡CUPOS LIMITADOS!</b></h1>
                         <p>Información general:<br /><br />
                             Fecha: 1 al 26 de agosto 2022<br />
                             Edades: 2 - 12 años.<br />
@@ -85,7 +85,7 @@ export const planVacacional = () => {
                 <span className="d-flex justify-content-center"><hr className="w-25" /></span>
                 <div className="row">
                     <div className="col">
-                        <h1 className="display-3 text-center font-weight-bold" style={{ color: "#10418a" }}> EXPERIENCIAS TECNIKIDS </h1>
+                        <h1 className="display-3 text-center font-weight-bold font-face-cocogoose" style={{ color: "#10418a" }}> EXPERIENCIAS TECNIKIDS </h1>
                     </div>
                 </div>
                 <div className="row">
@@ -128,7 +128,7 @@ export const planVacacional = () => {
                 </div>
                 <div className="row">
                     <div className="col text-center">
-                        <h2 className="font-weight-bold" style={{ color: "#10418a" }}>PROCESO DE INSCRIPCIÓN</h2>
+                        <h2 className="font-weight-bold font-face-cocogoose" style={{ color: "#10418a" }}>PROCESO DE INSCRIPCIÓN</h2>
                         <p>Pasos a seguir:</p>
                         <p>1. Realice el pago correspondiente a Tecnikids Venezuela (Depósito Bancario o transferencia). Los datos se enviarán luego de ser llenado el formulario.</p>
                         <p>2. Llene el formulario de <a href="https://docs.google.com/forms/d/1w0WxY95xJGQ1ocAFjlpL1WwSgfsngMFtAPiIqXm-jI0/edit?usp=drive_web" target="_blank"><span style={{ color: "#10418a" }}>"Planilla de Inscripción Plan Vacacional 2022".</span></a> Los campos obligatorios están señalados por un asterisco, lo que impide que se continúe con el proceso de inscripción en caso de no contestarlos.</p>
