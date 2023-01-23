@@ -26,7 +26,7 @@ export const MyNavbar = () => {
                         <Nav.Link className="my-navlink text-center" href="/plan-vacacional">
                             {"Plan Vacacional"}
                         </Nav.Link>
-                        <Nav.Link className="my-navlink text-center" href="/rsc-resultados">
+                        <Nav.Link className="my-navlink text-center" href="/rsc-classification-ii">
                         {"Torneo de Robótica"}
                         </Nav.Link>
                         <Nav.Link className="my-navlink text-center" href="/programs-view">
