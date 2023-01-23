@@ -27,6 +27,7 @@ import { seniorRscPrimaryView } from './views/rscClassificationViews/seniorRscPr
 import { pythonRscView } from './views/rscClassificationViews/pythonRscView';
 import { rscResultsView } from './views/rscClassificationViews/resultadosRscView';
 import { planVacacional } from './views/planVacacional';
+import { rscClassificationViewII } from './views/rscClassificationView2';
 export const Layout = () => {
 
     return (
@@ -53,6 +54,7 @@ export const Layout = () => {
                         <Route path="/arduino-view" component={ArduinoView} />
                         <Route path="/f1-view" component={F1View} />
                         <Route path="/rsc-classification" component={rscClassificationView} />
+                        <Route path="/rsc-classification-ii" component={rscClassificationViewII} />
                         <Route path="/rsc-resultados" component={rscResultsView} />
                         <Route path="/arduino-rsc-view" component={arduinoRscView} />
                         <Route path="/minor-rsc-primary-view" component={MinorRscPrimaryView} />
