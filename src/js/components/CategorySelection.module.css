@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1rem;
+}
+
+.selectGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.selectGroup > select {
+  padding: 0.25 rem;
+  border: 1px solid #1e4266;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.selectGroup > button {
+  background-color: white;
+  color: #244b91;
+  border: 1px solid #244b91;
+  border-radius: 0.5rem;
+}
+.selectGroup > button:hover {
+  background-color: #244b91;
+  border: 1px solid #244b91;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.result {
+  display: flex;
+  margin: auto;
+  background-color: #244b91;
+  border-radius: 0.5rem;
+}
+
+.result > p {
+  color: white;
+  margin: 1rem;
+}
