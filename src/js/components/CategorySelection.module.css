@@ -1,8 +1,10 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: auto;
-  gap: 1rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .selectGroup {
@@ -29,6 +31,30 @@
   border-radius: 0.5rem;
 }
 
+.form_link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.75rem;
+  align-items: center;
+  color: white;
+  background-color: #244b91;
+  border: 1px solid #244b91;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+}
+small {
+  font-size: 0.75rem;
+}
+
+.form_link:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #244b91;
+}
+
 .result {
   display: flex;
   margin: auto;
@@ -36,7 +62,15 @@
   border-radius: 0.5rem;
 }
 
-.result > p {
+.no_category {
+  display: flex;
+  margin: auto;
+  background-color: #244b91;
+  border-radius: 0.5rem;
   color: white;
-  margin: 1rem;
+  padding: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
