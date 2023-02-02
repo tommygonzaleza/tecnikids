@@ -6,11 +6,12 @@ const CategorySelection = () => {
     school: "",
     grade: "",
     category: "",
+    formLink: "",
   });
-  let categoriasTorneo = [
+  let tournamentCategories = [
     {
-      colegio: "Selecciona tu Colegio",
-      categorias: {
+      school: "Selecciona tu Colegio",
+      category: {
         "-": "N/A",
         "2do grado": "N/A",
         "3er grado": "N/A",
@@ -25,8 +26,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Academia Merici",
-      categorias: {
+      school: "Academia Merici",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "Master space technicians",
@@ -40,13 +41,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Altamira",
-      categorias: {
+      school: "Colegio Altamira",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "N/A",
         "2do año": "N/A",
         "3er año": "N/A",
@@ -55,13 +56,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Caniguá",
-      categorias: {
+      school: "Colegio Caniguá",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "Master space technicians",
         "5to grado": "Master space technicians",
-        "6to grado": "Little space engineers ",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -70,13 +71,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "CEAMM",
-      categorias: {
+      school: "CEAMM",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "N/A",
         "2do año": "N/A",
         "3er año": "N/A",
@@ -85,13 +86,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Cristo Rey",
-      categorias: {
+      school: "Colegio Cristo Rey",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "N/A",
         "2do año": "N/A",
         "3er año": "N/A",
@@ -100,13 +101,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Don Bosco",
-      categorias: {
+      school: "Colegio Don Bosco",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -115,13 +116,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Donaldo García",
-      categorias: {
+      school: "Colegio Donaldo García",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -130,13 +131,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Henry Clay",
-      categorias: {
+      school: "Colegio Henry Clay",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "N/A",
         "2do año": "N/A",
         "3er año": "N/A",
@@ -145,13 +146,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Instituto Andes",
-      categorias: {
+      school: "Instituto Andes",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -160,8 +161,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Instituto Cumbres",
-      categorias: {
+      school: "Instituto Cumbres",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
         "4to grado": "Master space technicians",
@@ -175,23 +176,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Instituto Maestro Simón",
-      categorias: {
-        "2do grado": "Little space programmers",
-        "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
-        "1er año": "N/A",
-        "2do año": "N/A",
-        "3er año": "N/A",
-        "4to año": "N/A",
-        "5to año": "N/A",
-      },
-    },
-    {
-      colegio: "Colegio Ítalo Venezolano",
-      categorias: {
+      school: "Colegio Ítalo Venezolano",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "Master space technicians",
@@ -205,13 +191,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio La Salle",
-      categorias: {
+      school: "Colegio La Salle",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "N/A",
         "2do año": "N/A",
         "3er año": "N/A",
@@ -220,8 +206,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Los Arcos",
-      categorias: {
+      school: "Colegio Los Arcos",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
         "4to grado": "Master space technicians",
@@ -235,8 +221,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Los Campitos",
-      categorias: {
+      school: "Colegio Los Campitos",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "Master space technicians",
@@ -250,13 +236,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Madre Matilde",
-      categorias: {
+      school: "Colegio Madre Matilde",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -265,13 +251,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio María Auxiliadora",
-      categorias: {
+      school: "Colegio María Auxiliadora",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -280,13 +266,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Mater Salvatoris",
-      categorias: {
+      school: "Colegio Mater Salvatoris",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -295,8 +281,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Mater Salvatoris Maracaibo",
-      categorias: {
+      school: "Colegio Mater Salvatoris Maracaibo",
+      category: {
         "2do grado": "N/A",
         "3er grado": "N/A",
         "4to grado": "N/A",
@@ -310,13 +296,13 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Nuestra Señora de Pompei",
-      categorias: {
+      school: "Colegio Nuestra Señora de Pompei",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers ",
-        "5to grado": "Little space engineers ",
-        "6to grado": "Little space engineers ",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
         "1er año": "NASA technicians",
         "2do año": "NASA technicians",
         "3er año": "NASA technicians",
@@ -325,8 +311,23 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio San Agustín El Marqués",
-      categorias: {
+      school: "Colegio Roraima",
+      category: {
+        "2do grado": "Master space technicians",
+        "3er grado": "N/A",
+        "4to grado": "N/A",
+        "5to grado": "N/A",
+        "6to grado": "N/A",
+        "1er año": "N/A",
+        "2do año": "N/A",
+        "3er año": "N/A",
+        "4to año": "N/A",
+        "5to año": "N/A",
+      },
+    },
+    {
+      school: "Colegio San Agustín El Marqués",
+      category: {
         "2do grado": "Little space programmers",
         "3er grado": "Little space programmers",
         "4to grado": "Master space technicians",
@@ -340,8 +341,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio San Agustín El Paraíso",
-      categorias: {
+      school: "Colegio San Agustín El Paraíso",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "Master space technicians",
@@ -355,8 +356,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Simón Bolívar I",
-      categorias: {
+      school: "Colegio Simón Bolívar I",
+      category: {
         "2do grado": "Master space technicians",
         "3er grado": "Master space technicians",
         "4to grado": "N/A",
@@ -370,8 +371,8 @@ const CategorySelection = () => {
       },
     },
     {
-      colegio: "Colegio Simón Bolívar II",
-      categorias: {
+      school: "Colegio Simón Bolívar II",
+      category: {
         "2do grado": "N/A",
         "3er grado": "N/A",
         "4to grado": "Master space technicians",
@@ -386,31 +387,55 @@ const CategorySelection = () => {
     },
   ];
 
-  let schoolDropdownContent = categoriasTorneo.map((item) => (
-    <option>{item["colegio"]}</option>
+  let formLinks = {
+    "Little space programmers": "https://forms.gle/cPxLav4UewxGL91L7",
+    "Little space engineers": "https://forms.gle/ESZajbtwmpVXjSh48",
+    "Master space technicians": "https://forms.gle/SAVDSY4CWMLX9hm9A",
+    "NASA technicians": "https://forms.gle/Ev8stRtrTiZ1EovA8",
+    "NASA programmers": "https://forms.gle/CqEhmYPvRXKKkTHu9",
+    "NASA specialists": "https://forms.gle/jXZeSy1Fik41Fp9BA",
+  };
+
+  let schoolDropdownContent = tournamentCategories.map((item) => (
+    <option>{item["school"]}</option>
   ));
 
-  let categories = Object.keys(categoriasTorneo[0]["categorias"]);
+  let categories = Object.keys(tournamentCategories[0]["category"]);
 
   let categoryDropdownContent = categories.map((item) => (
     <option>{item}</option>
   ));
 
   const findCategory = () => {
-    let tournamentCategory;
-    let selectedItem = categoriasTorneo.filter(
-      (item) => item["colegio"] == selection["school"]
+    let selectedItem = tournamentCategories.filter(
+      (item) => item["school"] === selection["school"]
     )[0];
-    tournamentCategory = selectedItem.categorias[selection.grade];
-    setSelection({ ...selection, category: tournamentCategory });
+    let tournamentCategory = selectedItem.category[selection.grade];
+    let tournamentForm = formLinks[tournamentCategory];
+
+    setSelection({
+      ...selection,
+      category: tournamentCategory,
+      formLink: tournamentForm,
+    });
   };
 
   const schoolChangeHandler = (e) => {
-    setSelection({ ...selection, school: e.target.value });
+    setSelection({
+      ...selection,
+      school: e.target.value,
+      category: "",
+      formLink: "",
+    });
   };
 
   const gradeChangeHandler = (e) => {
-    setSelection({ ...selection, grade: e.target.value });
+    setSelection({
+      ...selection,
+      grade: e.target.value,
+      category: "",
+      formLink: "",
+    });
   };
 
   return (
@@ -420,16 +445,25 @@ const CategorySelection = () => {
         <select onChange={gradeChangeHandler}>{categoryDropdownContent}</select>
         <button
           disabled={
-            selection.school == "" || selection.grade == "" ? true : false
+            selection.school === "" || selection.grade === "" ? true : false
           }
           onClick={findCategory}
         >
           Buscar
         </button>
       </div>
-      <div className={styles.result}>
-        <p>{selection.category ? selection.category : "N/A"}</p>
-      </div>
+
+      {selection.category !== "" &&
+        (selection.category === "N/A" ? (
+          <div className={styles["no_category"]}>{selection.category}</div>
+        ) : (
+          <a href={selection.formLink} target="_blank">
+            <div className={styles["form_link"]}>
+              <p>{selection.category}</p>
+              <small>Haz click aquí</small>
+            </div>
+          </a>
+        ))}
     </div>
   );
 };

@@ -98,66 +98,19 @@ export const rscClassificationViewII = () => {
           </h2>
           <br />
           <br />
+          <div className="row mx-auto">
+            <div className="col-12 text-center">
+              <p>
+                Para acceder al formulario de tu categoría selecciona tu colegio
+                y tu grado
+              </p>
+            </div>
+          </div>
           <div className="row mx-auto justify-content-center">
             <CategorySelection />
           </div>
         </div>
-        <br />
-        <br />
-        <div className="row mx-auto">
-          <div className="col-12 text-center">
-            <p>Selecciona tu categoría</p>
-          </div>
-        </div>
-        <br />
-        <div className="text-center mb-5">
-          <div className="row justify-content-center">
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/wg91zg2/MOCKUP-PAGINA-Torneo-14.png"
-                className="card-img-top w-75"
-                alt="Primaria Menor"
-              />
-            </div>
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/Hz1qKQL/MOCKUP-PAGINA-Torneo-15.png"
-                className="card-img-top w-75"
-                alt="Primaria Mayor"
-              />
-            </div>
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/KL7mDBL/MOCKUP-PAGINA-Torneo-16.png"
-                className="card-img-top w-75"
-                alt="Primaria Mayor"
-              />
-            </div>
-          </div>
-          <div className="row justify-content-center mt-4">
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/bz024vY/MOCKUP-PAGINA-Torneo-17.png"
-                className="card-img-top w-75"
-                alt="Primaria Menor"
-              />
-            </div>
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/wMbYGkk/MOCKUP-PAGINA-Torneo-18.png"
-                className="card-img-top w-75"
-                alt="Primaria Mayor"
-              />
-            </div>
-            <div className="col-sm-10 col-md-4">
-              <img
-                src="https://i.ibb.co/NZy3w1k/MOCKUP-PAGINA-Torneo-19.png"
-                className="card-img-top w-75"
-                alt="Primaria Mayor"
-              />
-            </div>
-          </div>
-        </div>
+
         <hr style={{ border: "none", height: "1px", background: "#002C56" }} />
 
         <div className="row text-center text-sm-center text-md-center justify-content-lg-center">
