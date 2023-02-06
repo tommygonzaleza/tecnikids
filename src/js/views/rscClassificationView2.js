@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CategorySelection from "../components/CategorySelection";
+import CategorySelection from "../components/tournamentCategory/CategorySelection";
 import { SeparationLines } from "../components/SeparationLines";
 import { SlideView } from "./slideView";
 
@@ -50,7 +50,9 @@ export const rscClassificationViewII = () => {
             continuación:
             <br />
             <br />
-            <b className="text-blue-color">Fase 1:</b>{" "}
+            <strong>
+              <b className="text-blue-color">Fase 1:</b>
+            </strong>
             <span className="text-blue-color">Clasificatoria.</span>
             <br />
             <br />
@@ -101,8 +103,8 @@ export const rscClassificationViewII = () => {
           <div className="row mx-auto">
             <div className="col-12 text-center">
               <p>
-                Para acceder al formulario de tu categoría selecciona tu colegio
-                y tu grado
+                Para ver tu reto y acceder al formulario de tu categoría
+                selecciona tu colegio y tu grado
               </p>
             </div>
           </div>
@@ -122,7 +124,7 @@ export const rscClassificationViewII = () => {
           <div className="row mb-3">
             <div className="col-12">
               <img
-                src="https://i.ibb.co/K7fHpvD/MOCKUP-PAGINA-Torneo.png"
+                src="https://i.ibb.co/LhDNBwB/MOCKUP-PAGINA-Torneo2.png"
                 className="card-img-top"
                 alt="Primaria Mayor"
               />
@@ -151,11 +153,11 @@ export const rscClassificationViewII = () => {
               alt="American Robotics"
             />
           </div>
-          <div className="col-7 col-md-4">
+          <div className="col-7 col-md-4 logo-tk">
             <img
-              src="https://i.ibb.co/vX0Mz9V/LOGO-TK-PNG-30.png"
+              src="https://i.ibb.co/Chrv5Rm/Logo-TK-Borde-Delgado.png"
               className="card-img-top"
-              alt="TecniKids"
+              alt="Tecnikids"
             />
           </div>
           <div className="col-7 col-md-4">
