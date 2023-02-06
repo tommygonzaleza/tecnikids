@@ -12,22 +12,30 @@
   gap: 0.5rem;
 }
 
+@media screen and (max-width: 550px) {
+  .selectGroup {
+    flex-direction: column;
+  }
+}
+
 .selectGroup > select {
   padding: 0.25 rem;
   border: 1px solid #1e4266;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  text-align: center;
 }
 .selectGroup > button {
-  background-color: white;
-  color: #244b91;
+  background-color: #244b91;
+  color: white;
   border: 1px solid #244b91;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .selectGroup > button:hover {
-  background-color: #244b91;
+  background-color: white;
   border: 1px solid #244b91;
-  color: white;
+  color: #244b91;
   border-radius: 0.5rem;
 }
 

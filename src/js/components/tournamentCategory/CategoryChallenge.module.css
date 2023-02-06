@@ -1,0 +1,22 @@
+.category-challenge {
+  max-width: 80%;
+}
+
+.title {
+  color: #1e4266;
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  margin-top: 2rem;
+}
+.bullets {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.subtitle {
+  color: #1e4266;
+  text-align: left;
+}

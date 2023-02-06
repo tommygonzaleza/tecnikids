@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CategoryChallenge from "./CategoryChallenge";
 import styles from "./CategorySelection.module.css";
 
 const CategorySelection = () => {
@@ -457,12 +458,15 @@ const CategorySelection = () => {
         (selection.category === "N/A" ? (
           <div className={styles["no_category"]}>{selection.category}</div>
         ) : (
-          <a href={selection.formLink} target="_blank">
-            <div className={styles["form_link"]}>
-              <p>{selection.category}</p>
-              <small>Haz click aquí</small>
-            </div>
-          </a>
+          <>
+            <CategoryChallenge category={selection.category} />
+            <a href={selection.formLink} target="_blank">
+              <div className={styles["form_link"]}>
+                <p>{selection.category}</p>
+                <small>Haz click aquí</small>
+              </div>
+            </a>
+          </>
         ))}
     </div>
   );

@@ -37,28 +37,28 @@ body {
 }
 h2 {
   font-size: 36px !important;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 h3 {
   font-size: 56px;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
-.myh3{
+.myh3 {
   font-size: 1.17em;
   font-weight: bold;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 h4 {
   font-size: 32px !important;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 h5 {
   font-size: 28px !important;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 h6 {
   font-size: 24px !important;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 p {
   font-size: 20px;
@@ -309,7 +309,7 @@ p {
 }
 
 /* ICON SIZE */
-.boostrap-icon{
+.boostrap-icon {
   font-size: 10rem;
   color: rgb(16, 65, 138);
 }
@@ -348,7 +348,7 @@ p {
   font-family: "Poppins-Regular";
 }
 
-.headingText{
+.headingText {
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -402,17 +402,18 @@ p {
 }
 
 /** Blue color */
-.blue-bg-color{
+.blue-bg-color {
   background-color: #1e4266;
 }
 
-.text-blue-color{
-  color:#1e4266
+.text-blue-color {
+  color: #1e4266;
 }
 
-.bg-blue-badge{
-  
-    background-color: #114189;
-   
-  
+.bg-blue-badge {
+  background-color: #114189;
+}
+
+.logo-tk {
+  margin: 2rem 0;
 }
