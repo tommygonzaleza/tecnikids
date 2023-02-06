@@ -127,7 +127,7 @@ const CategoryChallenge = ({ category }) => {
         ))}
       </ul>
       <p>
-        <strong>Exito!</strong>
+        <strong>!Éxito!</strong>
       </p>
     </div>
   );
