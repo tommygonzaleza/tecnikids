@@ -281,6 +281,11 @@ p {
   width: 20% !important;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Company View Styles */
 
 .company-logo {
