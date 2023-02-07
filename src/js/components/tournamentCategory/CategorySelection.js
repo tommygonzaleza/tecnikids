@@ -9,6 +9,9 @@ const CategorySelection = () => {
     category: "",
     formLink: "",
   });
+
+  const [categories, setCategories] = useState([]);
+
   let tournamentCategories = [
     {
       school: "Selecciona tu Colegio",
@@ -386,6 +389,15 @@ const CategorySelection = () => {
         "5to año": "N/A",
       },
     },
+    {
+      school: "Academia Tecnikids",
+      category: {
+        "Little Programmers": "Little space programmers",
+        "Super Technicians": "Little space engineers",
+        "Master Technicians": "NASA technicians",
+        Specialists: "NASA programmers",
+      },
+    },
   ];
 
   let formLinks = {
@@ -401,27 +413,37 @@ const CategorySelection = () => {
     <option>{item["school"]}</option>
   ));
 
-  let categories = Object.keys(tournamentCategories[0]["category"]);
-
   let categoryDropdownContent = categories.map((item) => (
     <option>{item}</option>
   ));
 
   const findCategory = () => {
-    let selectedItem = tournamentCategories.filter(
-      (item) => item["school"] === selection["school"]
-    )[0];
-    let tournamentCategory = selectedItem.category[selection.grade];
-    let tournamentForm = formLinks[tournamentCategory];
+    if (selection.grade !== "" && selection.grade !== "-") {
+      let selectedItem = tournamentCategories.filter(
+        (item) => item["school"] === selection["school"]
+      )[0];
+      let tournamentCategory = selectedItem.category[selection.grade];
+      let tournamentForm = formLinks[tournamentCategory];
 
-    setSelection({
-      ...selection,
-      category: tournamentCategory,
-      formLink: tournamentForm,
-    });
+      setSelection({
+        ...selection,
+        category: tournamentCategory,
+        formLink: tournamentForm,
+      });
+    }
   };
 
   const schoolChangeHandler = (e) => {
+    let availableCategories = Object.keys(
+      tournamentCategories.filter((item) => item.school === e.target.value)[0][
+        "category"
+      ]
+    );
+    availableCategories.unshift("-");
+    setCategories(availableCategories);
+
+    console.log(availableCategories);
+
     setSelection({
       ...selection,
       school: e.target.value,
@@ -443,15 +465,13 @@ const CategorySelection = () => {
     <div className={styles.container}>
       <div className={styles.selectGroup}>
         <select onChange={schoolChangeHandler}>{schoolDropdownContent}</select>
-        <select onChange={gradeChangeHandler}>{categoryDropdownContent}</select>
-        <button
-          disabled={
-            selection.school === "" || selection.grade === "" ? true : false
-          }
-          onClick={findCategory}
-        >
-          Buscar
-        </button>
+        {selection.school !== "" &&
+          selection.school !== "Selecciona tu Colegio" && (
+            <select onChange={gradeChangeHandler}>
+              {categoryDropdownContent}
+            </select>
+          )}
+        <button onClick={findCategory}>Buscar</button>
       </div>
 
       {selection.category !== "" &&
