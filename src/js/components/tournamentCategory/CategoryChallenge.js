@@ -126,6 +126,20 @@ const CategoryChallenge = ({ category }) => {
           <li>{item}</li>
         ))}
       </ul>
+      {category === "NASA technicians" || category === "NASA programmers" ? (
+        <>
+          <h3 className={styles.subtitle}>Importante</h3>
+          <p>
+            Para asegurarte que el proyecto de Tinkercad esta compartido y saber
+            que link debes compartir, ingresa a{" "}
+            <a href="https://online.fliphtml5.com/zjfpz/rcbl/" target="_blank">
+              {" este instructivo."}
+            </a>
+          </p>
+        </>
+      ) : (
+        ""
+      )}
       <p>
         <strong>!Éxito!</strong>
       </p>
