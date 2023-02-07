@@ -141,7 +141,7 @@ const CategoryChallenge = ({ category }) => {
         ""
       )}
       <p>
-        <strong>!Éxito!</strong>
+        <strong>¡Éxito!</strong>
       </p>
     </div>
   );
