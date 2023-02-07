@@ -135,9 +135,12 @@ p {
 }
 .my-navbar-nav {
   display: flex;
-  justify-content: space-around;
-  margin-right: 3%;
+  justify-content: flex-end;
   width: 80%;
+}
+
+.my-navlink {
+  margin-left: 5px;
 }
 
 /* Carousel Styles. */
