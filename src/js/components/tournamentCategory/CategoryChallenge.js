@@ -130,7 +130,7 @@ const CategoryChallenge = ({ category }) => {
         <>
           <h3 className={styles.subtitle}>Importante</h3>
           <p>
-            Para asegurarte que el proyecto de Tinkercad esta compartido y saber
+            Para asegurarte que el proyecto de Tinkercad está compartido y saber
             qué link debes compartir, ingresa a{" "}
             <a href="https://online.fliphtml5.com/zjfpz/rcbl/" target="_blank">
               {" este instructivo."}
