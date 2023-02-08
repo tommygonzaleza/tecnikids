@@ -83,7 +83,7 @@ const challenges = [
         ,
       ],
       notes: [
-        "En esta actividad se les pide a los estudiantes que sean autodidactas, haciendo uso de funciones que no han visto en clase. Con el objetivo de evaluar sus habilidades a la hora de investigar nuevas herramientas en las referencias dadas en clase y cómo aplicarlas en sus proyectos.",
+        "En esta actividad se les recomienda a los estudiantes que sean autodidactas, haciendo uso de funciones que no han visto en clase. Con el objetivo de fomentar la investigación de la documentación de Arduino y cómo aplicar lo aprendido en sus proyectos.",
       ],
     },
   },
