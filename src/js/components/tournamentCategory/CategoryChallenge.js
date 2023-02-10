@@ -24,7 +24,7 @@ const challenges = [
     challenge: {
       title: "¡Dos personas se han perdido en el bosque!",
       description:
-        "Crea una animación que tenga una duración de 8 segundos o más, en donde se muestre como los personajes resuelven el estar perdidos en el bosque. La animación debe iniciar al tocar la bandera verde e incluir los siguientes elementos:",
+        "Crea una animación que tenga una duración de 8 segundos o más, en donde se muestre como los personajes resuelven la problematica de estar perdidos en el bosque. La animación debe iniciar al tocar la bandera verde e incluir los siguientes elementos:",
       bullets: [
         "Un personaje predefinido de Scratch.",
         "Un personaje importado como imagen (PNG).",
