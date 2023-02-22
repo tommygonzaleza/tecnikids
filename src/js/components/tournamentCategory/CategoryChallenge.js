@@ -117,6 +117,21 @@ const CategoryChallenge = ({ category }) => {
 
   return (
     <div className={styles["category-challenge"]}>
+      {category === "NASA technicians" || category === "NASA programmers" ? (
+        <>
+          <h3 className={styles.subtitle}>Importante</h3>
+          <p>
+            Para asegurarte que el proyecto de Tinkercad está compartido y saber
+            qué link debes compartir, de manera de enviar tu clasificatoria
+            correctamente ingresa a{" "}
+            <a href="https://online.fliphtml5.com/zjfpz/rcbl/" target="_blank">
+              {" este instructivo."}
+            </a>
+          </p>
+        </>
+      ) : (
+        ""
+      )}
       <h3 className={styles.title}>{`Reto ${category}`}</h3>
       <p className={styles.description}>{selectedChallenge.description}</p>
       <ul className={styles.bullets}>
@@ -130,20 +145,6 @@ const CategoryChallenge = ({ category }) => {
           <li>{item}</li>
         ))}
       </ul>
-      {category === "NASA technicians" || category === "NASA programmers" ? (
-        <>
-          <h3 className={styles.subtitle}>Importante</h3>
-          <p>
-            Para asegurarte que el proyecto de Tinkercad está compartido y saber
-            qué link debes compartir, ingresa a{" "}
-            <a href="https://online.fliphtml5.com/zjfpz/rcbl/" target="_blank">
-              {" este instructivo."}
-            </a>
-          </p>
-        </>
-      ) : (
-        ""
-      )}
       <p>
         <strong>¡Éxito!</strong>
       </p>
