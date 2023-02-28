@@ -355,7 +355,7 @@ const CategorySelection = () => {
         "1er año": "NASA technicians",
         "2do año": "NASA programmers",
         "3er año": "NASA programmers",
-        "4to año": "NASA specialists",
+        "4to año": "N/A",
         "5to año": "N/A",
       },
     },
