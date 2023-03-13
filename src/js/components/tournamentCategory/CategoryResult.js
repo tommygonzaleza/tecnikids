@@ -137,6 +137,36 @@ const CategoryResult = ({ school }) => {
         ],
       },
     },
+    {
+      school: "Colegio Donaldo García",
+      category: {
+        "Mini galaxy coders": [
+          "Mia Valentina Montero Graziano",
+          "Tomas Alessandro Finol Berrueta",
+          "Letecia Przytulski Martinez",
+        ],
+        "Galaxy technicians": [
+          "Luis Angel Moran Ocando",
+          "Carlos Manuel Rodriguez Rincon",
+          "Firella Valentina Martinez Rincon",
+        ],
+        "Little space programmers": [
+          "Andres David Rodriguez Parra",
+          "Maria Elena Urdaneta Suarez",
+          "Pablo Andrés Marínez Arcaya",
+        ],
+        "Little space engineers": [
+          "Edgar Paul Carrullo Bautista",
+          "Luis Enrique Sandoval Cabrera",
+          "Sara Tajeldin Tajeldin",
+        ],
+        "NASA technicians": [
+          "Gabriela Rodríguez",
+          "Jose Ignacio Aguirre Lozano",
+          "Stefany Sofía López Carmona",
+        ],
+      },
+    },
 
     {
       school: "Colegio Don Bosco",
@@ -299,8 +329,33 @@ const CategoryResult = ({ school }) => {
         ],
         "NASA specialists": [
           "Adrian Rafael Arreaza Bellorin",
-          // "Andres Eduardo Baldoni Gamez",
+          "Juan Pablo Sifontes Mata",
           "Luis Alejandro Algarra Rangel",
+        ],
+      },
+    },
+    {
+      school: "Colegio Los Campitos",
+      category: {
+        "Mini galaxy coders": [
+          "Alejandra Hernández Herrera",
+          "Alai López Zamacona",
+          "Isabella Pérez Ayala",
+        ],
+        "Master space technicians": [
+          "Luciana Elizabeth Canelón Vásquez",
+          "Valeria Guerrero González",
+          "Victoria Carolina Lasser Romero",
+        ],
+        "NASA technicians": [
+          "Ariana Gil Zoco",
+          "Fiorella Mijares Suarez",
+          "Gabriela Milena Garzón Fernandéz",
+        ],
+        "NASA programmers": [
+          "Andreina Carolina Punceles Loynaz",
+          "Donatella Bracaglia Perdomo",
+          "Sophia Córdova",
         ],
       },
     },
