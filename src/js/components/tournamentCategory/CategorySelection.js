@@ -151,6 +151,21 @@ const CategorySelection = () => {
       },
     },
     {
+      school: "Colegio Donaldo García",
+      category: {
+        "2do grado": "Little space programmers",
+        "3er grado": "Little space programmers",
+        "4to grado": "Little space engineers",
+        "5to grado": "Little space engineers",
+        "6to grado": "Little space engineers",
+        "1er año": "NASA technicians",
+        "2do año": "NASA technicians",
+        "3er año": "NASA technicians",
+        "4to año": "NASA technicians",
+        "5to año": "NASA technicians",
+      },
+    },
+    {
       school: "Colegio Henry Clay",
       category: {
         "2do grado": "Little space programmers",
@@ -237,6 +252,21 @@ const CategorySelection = () => {
         "2do año": "NASA programmers",
         "3er año": "NASA specialists",
         "4to año": "NASA specialists",
+        "5to año": "N/A",
+      },
+    },
+    {
+      school: "Colegio Los Campitos",
+      category: {
+        "2do grado": "Master space technicians",
+        "3er grado": "Master space technicians",
+        "4to grado": "Master space technicians",
+        "5to grado": "Master space technicians",
+        "6to grado": "Master space technicians",
+        "1er año": "NASA technicians",
+        "2do año": "NASA programmers",
+        "3er año": "NASA programmers",
+        "4to año": "N/A",
         "5to año": "N/A",
       },
     },
