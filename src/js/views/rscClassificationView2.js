@@ -12,13 +12,8 @@ export const rscClassificationViewII = () => {
         <div className="row">
           <div className="col-10 mx-auto text-center">
             <h2 className="text-blue-color font-face-cocogoose">
-              ¿QUIERES CLASIFICAR AL
-            </h2>
-            <h2 className="text-blue-color font-face-cocogoose">
-              II TORNEO INTERCOLEGIAL DE ROBÓTICA
-            </h2>
-            <h2 className="text-blue-color font-face-cocogoose">
-              DE VENEZUELA?
+              ¡Vive la experiencia del II Torneo Intercolegial de Robótica de
+              Venezuela!
             </h2>
           </div>
         </div>
@@ -95,17 +90,13 @@ export const rscClassificationViewII = () => {
         </div>
         <div className="row mx-auto ml-lg-1">
           <h2 className="text-center text-uppercase mt-5 mb-5 text-blue-color font-face-cocogoose">
-            ¿Cómo participar en la fase clasificatoria del torneo por niveles
-            educativos?
+            Conoce el comando espacial que nos acompañará
           </h2>
           <br />
           <br />
           <div className="row mx-auto">
             <div className="col-12 text-center">
-              <p>
-                Para ver tu reto y acceder al formulario de tu categoría
-                selecciona tu colegio y tu grado
-              </p>
+              <p>Para ver los resultados selecciona tu colegio.</p>
             </div>
           </div>
           <div className="row mx-auto justify-content-center">

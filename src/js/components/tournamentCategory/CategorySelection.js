@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CategoryChallenge from "./CategoryChallenge";
+import CategoryResult from "./CategoryResult";
 import styles from "./CategorySelection.module.css";
 
 const CategorySelection = () => {
@@ -16,7 +17,7 @@ const CategorySelection = () => {
     {
       school: "Selecciona tu Colegio",
       category: {
-        "-": "N/A",
+        "": "N/A",
         "2do grado": "N/A",
         "3er grado": "N/A",
         "4to grado": "N/A",
@@ -60,6 +61,21 @@ const CategorySelection = () => {
       },
     },
     {
+      school: "Colegio Andrés Bello",
+      category: {
+        "2do grado": "N/A",
+        "3er grado": "N/A",
+        "4to grado": "N/A",
+        "5to grado": "N/A",
+        "6to grado": "N/A",
+        "1er año": "N/A",
+        "2do año": "N/A",
+        "3er año": "N/A",
+        "4to año": "N/A",
+        "5to año": "N/A",
+      },
+    },
+    {
       school: "Colegio Caniguá",
       category: {
         "2do grado": "Master space technicians",
@@ -72,6 +88,21 @@ const CategorySelection = () => {
         "3er año": "NASA technicians",
         "4to año": "NASA technicians",
         "5to año": "NASA technicians",
+      },
+    },
+    {
+      school: "Colegio Casa Grande",
+      category: {
+        "2do grado": "N/A",
+        "3er grado": "N/A",
+        "4to grado": "N/A",
+        "5to grado": "N/A",
+        "6to grado": "N/A",
+        "1er año": "N/A",
+        "2do año": "N/A",
+        "3er año": "N/A",
+        "4to año": "N/A",
+        "5to año": "N/A",
       },
     },
     {
@@ -117,21 +148,6 @@ const CategorySelection = () => {
         "3er año": "NASA technicians",
         "4to año": "NASA specialists",
         "5to año": "NASA specialists",
-      },
-    },
-    {
-      school: "Colegio Donaldo García",
-      category: {
-        "2do grado": "Little space programmers",
-        "3er grado": "Little space programmers",
-        "4to grado": "Little space engineers",
-        "5to grado": "Little space engineers",
-        "6to grado": "Little space engineers",
-        "1er año": "NASA technicians",
-        "2do año": "NASA technicians",
-        "3er año": "NASA technicians",
-        "4to año": "NASA technicians",
-        "5to año": "NASA technicians",
       },
     },
     {
@@ -225,21 +241,6 @@ const CategorySelection = () => {
       },
     },
     {
-      school: "Colegio Los Campitos",
-      category: {
-        "2do grado": "Master space technicians",
-        "3er grado": "Master space technicians",
-        "4to grado": "Master space technicians",
-        "5to grado": "Master space technicians",
-        "6to grado": "Master space technicians",
-        "1er año": "NASA technicians",
-        "2do año": "NASA programmers",
-        "3er año": "NASA programmers",
-        "4to año": "N/A",
-        "5to año": "N/A",
-      },
-    },
-    {
       school: "Colegio Madre Matilde",
       category: {
         "2do grado": "Little space programmers",
@@ -297,6 +298,21 @@ const CategorySelection = () => {
         "3er año": "NASA technicians",
         "4to año": "NASA technicians",
         "5to año": "NASA technicians",
+      },
+    },
+    {
+      school: "Colegio Mi Tita",
+      category: {
+        "2do grado": "N/A",
+        "3er grado": "N/A",
+        "4to grado": "N/A",
+        "5to grado": "N/A",
+        "6to grado": "N/A",
+        "1er año": "N/A",
+        "2do año": "N/A",
+        "3er año": "N/A",
+        "4to año": "N/A",
+        "5to año": "N/A",
       },
     },
     {
@@ -360,6 +376,21 @@ const CategorySelection = () => {
       },
     },
     {
+      school: "Colegio Santa Rosa de Lima",
+      category: {
+        "2do grado": "N/A",
+        "3er grado": "N/A",
+        "4to grado": "N/A",
+        "5to grado": "N/A",
+        "6to grado": "N/A",
+        "1er año": "N/A",
+        "2do año": "N/A",
+        "3er año": "N/A",
+        "4to año": "N/A",
+        "5to año": "N/A",
+      },
+    },
+    {
       school: "Colegio Simón Bolívar I",
       category: {
         "2do grado": "Master space technicians",
@@ -390,6 +421,56 @@ const CategorySelection = () => {
       },
     },
     {
+      school: "Preescolar Las Tunitas",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
+      school: "Preescolar Los Pinitos",
+      category: {
+        "Mini galaxy coders": [
+          "Rodrigo Sánchez",
+          "Jhonny Calderón",
+          "Victoria Periañez",
+        ],
+      },
+    },
+    {
+      school: "Preescolar Monte Alto",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
+      school: "Preescolar My Spot",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
+      school: "Preescolar Puki Puki",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
+      school: "Preescolar Step by Step",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
       school: "Academia Tecnikids",
       category: {
         "Little Programmers": "Little space programmers",
@@ -413,9 +494,9 @@ const CategorySelection = () => {
     <option>{item["school"]}</option>
   ));
 
-  let categoryDropdownContent = categories.map((item) => (
-    <option>{item}</option>
-  ));
+  // let categoryDropdownContent = categories.map((item) => (
+  //   <option>{item}</option>
+  // ));
 
   const findCategory = () => {
     if (selection.grade !== "" && selection.grade !== "-") {
@@ -442,8 +523,6 @@ const CategorySelection = () => {
     availableCategories.unshift("-");
     setCategories(availableCategories);
 
-    console.log(availableCategories);
-
     setSelection({
       ...selection,
       school: e.target.value,
@@ -465,16 +544,16 @@ const CategorySelection = () => {
     <div className={styles.container}>
       <div className={styles.selectGroup}>
         <select onChange={schoolChangeHandler}>{schoolDropdownContent}</select>
-        {selection.school !== "" &&
+        {/* {selection.school !== "" &&
           selection.school !== "Selecciona tu Colegio" && (
             <select onChange={gradeChangeHandler}>
               {categoryDropdownContent}
             </select>
           )}
-        <button onClick={findCategory}>Buscar</button>
+        <button onClick={findCategory}>Buscar</button> */}
       </div>
 
-      {selection.category !== "" &&
+      {/* {selection.category !== "" &&
         (selection.category === "N/A" ? (
           <div className={styles["no_category"]}>{selection.category}</div>
         ) : (
@@ -487,7 +566,33 @@ const CategorySelection = () => {
               </div>
             </a>
           </>
-        ))}
+        ))} */}
+
+      <CategoryResult school={selection.school} />
+      <div className={styles.notes}>
+        <p>
+          <h4>Nota:</h4> Los competidores que fueron seleccionados recibirán en
+          su correo la confirmación de su participación en el Torneo. Es
+          importante a partir de ese momento, ponerse de acuerdo con su
+          Profesor/a de robótica y compañeros.
+        </p>
+        <p>¡Ánimo a nuestros héroes programadores en esta misión espacial!</p>
+        <p>
+          Valoramos el esfuerzo de todos los que participaron en la
+          clasificatoria, son parte indispensable del crew espacial, por lo que
+          los invitamos a vivir esta experiencia que va más allá de la
+          competencia.
+        </p>
+        <p>
+          Un día lleno de aprendizaje, actividades recreativas, tecnología y
+          mucha emoción.
+        </p>
+        <p>
+          Compra tus entradas{" "}
+          <a href="https://tecnikids.winktienda.com/">aquí </a>y apoya a tu
+          equipo en esta importante misión!
+        </p>
+      </div>
     </div>
   );
 };

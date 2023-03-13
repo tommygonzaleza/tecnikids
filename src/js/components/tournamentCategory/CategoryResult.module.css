@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.category {
+  /* background-color: #d9d9d9; */
+  border: 1px solid #244b91;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.category > h3 {
+  color: #244b91;
+}
+
+.category li {
+  list-style: none;
+  font-size: 1.5rem;
+}
