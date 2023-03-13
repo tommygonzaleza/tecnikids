@@ -82,3 +82,11 @@ small {
 a:hover {
   text-decoration: none;
 }
+
+.notes {
+  text-align: justify;
+}
+
+.notes h4 {
+  color: #1e4266;
+}
