@@ -299,7 +299,7 @@ const CategoryResult = ({ school }) => {
         ],
         "NASA specialists": [
           "Adrian Rafael Arreaza Bellorin",
-          "Andres Eduardo Baldoni Gamez",
+          // "Andres Eduardo Baldoni Gamez",
           "Luis Alejandro Algarra Rangel",
         ],
       },
