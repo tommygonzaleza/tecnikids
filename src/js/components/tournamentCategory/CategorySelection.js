@@ -451,6 +451,14 @@ const CategorySelection = () => {
       },
     },
     {
+      school: "Pequeñitos de Mamá Margarita",
+      category: {
+        "1er Nivel": "N/A",
+        "2do Nivel": "N/A",
+        "3er Nivel": "N/A",
+      },
+    },
+    {
       school: "Preescolar Las Tunitas",
       category: {
         "1er Nivel": "N/A",
