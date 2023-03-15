@@ -590,6 +590,16 @@ const CategoryResult = ({ school }) => {
       },
     },
     {
+      school: "Pequeñitos de Mamá Margarita",
+      category: {
+        "Mini galaxy coders": [
+          "Amelie Noya Alezones",
+          "Ashraf Santiago El Mothar",
+          "Hector Reyes Oliver",
+        ],
+      },
+    },
+    {
       school: "Preescolar Las Tunitas",
       category: {
         "Mini galaxy coders": [
