@@ -59,6 +59,11 @@ const CategoryResult = ({ school }) => {
           "Lucia Arraiz Cordova",
           "Bianca Clarisse Pantoja",
         ],
+        "Little space engineers": [
+          "Grace Correria Larrauri",
+          "Isabella Canal Jiménez",
+          "Lourdes Massad",
+        ],
         "Master space technicians": [
           "Amaia Isabella Asslan Gondar",
           "Natalia Valentina Orozco Nava",
@@ -281,6 +286,16 @@ const CategoryResult = ({ school }) => {
     {
       school: "Colegio Ítalo Venezolano",
       category: {
+        "Mini galaxy coders": [
+          "Samir Hachar",
+          "Luis Felipe Yanez",
+          "Sebastian Zaghloul",
+        ],
+        "Galaxy technicians": [
+          "Thiago Barrios",
+          "José Antonio Dos Reis",
+          "Miranda Barrera",
+        ],
         "Master space technicians": [
           "Angelo José Bifulco León",
           "Delun Gabriel Fuentes Chang",
@@ -417,6 +432,16 @@ const CategoryResult = ({ school }) => {
     {
       school: "Colegio Mater Salvatoris",
       category: {
+        "Mini galaxy coders": [
+          "Eugenia Ardila",
+          "Ava Moncada",
+          "Sofía Zambelli",
+        ],
+        "Galaxy technicians": [
+          "Alexa Rendón",
+          "Maia García",
+          "Isabella Ledezma",
+        ],
         "Little space programmers": [
           "Arianna Caterina Correia Rodrigues",
           "Ema Vegas Bustamante",
@@ -517,6 +542,16 @@ const CategoryResult = ({ school }) => {
     {
       school: "Colegio San Agustín El Paraíso",
       category: {
+        "Mini galaxy coders": [
+          "Julian Barroeta",
+          "Antonella Sanchez",
+          "Gabriel Fernandez",
+        ],
+        "Galaxy technicians": [
+          "Valery Loper",
+          "Gustavo Carrera",
+          "Adelys Campos",
+        ],
         "Master space technicians": [
           "Andrés Manuel Ulloa Becerra",
           "Hadi Hammoud",
