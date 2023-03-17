@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
+  margin: 0 1rem;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .selectGroup {
@@ -85,8 +86,56 @@ a:hover {
 
 .notes {
   text-align: justify;
+  margin: 0;
 }
 
 .notes h4 {
   color: #1e4266;
+}
+
+.cta_ticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 1rem 0;
+}
+
+.ticket_button {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #244b91;
+  color: white;
+  border: 1px solid #244b91;
+  border-radius: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.ticket_button > p {
+  margin: 0;
+}
+
+.ticket_button > i {
+  font-size: 2.5rem;
+}
+
+/* .fa-ticket-alt{
+  font-size: 2rem;
+} */
+
+.ticket_button:hover {
+  background-color: white;
+  border: 1px solid #244b91;
+  color: #244b91;
+}
+
+.note {
+  margin: 1rem;
+  font-size: 1rem;
+  text-align: center;
 }
