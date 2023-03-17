@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CategorySelection from "../components/tournamentCategory/CategorySelection";
 import { SeparationLines } from "../components/SeparationLines";
 import { SlideView } from "./slideView";
+import styles from "../components/tournamentCategory/CategorySelection.module.css";
 
 export const rscClassificationViewII = () => {
   return (
@@ -33,8 +34,19 @@ export const rscClassificationViewII = () => {
             ¡PARTICIPA Y FORMA PARTE DE ESTA <b>GRAN EXPERIENCIA!</b>
           </p>
         </div>
+        <div className={styles["cta_ticket"]}>
+          <a href="https://tecnikids.winktienda.com/" target="_blank">
+            <button className={styles["ticket_button"]}>
+              <i class="fal fa-ticket-alt"></i>
+              <p>
+                ¡Compra tus entradas aquí y apoya <br />a tu equipo en esta
+                importante misión!
+              </p>
+            </button>
+          </a>
+        </div>
+        <br></br>
         <hr style={{ border: "none", height: "1px", background: "#002C56" }} />
-
         <div className="row mx-auto pl-2 ml-lg-1 mt-lg-5">
           <h2 className="text-center text-uppercase mt-3 text-blue-color font-face-cocogoose">
             ¿Cómo participan los estudiantes de los colegios aliados?

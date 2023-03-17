@@ -625,11 +625,22 @@ const CategorySelection = () => {
           Un día lleno de aprendizaje, actividades recreativas, tecnología y
           mucha emoción.
         </p>
-        <p>
-          Compra tus entradas{" "}
-          <a href="https://tecnikids.winktienda.com/">aquí </a>y apoya a tu
-          equipo en esta importante misión!
-        </p>
+        <div className={styles["cta_ticket"]}>
+          <a href="https://tecnikids.winktienda.com/" target="_blank">
+            <button className={styles["ticket_button"]}>
+              <i class="fal fa-ticket-alt"></i>
+              <p>
+                ¡Compra tus entradas aquí y apoya <br />a tu equipo en esta
+                importante misión!
+              </p>
+            </button>
+          </a>
+          <p className={styles.note}>
+            La entrada es en formato digital, no requiere impresión. <br />
+            Para acceder al evento, solo debes mostrar al momento del registro,
+            tu número de orden o el correo de confirmación.
+          </p>
+        </div>
       </div>
     </div>
   );
