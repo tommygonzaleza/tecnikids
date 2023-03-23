@@ -503,7 +503,7 @@ const CategoryResult = ({ school }) => {
           "Nathalia Isabella Angiolillo Echenique",
         ],
         "Little space engineers": [
-          "Antonella Tamayo",
+          "Samuel Magdaleno",
           "Fabián Alexander Alvarado Rauseo",
           "Mathías Alejandro Oviedo Sánchez",
         ],
