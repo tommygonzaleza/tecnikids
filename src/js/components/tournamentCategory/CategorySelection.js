@@ -91,7 +91,7 @@ const CategorySelection = () => {
       },
     },
     {
-      school: "Colegio Casa Grande",
+      school: "Colegio Casagrande",
       category: {
         "2do grado": "N/A",
         "3er grado": "N/A",

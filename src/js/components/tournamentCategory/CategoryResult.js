@@ -77,7 +77,7 @@ const CategoryResult = ({ school }) => {
       },
     },
     {
-      school: "Colegio Casa Grande",
+      school: "Colegio Casagrande",
       category: {
         "Mini galaxy coders": [
           "Maximiliano Magallanes",
@@ -331,12 +331,26 @@ const CategoryResult = ({ school }) => {
     {
       school: "Colegio Los Arcos",
       category: {
+        "Galaxy technicians": [
+          "Manuel Alejandro Jatar Nieves",
+          "Juan Cristóbal Díaz Herrera",
+          "Ignacio Malavé Fumo",
+        ],
         "Little space programmers": [
           "Fabian José Gómez Dos Reis",
           "Jángel Eduardo Galvis González",
           "Rodrigo Ignacio Degwitz Esclusa",
         ],
-        "Master space technicians": ["Joseph Daoud", "Paul Pino"],
+        "Master space technicians": [
+          "Joseph Daoud",
+          "Paul Pino",
+          "Marcelino Alvarado Bouting",
+        ],
+        "NASA Technicians": [
+          "Oliver Emilio Alvarado Fernández",
+          "Alan Edward Johnson Hart",
+          "Cristian Alonso González",
+        ],
         "NASA programmers": [
           "Alfonso Ignacio Leal Gonzales",
           "Erick Nomar Savelli Torreblanca",
