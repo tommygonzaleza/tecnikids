@@ -123,7 +123,7 @@ const CategoryResult = ({ school }) => {
         "Mini galaxy coders": [
           "Sophia Daniela Avila Gomez",
           "Arantxa Victoria Malavé Oropeza",
-          "Anabella Arias Galavis",
+          "Nicole Aless Martínez Ramirez",
         ],
         "Galaxy technicians": [
           "Arantxa Sofía Useche Prieto",
