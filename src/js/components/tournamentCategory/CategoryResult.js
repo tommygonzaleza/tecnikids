@@ -77,7 +77,7 @@ const CategoryResult = ({ school }) => {
       },
     },
     {
-      school: "Colegio Casa Grande",
+      school: "Colegio Casagrande",
       category: {
         "Mini galaxy coders": [
           "Maximiliano Magallanes",
@@ -331,6 +331,11 @@ const CategoryResult = ({ school }) => {
     {
       school: "Colegio Los Arcos",
       category: {
+        "Galaxy technicians": [
+          "Manuel Alejandro Jatar Nieves",
+          "Juan Cristóbal Díaz Herrera",
+          "Ignacio Malavé Fumo",
+        ],
         "Little space programmers": [
           "Fabian José Gómez Dos Reis",
           "Jángel Eduardo Galvis González",
