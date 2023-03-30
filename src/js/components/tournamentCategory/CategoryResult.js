@@ -30,7 +30,7 @@ const CategoryResult = ({ school }) => {
       school: "Colegio Altamira",
       category: {
         "Little space engineers": [
-          "Ariana Rodriguez",
+          "Jimena Sofía Lossada Coronado",
           "Beatriz Elena Bracho Acurero",
           "María Paula Cano Barros",
         ],
