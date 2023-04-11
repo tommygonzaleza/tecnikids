@@ -653,7 +653,7 @@ const CategoryResult = ({ school }) => {
       category: {
         "Mini galaxy coders": [
           "Alessandro Di Cicilia",
-          "Matias Alejandro Soto Vasquez",
+          "Juan Pablo Morón",
           "Mathias Rivas Gener",
         ],
       },
