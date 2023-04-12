@@ -604,7 +604,7 @@ const CategoryResult = ({ school }) => {
         "Galaxy technicians": [
           "José Joaquín Jaspe",
           "Mathias Medina",
-          "Jorge Molinos",
+          "Juan Alejandro González Bulle",
         ],
         "Master space technicians": [
           "Ailyn Alexandra Acosta Ardila",
