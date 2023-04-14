@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CategorySelection from "../components/tournamentCategory/CategorySelection";
+import CategorySelection from "../components/RscTournament/CategorySelection";
 import { SeparationLines } from "../components/SeparationLines";
 import { SlideView } from "./slideView";
-import styles from "../components/tournamentCategory/CategorySelection.module.css";
+import styles from "../components/RscTournament/CategorySelection.module.css";
+import InstructionsCarousel from "../components/RscTournament/InstructionsCarousel";
 
 export const rscClassificationViewII = () => {
   return (
@@ -12,23 +13,20 @@ export const rscClassificationViewII = () => {
       <div className="container mx-auto p-sm-0 p-md-0">
         <div className="row">
           <div className="col-10 mx-auto text-center">
-            <h2 className="text-blue-color font-face-cocogoose">
+            <h2
+              className={`text-blue-color font-face-cocogoose ${styles["central-title"]}`}
+            >
               ¡Vive la experiencia del II Torneo Intercolegial de Robótica de
               Venezuela!
             </h2>
+            <h2
+              className={`text-blue-color font-face-cocogoose ${styles["central-title"]}`}
+            >
+              Conoce todos los detalles
+            </h2>
           </div>
         </div>
-        <div className="row mx-auto mt-lg-4">
-          <iframe
-            className="col-12 col-md-12 col-lg-12 mb-3 mb-md-0"
-            style={{ height: "600px" }}
-            src="https://www.youtube-nocookie.com/embed/-83mYxO5Ow4"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+        <InstructionsCarousel />
         <div className="col-12 col-md-12 col-lg-12 mt-md-3">
           <p className="text-center">
             ¡PARTICIPA Y FORMA PARTE DE ESTA <b>GRAN EXPERIENCIA!</b>
@@ -142,11 +140,24 @@ export const rscClassificationViewII = () => {
             </h2>
           </div>
         </div>
-        <div className="row mx-auto justify-content-center">
+
+        <div className="row mx-auto mt-lg-4">
+          <iframe
+            className="col-12 col-md-12 col-lg-12 mb-3 mb-md-0"
+            style={{ height: "600px" }}
+            src="https://www.youtube-nocookie.com/embed/-83mYxO5Ow4"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        {/* <div className="row mx-auto justify-content-center">
           <div className="col-12">
             <SlideView />
           </div>
-        </div>
+        </div> */}
 
         <div className="row justify-content-center align-items-md-center">
           <div className="col-7 col-md-4">

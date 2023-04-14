@@ -1,0 +1,53 @@
+.container-home {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  padding-top: 13vw;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  z-index: 900;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+}
+
+.text-overlay {
+  margin-left: 2vw;
+  color: white;
+}
+.text-overlay h1 {
+  font-size: 8vmin;
+  line-height: 1em;
+}
+.text-overlay p {
+  font-weight: 500;
+  font-size: 3vmin;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  min-height: 100vh; /*streches the video player covering the viewport*/
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100% !important; this is important if you add a YouTube video */
+}
+/* this is if you add a YouTube vedio for covering the viewport on small devices */
+iframe {
+  min-width: 178vh;
+}
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicator {
+  z-index: 2 !important;
+}
+.carousel-item {
+  height: 100vh; /*streches the carosel items covering the viewport */
+}
