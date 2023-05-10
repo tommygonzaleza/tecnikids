@@ -1,0 +1,107 @@
+.plan-logo {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.plan-logo > img {
+  width: 70%;
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  color: #10418a;
+}
+
+.plan-info > h3 {
+  text-align: center;
+}
+
+.plan-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.bold {
+  margin: 0;
+  font-family: "Cocogoose";
+}
+
+.plan-cta-item,
+.academy-cta-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 4rem;
+  gap: 1rem;
+  min-width: 70%;
+  border-radius: 2rem;
+  color: #ffffff;
+  background-color: #10418a;
+  font-size: 1.5rem;
+}
+
+.plan-cta a {
+  color: white;
+  text-decoration: none;
+}
+
+.academy-cta-item {
+  background-color: #d3001a;
+}
+
+.plan-cta-item:hover {
+  background-color: #1e57ad;
+}
+
+.academy-cta-item:hover {
+  background-color: #ee3c3a;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #10418a;
+}
+
+.plan-details > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.plan-details > div > div {
+  text-align: center;
+}
+
+.academy {
+  color: #d3001a;
+}
+
+.division {
+  margin: 2rem 0;
+  height: 0.1rem;
+  background-color: #10418a;
+}
+
+.register-info {
+  display: flex;
+  color: #989a9e;
+}
+
+.register-info img {
+  height: 100vh;
+}
