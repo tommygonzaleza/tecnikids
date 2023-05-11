@@ -1,12 +1,22 @@
 import React from "react";
 import "../../styles/index.css";
 import { SeparationLines } from "../components/SeparationLines";
-import { Carousel } from "react-bootstrap";
 import styles from "./PlanVacacional.module.css";
-import vacationalVideo from "../../vacationalVideo.mp4";
-import ReactPlayer from "react-player";
+import YouTube from "react-youtube";
 
 export const planVacacional = () => {
+  const opts = {
+    height: "390",
+    width: "690",
+    playerVars: {
+      controls: 0,
+      autoPlay: 1,
+      loop: 1,
+      modestbranding: 1,
+      rel: 0,
+    },
+  };
+
   return (
     <div className="container-fluid">
       <SeparationLines />
@@ -19,21 +29,9 @@ export const planVacacional = () => {
               border="0"
             />
           </div>
-          <Carousel controls={false} indicators={false}>
-            <Carousel.Item interval={16000}>
-              <div className="player-wrapper  d-block">
-                <ReactPlayer
-                  className="react-player"
-                  url={vacationalVideo}
-                  width="100%"
-                  height="100%"
-                  loop={true}
-                  playing={true}
-                  controls={false}
-                />
-              </div>
-            </Carousel.Item>
-          </Carousel>
+        </div>
+        <div className={styles["player-wrapper"]}>
+          <YouTube videoId="jAL5ptBLgXw" opts={opts} />
         </div>
         <div className={styles["plan-info"]}>
           <h1 className="display-4 text-center font-weight-bold font-face-cocogoose">
