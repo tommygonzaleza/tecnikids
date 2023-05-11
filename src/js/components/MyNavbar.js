@@ -25,9 +25,12 @@ export const MyNavbar = () => {
             <Nav.Link className="my-navlink text-center" href="/academy-view">
               {"Academia"}
             </Nav.Link>
-            {/* <Nav.Link className="my-navlink text-center" href="/plan-vacacional">
-                            {"Plan Vacacional"}
-                        </Nav.Link> */}
+            <Nav.Link
+              className="my-navlink text-center"
+              href="/plan-vacacional"
+            >
+              {"Plan Vacacional"}
+            </Nav.Link>
             <Nav.Link
               className="my-navlink text-center"
               href="/rsc-classification-ii"

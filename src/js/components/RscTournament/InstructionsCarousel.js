@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import rscVideo from "../../../rscVideo.mp4";
 import ReactPlayer from "react-player";
+import rscVideo from "../../../rscVideo.mp4";
 
 const imageLinks = [
   "https://i.ibb.co/Rc0d2Tq/1.png",
