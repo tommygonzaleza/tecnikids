@@ -3,7 +3,7 @@ import "../../styles/index.css";
 import { SeparationLines } from "../components/SeparationLines";
 import { Carousel } from "react-bootstrap";
 import styles from "./PlanVacacional.module.css";
-import vacationalPlan from "../../vacationalPlan.mp4";
+import vacationalPlan2 from "../../vacationalPlanv2.mp4";
 import ReactPlayer from "react-player";
 
 export const planVacacional = () => {
@@ -24,7 +24,7 @@ export const planVacacional = () => {
               <div className="player-wrapper  d-block">
                 <ReactPlayer
                   className="react-player"
-                  url={vacationalPlan}
+                  url={vacationalPlan2}
                   width="100%"
                   height="100%"
                   loop={true}
