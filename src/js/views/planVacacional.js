@@ -19,7 +19,7 @@ export const planVacacional = () => {
               border="0"
             />
           </div>
-          <Carousel>
+          <Carousel controls={false} indicators={false}>
             <Carousel.Item interval={16000}>
               <div className="player-wrapper  d-block">
                 <ReactPlayer
@@ -29,6 +29,7 @@ export const planVacacional = () => {
                   height="100%"
                   loop={true}
                   playing={true}
+                  controls={false}
                 />
               </div>
             </Carousel.Item>
