@@ -150,14 +150,9 @@ export const planVacacional = () => {
               </p>
               <p>
                 2. Llene el formulario de{" "}
-                <a
-                  href="https://docs.google.com/forms/d/1w0WxY95xJGQ1ocAFjlpL1WwSgfsngMFtAPiIqXm-jI0/edit?usp=drive_web"
-                  target="_blank"
-                >
-                  <span style={{ color: "#10418a" }}>
-                    "Planilla de Inscripción Academia - Tecnikids VE 2022-2023".
-                  </span>
-                </a>{" "}
+                <span style={{ color: "#10418a" }}>
+                  "Planilla de Inscripción Academia - Tecnikids VE 2022-2023".
+                </span>
                 Los campos obligatorios están señalados por un asterisco, lo que
                 impide que se continúe con el proceso de inscripción en caso de
                 no contestarlos.
