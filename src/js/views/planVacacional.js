@@ -37,9 +37,9 @@ export const planVacacional = () => {
           <h1 className="display-4 text-center font-weight-bold font-face-cocogoose">
             ¡El aprendizaje se potencia con más diversión!
           </h1>
-          <h3 className="display-5 font-weight-light font-face-poppins-regular">
+          <h6 className=" font-weight-light font-face-poppins-regular">
             Para niños de 2 a 12 años:
-          </h3>
+          </h6>
         </div>
 
         <div className={styles["plan-cta"]}>
@@ -83,16 +83,16 @@ export const planVacacional = () => {
           <h1 className="display-4 text-center font-weight-bold font-face-cocogoose">
             ¡El aprendizaje se potencia con más diversión!
           </h1>
-          <h3 className="display-5 font-weight-light font-face-poppins-regular text-align-center">
+          <h6 className="font-weight-light font-face-poppins-regular text-align-center">
             El Intensivo de Academia Tecnikids Venezuela tiene como concepto
             formar a jovenes en el ambito de la robotica y programacion durante
             el periodo vacacional para estudiantes de 13 a 18 años.
-          </h3>
-          <h3 className="display-5 font-weight-light font-face-poppins-regular">
+          </h6>
+          <h6 className=" font-weight-light font-face-poppins-regular">
             Buscamos desarrollar las habilidades para el futuro, concentrándose
             el aprendizaje sobre electrónica y programación sin perder la
             diversión de verano.
-          </h3>
+          </h6>
         </div>
 
         <div className={`${styles["plan-cta"]} ${styles["academy-cta"]}`}>
