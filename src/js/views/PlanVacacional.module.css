@@ -105,3 +105,9 @@
 .register-info img {
   height: 100vh;
 }
+
+.player-wrapper > div {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
