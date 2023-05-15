@@ -31,7 +31,7 @@ export const planVacacional = () => {
           </div>
         </div>
         <div className={styles["player-wrapper"]}>
-          <YouTube videoId="jAL5ptBLgXw" opts={opts} />
+          <YouTube videoId="Wd8_IiNpv10" opts={opts} />
         </div>
         <div className={styles["plan-info"]}>
           <h1 className="display-4 text-center font-weight-bold font-face-cocogoose">
@@ -85,8 +85,8 @@ export const planVacacional = () => {
           </h1>
           <h6 className="font-weight-light font-face-poppins-regular text-align-center">
             El Intensivo de Academia Tecnikids Venezuela tiene como concepto
-            formar a jovenes en el ambito de la robotica y programacion durante
-            el periodo vacacional para estudiantes de 13 a 18 años.
+            formar a jóvenes en el ámbito de la robótica y programación durante
+            el período vacacional para estudiantes de 13 a 18 años.
           </h6>
           <h6 className=" font-weight-light font-face-poppins-regular">
             Buscamos desarrollar las habilidades para el futuro, concentrándose
@@ -150,14 +150,9 @@ export const planVacacional = () => {
               </p>
               <p>
                 2. Llene el formulario de{" "}
-                <a
-                  href="https://docs.google.com/forms/d/1w0WxY95xJGQ1ocAFjlpL1WwSgfsngMFtAPiIqXm-jI0/edit?usp=drive_web"
-                  target="_blank"
-                >
-                  <span style={{ color: "#10418a" }}>
-                    "Planilla de Inscripción Academia - Tecnikids VE 2022-2023".
-                  </span>
-                </a>{" "}
+                <span style={{ color: "#10418a" }}>
+                  "Planilla de Inscripción Academia - Tecnikids VE 2022-2023".
+                </span>
                 Los campos obligatorios están señalados por un asterisco, lo que
                 impide que se continúe con el proceso de inscripción en caso de
                 no contestarlos.
