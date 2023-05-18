@@ -64,8 +64,15 @@ export const planVacacional = () => {
           <div>
             <div className={styles.bold}>Ubicación:</div>{" "}
             <div>
-              Av. El Mora, Calle Porlamar, Quinta Juan Pablo II, El Cafetal.
-              Caracas, Miranda.
+              Calle C-1, La Lagunita, Quinta Doña B, Caracas, Venezuela.
+            </div>
+            <div className={styles.maps}>
+              <a
+                href="https://goo.gl/maps/UVjmwYYSnr2LAtvj8?coh=178571&entry=tt"
+                target="_blank"
+              >
+                Google Maps <i class="fal fa-map-pin"></i>
+              </a>
             </div>
           </div>
         </div>
