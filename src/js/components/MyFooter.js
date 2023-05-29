@@ -81,13 +81,13 @@ export const MyFooter = () => {
             <div className="col-12 m-3">
               <h5>Horario de Trabajo</h5>
               <p className="f-weigth-200 f-size-16 d-inline-block">
-                Lunes a Viernes:
+                lunes a viernes:
               </p>
               <p className="f-weight-600 f-size-16 d-inline-block ml-1">
                 7:00 a.m. - 4:00 p.m.
               </p>
               <p className="f-weigth-200 f-size-16 d-inline-block">
-                Sábado y Domingo
+                sábado y domingo
               </p>
               <p className="f-weight-600 f-size-16 d-inline-block">: Cerrado</p>
             </div>

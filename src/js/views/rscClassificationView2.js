@@ -5,44 +5,39 @@ import { SeparationLines } from "../components/SeparationLines";
 import { SlideView } from "./slideView";
 import styles from "../components/RscTournament/CategorySelection.module.css";
 import InstructionsCarousel from "../components/RscTournament/InstructionsCarousel";
+import YouTube from "react-youtube";
+
+const opts = {
+  height: "385",
+  width: "690",
+  playerVars: {
+    controls: 0,
+    autoPlay: 1,
+    loop: 1,
+    modestbranding: 1,
+    rel: 0,
+    playlist: "KEPWlZTQRMg",
+  },
+};
 
 export const rscClassificationViewII = () => {
   return (
     <div>
       <SeparationLines />
       <div className="container mx-auto p-sm-0 p-md-0">
-        <div className="row">
-          <div className="col-10 mx-auto text-center">
-            <h2
-              className={`text-blue-color font-face-cocogoose ${styles["central-title"]}`}
-            >
-              ¡Vive la experiencia del II Torneo Intercolegial de Robótica de
-              Venezuela!
-            </h2>
-            <h2
-              className={`text-blue-color font-face-cocogoose ${styles["central-title"]}`}
-            >
-              Conoce todos los detalles
+        <div className="row mb-3">
+          <div className="col">
+            <h2 className="text-center text-blue-color font-face-cocogoose">
+              ¡Conoce más de nuestra experiencia en el Segundo Torneo
+              Intercolegial de Robótica en 2023!
             </h2>
           </div>
         </div>
-        <InstructionsCarousel />
-        <div className="col-12 col-md-12 col-lg-12 mt-md-3">
-          <p className="text-center">
-            ¡PARTICIPA Y FORMA PARTE DE ESTA <b>GRAN EXPERIENCIA!</b>
-          </p>
+
+        <div className="row mx-auto mt-lg-4 justify-content-center">
+          <YouTube videoId="KEPWlZTQRMg" opts={opts} />
         </div>
-        <div className={styles["cta_ticket"]}>
-          <a href="https://tecnikids.winktienda.com/" target="_blank">
-            <button className={styles["ticket_button"]}>
-              <i class="fal fa-ticket-alt"></i>
-              <p>
-                ¡Compra tus entradas aquí y apoya <br />a tu equipo en esta
-                importante misión!
-              </p>
-            </button>
-          </a>
-        </div>
+
         <br></br>
         <hr style={{ border: "none", height: "1px", background: "#002C56" }} />
         <div className="row mx-auto pl-2 ml-lg-1 mt-lg-5">
@@ -98,21 +93,6 @@ export const rscClassificationViewII = () => {
             de robótica, mediante clases curriculares y/o sesiones adicionales.
           </p>
         </div>
-        <div className="row mx-auto ml-lg-1">
-          <h2 className="text-center text-uppercase mt-5 mb-5 text-blue-color font-face-cocogoose">
-            Conoce el comando espacial que nos acompañará
-          </h2>
-          <br />
-          <br />
-          <div className="row mx-auto">
-            <div className="col-12 text-center">
-              <p>Para ver los resultados selecciona tu colegio.</p>
-            </div>
-          </div>
-          <div className="row mx-auto justify-content-center">
-            <CategorySelection />
-          </div>
-        </div>
 
         <hr style={{ border: "none", height: "1px", background: "#002C56" }} />
 
@@ -132,33 +112,6 @@ export const rscClassificationViewII = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-3">
-          <div className="col">
-            <h2 className="text-center text-blue-color font-face-cocogoose">
-              ¡Conoce más de nuestra experiencia en el Primer Torneo
-              Intercolegial de Robótica en 2022!
-            </h2>
-          </div>
-        </div>
-
-        <div className="row mx-auto mt-lg-4">
-          <iframe
-            className="col-12 col-md-12 col-lg-12 mb-3 mb-md-0"
-            style={{ height: "600px" }}
-            src="https://www.youtube-nocookie.com/embed/-83mYxO5Ow4"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-
-        {/* <div className="row mx-auto justify-content-center">
-          <div className="col-12">
-            <SlideView />
-          </div>
-        </div> */}
-
         <div className="row justify-content-center align-items-md-center">
           <div className="col-7 col-md-4">
             <img
