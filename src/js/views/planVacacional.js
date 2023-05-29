@@ -71,7 +71,7 @@ export const planVacacional = () => {
                 href="https://goo.gl/maps/UVjmwYYSnr2LAtvj8?coh=178571&entry=tt"
                 target="_blank"
               >
-                Google Maps <i class="fal fa-map-pin"></i>
+                Google Maps <i className="fal fa-map-pin"></i>
               </a>
             </div>
           </div>
@@ -127,7 +127,7 @@ export const planVacacional = () => {
             <div className={styles.bold}>Ubicación:</div>{" "}
             <div>
               Oficentro los Ruices (Piso 2 oficina P2F, la penúltima a la
-              izquierda). Av Diego Cisneros, Los Ruices. Justo antes del
+              izquierda). av. Diego Cisneros, Los Ruices. Justo antes del
               distribuidor de la autopista.
             </div>
           </div>
@@ -166,7 +166,7 @@ export const planVacacional = () => {
               </p>
               <p>
                 3. Debe enviar el comprobante de pago al correo{" "}
-                <a href="mailto:academia.tecnikidsve@gmal.com">
+                <a href="mailto:academia.tecnikidsve@gmail.com">
                   <span style={{ color: "#10418a" }}>
                     academia.tecnikidsve@gmal.com
                   </span>

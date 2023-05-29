@@ -628,7 +628,7 @@ const CategorySelection = () => {
         <div className={styles["cta_ticket"]}>
           <a href="https://tecnikids.winktienda.com/" target="_blank">
             <button className={styles["ticket_button"]}>
-              <i class="fal fa-ticket-alt"></i>
+              <i className="fal fa-ticket-alt"></i>
               <p>
                 ¡Compra tus entradas aquí y apoya <br />a tu equipo en esta
                 importante misión!
