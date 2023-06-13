@@ -64,13 +64,12 @@ export const planVacacional = () => {
           <div>
             <div className={styles.bold}>Ubicación:</div>{" "}
             <div>
-              Calle C-1, La Lagunita, Quinta Doña B, Caracas, Venezuela.
+              Oficentro los Ruices (Piso 2 oficina P2F, la penúltima a la
+              izquierda). av. Diego Cisneros, Los Ruices. Justo antes del
+              distribuidor de la autopista.
             </div>
             <div className={styles.maps}>
-              <a
-                href="https://goo.gl/maps/UVjmwYYSnr2LAtvj8?coh=178571&entry=tt"
-                target="_blank"
-              >
+              <a href="https://goo.gl/maps/6L2vyzGyhjrdRpQn6" target="_blank">
                 Google Maps <i className="fal fa-map-pin"></i>
               </a>
             </div>
@@ -129,6 +128,11 @@ export const planVacacional = () => {
               Oficentro los Ruices (Piso 2 oficina P2F, la penúltima a la
               izquierda). av. Diego Cisneros, Los Ruices. Justo antes del
               distribuidor de la autopista.
+            </div>
+            <div className={styles.maps}>
+              <a href="https://goo.gl/maps/6L2vyzGyhjrdRpQn6" target="_blank">
+                Google Maps <i className="fal fa-map-pin"></i>
+              </a>
             </div>
           </div>
         </div>
