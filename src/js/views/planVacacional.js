@@ -137,6 +137,21 @@ export const planVacacional = () => {
           </div>
         </div>
         <div className={styles.division}></div>
+        <div className="text-justify px-4 mx-5">
+          <h2
+            className="font-weight-bold font-face-cocogoose"
+            style={{ color: "#10418a", textAlign: "center" }}
+          >
+            PATROCINANTES{" "}
+          </h2>
+
+          <div className={styles.images}>
+            <img src="patrocinantes/cheverePixels.jpg" />
+            <img src="patrocinantes/maizoritos.png" />
+            <img src="patrocinantes/grupoSelva.jpg" />
+          </div>
+        </div>
+        <div className={styles.division}></div>
         <div className="row mx-0">
           <div className={styles["register-info"]}>
             <div className="">
