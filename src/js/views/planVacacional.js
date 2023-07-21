@@ -150,7 +150,7 @@ export const planVacacional = () => {
             <img src="patrocinantes/maizoritos.png" />
             <img src="patrocinantes/grupoSelva.jpg" />
             <img src="patrocinantes/heinz.png" />
-            <img src="patrocinantes/iselitas.png" />
+            <img src="patrocinantes/Iselitas.png" />
             <img src="patrocinantes/natulac.png" />
           </div>
         </div>
