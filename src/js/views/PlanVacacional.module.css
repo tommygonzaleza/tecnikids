@@ -124,6 +124,10 @@
   height: 100px;
 }
 
+.images > img:nth-child(3) {
+  height: 250px;
+}
+
 .images > img {
-  height: 200px;
+  height: 150px;
 }
