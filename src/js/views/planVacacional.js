@@ -149,6 +149,9 @@ export const planVacacional = () => {
             <img src="patrocinantes/cheverePixels.jpg" />
             <img src="patrocinantes/maizoritos.png" />
             <img src="patrocinantes/grupoSelva.jpg" />
+            <img src="patrocinantes/heinz.png" />
+            <img src="patrocinantes/iselitas.png" />
+            <img src="patrocinantes/natulac.png" />
           </div>
         </div>
         <div className={styles.division}></div>
@@ -187,7 +190,7 @@ export const planVacacional = () => {
                 3. Debe enviar el comprobante de pago al correo{" "}
                 <a href="mailto:academia.tecnikidsve@gmail.com">
                   <span style={{ color: "#10418a" }}>
-                    academia.tecnikidsve@gmal.com
+                    academia.tecnikidsve@gmail.com
                   </span>
                 </a>{" "}
                 para culminar con el proceso de inscripción y asegurar el cupo
