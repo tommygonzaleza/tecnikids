@@ -425,3 +425,14 @@ p {
 .logo-tk {
   margin: 2rem 0;
 }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  /* width: 70vw; */
+  margin: auto;
+}
+
+.banner img {
+  width: 100vw;
+}
